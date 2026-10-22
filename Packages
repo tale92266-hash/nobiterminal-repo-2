@@ -487,6 +487,20 @@ MD5sum: 8a9af9ed122fbb65262af7f467312822
 SHA1: 74495949f1b0ff84d67212e1dd13355d70547b88
 SHA256: d0580f732d0a6243c268cb0152059f6e5f500dccfda3f696437625e4447eba1a
 
+Package: blas-openblas
+Architecture: aarch64
+Installed-Size: 32
+Maintainer: @termux
+Version: 0.3.34-1
+Homepage: https://www.openblas.net
+Depends: libopenblas (= 0.3.34-1)
+Description: OpenBLAS symlinks for BLAS/CBLAS/LAPACK/LAPACKE
+Filename: ./blas-openblas_0.3.34-1_aarch64.deb
+Size: 1008
+MD5sum: b7a35f086d63c3c76ca5ff5664061a85
+SHA1: 69acc225b12d8846dff71bac7a9e9c572dab5c11
+SHA256: f92708254bff3a8b8d2dd9e792b2bfe295120794cd342daa7e0c17e93198383a
+
 Package: byobu
 Architecture: all
 Installed-Size: 2128
@@ -531,6 +545,20 @@ MD5sum: 81ad6bc02da42631654fff11c63a4c7f
 SHA1: 3ba0947e6ea929d712f028abb3d545240d3454a5
 SHA256: e1c55d014488d5a0e60161dce63dba446a5fa947a5d7a10d184f1044c47a20b0
 
+Package: cadaver
+Architecture: aarch64
+Installed-Size: 160
+Maintainer: @termux
+Version: 0.28-1
+Homepage: https://notroj.github.io/cadaver/
+Depends: libiconv, libneon, readline
+Description: A command-line WebDAV client for Unix
+Filename: ./cadaver_0.28-1_aarch64.deb
+Size: 36072
+MD5sum: ddb8b3d81469d09d999246a3a80c7302
+SHA1: 11bdab1bfa31ab0c7a35f9e01e8b0c50216f0a0f
+SHA256: 69ab31d79664be38f9310113162171bfee82a189c2750a92c5aab8a5d839609b
+
 Package: capnproto
 Architecture: aarch64
 Installed-Size: 9060
@@ -544,6 +572,212 @@ Size: 1682976
 MD5sum: 2e782611fc9a41483fca69e3e45b952a
 SHA1: fdbe3b348442009c7c58c8b1649161b6d7b254e5
 SHA256: a9d0d2cc136c4a9d6b54ad9860308afd68bf77f06fee32ab9b14fd25a07b8988
+
+Package: catch2-static
+Architecture: aarch64
+Installed-Size: 2616
+Maintainer: @termux
+Version: 3.16.1-1
+Homepage: https://github.com/catchorg/catch2
+Depends: catch2 (= 3.16.1-1)
+Description: Static libraries for catch2
+Filename: ./catch2-static_3.16.1-1_aarch64.deb
+Size: 339132
+MD5sum: 5b090b6f038db456db1b84ffd83cc2ed
+SHA1: bdb5f8efc04dde17ad733fa7ceb13c2e1ae95b02
+SHA256: 8fd9b658666b0a363ba5ae539d462df983c0de18119b2ca5b4d6f7e703398ea9
+
+Package: catch2
+Architecture: aarch64
+Installed-Size: 1704
+Maintainer: @termux
+Version: 3.16.1-1
+Homepage: https://github.com/catchorg/catch2
+Description: A modern, C++-native, header-only, framework for unit-tests, TDD and BDD
+Filename: ./catch2_3.16.1-1_aarch64.deb
+Size: 206168
+MD5sum: 4882ab8213ba950e09c1bc68ea5fa580
+SHA1: 38fe22c84c33048ba10ade9ab17aeab2752a794f
+SHA256: d67472ee9e8de37681768f3dfbabcbb4005a7ae2f281c7028ef15f4caeda1007
+
+Package: catdoc
+Architecture: aarch64
+Installed-Size: 788
+Maintainer: @termux
+Version: 0.95-3
+Homepage: http://www.wagner.pp.ru/~vitus/software/catdoc/
+Depends: libandroid-glob
+Description: Program which reads MS-Word file and prints readable ASCII text to stdout
+Filename: ./catdoc_0.95-3_aarch64.deb
+Size: 70472
+MD5sum: 3e4b61511294d2113ab140116571c4e3
+SHA1: 8a5aa8cf0f6e3509c091078b9dd26a9498c0b6e1
+SHA256: f10ec48df58aeadce4ce2a0e591dbbb450490cf151ff4bc0b1b9d536318f042b
+
+Package: catgirl
+Architecture: aarch64
+Installed-Size: 184
+Maintainer: @termux
+Version: 2.2a-2
+Homepage: https://git.causal.agency/catgirl
+Depends: libandroid-support, libretls, ncurses, openssl
+Description: A TLS-only terminal IRC client
+Filename: ./catgirl_2.2a-2_aarch64.deb
+Size: 50752
+MD5sum: 859382c063f040eb0126b6913a812bb4
+SHA1: e5ce959a2b694599bdf88a96d85902d2522fd40a
+SHA256: be41746208c3590f33cc7d971aed2701b9bec2a55030e628c9da6683120d2c6c
+
+Package: catimg
+Architecture: aarch64
+Installed-Size: 136
+Maintainer: @termux
+Version: 2.8.0-1
+Homepage: https://posva.net/shell/retro/bash/2013/05/27/catimg
+Description: Renders images in the terminal
+Filename: ./catimg_2.8.0-1_aarch64.deb
+Size: 37552
+MD5sum: 93a0ecd707de735a977066bc166f80f2
+SHA1: 84139599056762d6a01c28f3aa6c8a8a5742123a
+SHA256: 80a2b4d209d63b3877cdc598b330cd7457077cad5bdc4643805e81a3789dcdfb
+
+Package: cava
+Architecture: aarch64
+Installed-Size: 168
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 1.0.0-1
+Homepage: https://github.com/karlstav/cava
+Depends: fftw, libiniparser, ncurses, pulseaudio
+Description: Console-based Audio Visualizer. Works with MPD and Pulseaudio
+Filename: ./cava_1.0.0-1_aarch64.deb
+Size: 38068
+MD5sum: 9cfec7e6e9e402f08150d9ad0af2f1a3
+SHA1: 7b940db9184a1d7fff388d004e56b70e4ad9c4d6
+SHA256: f85c64bcab6504719b0018aba129c45a30fd7fcd93b9787e818c33af4f6f6acd
+
+Package: cavez-of-phear
+Architecture: aarch64
+Installed-Size: 164
+Maintainer: @termux
+Version: 0.6.2-1
+Homepage: https://github.com/AMDmi3/cavezofphear
+Depends: libandroid-support, ncurses
+Description: A Boulder Dash like game for consoles/terminals
+Filename: ./cavez-of-phear_0.6.2-1_aarch64.deb
+Size: 17540
+MD5sum: e99da0e2c5581d4c34c09264dc711dfb
+SHA1: fb389484169215236eaa78b3c9c1704894b7fbe9
+SHA256: 6cafd6dbbbaacafca82bb0650a4b1ce118cfdcbd27d409f42ce7ee2121e47d7a
+
+Package: check-static
+Architecture: aarch64
+Installed-Size: 124
+Maintainer: @termux
+Version: 0.15.2-4
+Homepage: https://libcheck.github.io/check
+Depends: check (= 0.15.2-4)
+Description: Static libraries for check
+Filename: ./check-static_0.15.2-4_aarch64.deb
+Size: 22192
+MD5sum: 8392657a944f0d2216d1199e0f8ee5b0
+SHA1: ce1509112956707b16fedf5fc1584b9d4f6133ff
+SHA256: c5d09fa7f528645000de2e61f5d4f7319e22fca74426f8d0c3fd1a48963f221c
+
+Package: check
+Architecture: aarch64
+Installed-Size: 560
+Maintainer: @termux
+Version: 0.15.2-4
+Homepage: https://libcheck.github.io/check
+Depends: libtool, pkg-config, texinfo
+Description: A unit testing framework for C
+Filename: ./check_0.15.2-4_aarch64.deb
+Size: 97436
+MD5sum: d6c97c8ca47f2d49fe312782c2747742
+SHA1: 4795f7683706ff83a02f2b92db624680a1ead05e
+SHA256: 26edfcdb74b1864b0a8233eaa4441dc6edbe0600c258ba942434faf31c1b6d11
+
+Package: csol
+Architecture: aarch64
+Installed-Size: 236
+Maintainer: @termux
+Version: 1.6.0-2
+Homepage: https://github.com/nielssp/csol
+Depends: libandroid-support, ncurses
+Description: A small collection of solitaire games implemented in C using ncurses
+Filename: ./csol_1.6.0-2_aarch64.deb
+Size: 32840
+MD5sum: f4c8e134200cbbd394c1bed95ab2c898
+SHA1: f8e75ae839cbdaba8d891b6ee828b6966b08aa77
+SHA256: 133b33a2f0619d24bc88b33f8b23cf17cbd969a0ccdbab68d660f2d0b008be9f
+
+Package: csview
+Architecture: aarch64
+Installed-Size: 868
+Maintainer: @flosnvjx
+Version: 1.3.4-2
+Homepage: https://github.com/wfxr/csview
+Description: Pretty-printing CSV/TSV/xSV on terminal
+Filename: ./csview_1.3.4-2_aarch64.deb
+Size: 289372
+MD5sum: aeafa1fc9c757ac3e0ee79df9617063d
+SHA1: 368f47decc435fb9e179d7e2e42cbc94ca8c82ed
+SHA256: 9f9c31f8efcc926e4836fc93daf472d7e9990c3f6fe5b9d74b457e3420280ca7
+
+Package: ctags
+Architecture: aarch64
+Installed-Size: 3616
+Maintainer: @termux
+Version: 2:6.2.1-1
+Homepage: https://ctags.io/
+Depends: libiconv, libjansson, libxml2, libyaml
+Description: Universal ctags: Source code index builder
+Filename: ./ctags_2:6.2.1-1_aarch64.deb
+Size: 722028
+MD5sum: 7c191c52a928a88c5ad9e179ea119e4c
+SHA1: 8f0a5275d6649279d49845650404ed5e33a97db1
+SHA256: 185dcee3a1ca49375e8adb25bdca072d8deb2bb684ad218f0ff6b8e794c2f08d
+
+Package: ctranslate2
+Architecture: aarch64
+Installed-Size: 3932
+Maintainer: @termux
+Version: 4.8.3-2
+Homepage: https://github.com/OpenNMT/CTranslate2
+Depends: libandroid-posix-semaphore, libopenblas, libc++, python
+Description: A fast inference engine for Transformer models
+Filename: ./ctranslate2_4.8.3-2_aarch64.deb
+Size: 687656
+MD5sum: c1dc19f1530e5a5cbf3970d326a9ef05
+SHA1: be8d86c21cafac3283dfcee1fe08a205f57a9b7d
+SHA256: 63baee2d2e0b76e441d5a30bf6a91c6e4fdadf7961f3b0ec5bf36cd58bce09ae
+
+Package: ctre
+Architecture: aarch64
+Installed-Size: 1016
+Maintainer: @termux
+Version: 3.11.0-1
+Homepage: https://github.com/hanickadot/compile-time-regular-expressions
+Description: Compile Time Regular Expression in C++
+Filename: ./ctre_3.11.0-1_aarch64.deb
+Size: 86560
+MD5sum: 4616a21adeb586df78b0e5f29b5cf371
+SHA1: f5c51638f6c62e5dd41de646171966d4728e6850
+SHA256: af4ec6f48259f2359bfb607edb93489c289c82f63d583f206e9a0f9a242908ef
+
+Package: ctypes-sh
+Architecture: aarch64
+Installed-Size: 184
+Maintainer: @termux
+Version: 1.3-1
+Homepage: https://github.com/taviso/ctypes.sh
+Depends: bash, libelf, libdw, libffi, zlib
+Description: A foreign function interface for bash
+Filename: ./ctypes-sh_1.3-1_aarch64.deb
+Size: 45212
+MD5sum: 790fbc94dab0c972839fc8ce84ff19a7
+SHA1: 76a91a313d515f5a7f6d2a0aac1f939aba1f7f7b
+SHA256: a2b0b37a54bf6e39970890e83bd7eb68896aa3ed1e92f72395fd1ffeada0b23a
 
 Package: docbook-xml
 Architecture: all
@@ -574,6 +808,20 @@ MD5sum: 06bc429b1c772c4c34937a0116e1abcc
 SHA1: bc4f363df7dfc7179bd6cc171c38a6f982c22a85
 SHA256: 3efce36525edb04f989c3b2c4f5e2efd470a20eeb8c613cb6b81d978df7eeaeb
 
+Package: doxygen
+Architecture: aarch64
+Installed-Size: 48972
+Maintainer: @termux
+Version: 1.18.0-1
+Homepage: http://www.doxygen.org
+Depends: libc++, libiconv
+Description: A documentation system for C++, C, Java, IDL and PHP
+Filename: ./doxygen_1.18.0-1_aarch64.deb
+Size: 10697948
+MD5sum: 68005a7e915a2ac36339121195c25b6c
+SHA1: 88bda3bc39e2b27a1a16fd6b6b6718314a187f2f
+SHA256: f8f96c8d99a2370e1102805094c8d7ba73733705bd9e1000447ce731caf14970
+
 Package: dpkg-perl
 Architecture: all
 Installed-Size: 940
@@ -601,6 +849,20 @@ Size: 6516
 MD5sum: 4e974139fd6b981cd01a51aa1bfe84c0
 SHA1: f41c4c1259dd12c7fb16ea295baccd48c55735a9
 SHA256: fafc828135a14728baeca319421b334fe2d89a3eb16c0bf155425ec55670396e
+
+Package: elfutils
+Architecture: aarch64
+Installed-Size: 3448
+Maintainer: @termux
+Version: 0.197-1
+Homepage: https://sourceware.org/elfutils/
+Depends: argp, libarchive, libasm, libc++, libdebuginfod, libdw, libmicrohttpd, libsqlite, libelf (= 0.197-1)
+Description: A collection of utilities to read, create and modify ELF binary files
+Filename: ./elfutils_0.197-1_aarch64.deb
+Size: 522144
+MD5sum: 12af4d1cb82bbd29ab7663f67052a7a7
+SHA1: ee472e23421911ee9b0d79072d655abcb86baadb
+SHA256: d5e06da66b2055f2f276c838f34961df903cecbbc94305072a7a2ddc3f704689
 
 Package: fcgi-static
 Architecture: aarch64
@@ -741,6 +1003,35 @@ MD5sum: f89141daed477f691ce62121c71f7a2a
 SHA1: 066dc062994d88495e1ee66a807df64a93a8669d
 SHA256: 4896b737d97e6e91012c1c42f81316af31164e21e26bc04b7fe51710cf9e20a2
 
+Package: json-c-static
+Architecture: aarch64
+Installed-Size: 180
+Maintainer: @termux
+Version: 0.19-1
+Homepage: https://github.com/json-c/json-c/wiki
+Depends: json-c (= 0.19-1)
+Description: Static libraries for json-c
+Filename: ./json-c-static_0.19-1_aarch64.deb
+Size: 31100
+MD5sum: c02667e43b97458259903a551fe2f749
+SHA1: 6be9c967b300e853b0bbc40116f78524b8767fae
+SHA256: 453d16be205a57ab982f874e9a8ff8a1335b7a28c9e909fcaa09f31d12734cdf
+
+Package: json-c
+Architecture: aarch64
+Installed-Size: 296
+Maintainer: @termux
+Version: 0.19-1
+Homepage: https://github.com/json-c/json-c/wiki
+Breaks: json-c-dev
+Replaces: json-c-dev
+Description: A JSON implementation in C
+Filename: ./json-c_0.19-1_aarch64.deb
+Size: 52112
+MD5sum: 9ed299df3bd5a0e2a361f3ea51439c14
+SHA1: 1beea7e3a527a62be182b268491d43dcb650c31a
+SHA256: 63d1585cfc317543ca942669240343b1f74870369845832adb2b990a0ebe631e
+
 Package: libapt-pkg-perl
 Architecture: aarch64
 Installed-Size: 308
@@ -754,6 +1045,34 @@ Size: 66016
 MD5sum: dab02f0083cce89a5f8e9b23224c06ff
 SHA1: 82b3213d7f8aa055b585703ca49bb00bf04a51f8
 SHA256: 5da543ce22594f5d57719fefb9d44ceeffc4ee991af9413692897674b1b08a53
+
+Package: libasm-static
+Architecture: aarch64
+Installed-Size: 104
+Maintainer: @termux
+Version: 0.197-1
+Homepage: https://sourceware.org/elfutils/
+Depends: libasm, libelf (= 0.197-1)
+Description: Static library to assemble and disassemble instructions
+Filename: ./libasm-static_0.197-1_aarch64.deb
+Size: 13304
+MD5sum: dfd02e151baa244f405f5fe39c9009fe
+SHA1: 5835d398fb2d825d8c4bc153fa89d506872f0779
+SHA256: 35ad617b49f34967a68b2618cf5c29b4d3933f80eccd1d7d2752c5a50ae57a89
+
+Package: libasm
+Architecture: aarch64
+Installed-Size: 72
+Maintainer: @termux
+Version: 0.197-1
+Homepage: https://sourceware.org/elfutils/
+Depends: libdw, libelf (= 0.197-1)
+Description: Library to assemble and disassemble instructions
+Filename: ./libasm_0.197-1_aarch64.deb
+Size: 13480
+MD5sum: 91239e88bc030799a982fac9b66fd8de
+SHA1: eb56731f46c5d2fa9ff234e2f5b59a367da5cc66
+SHA256: 34657da7b81a2d96443b3af9cf3a4a0bcafba662a0edddaac83625ff38697972
 
 Package: libbsd-static
 Architecture: aarch64
@@ -784,6 +1103,78 @@ Size: 146516
 MD5sum: c0d5fefe54c15e665a66edf933fd04c9
 SHA1: 1c745374375e2b0247a20fa7d9749ce25efa0818
 SHA256: ab8bf5e689b283e1125d2e9536408e381cc91c83c264a1bf0814e2a593720b78
+
+Package: libdebuginfod
+Architecture: aarch64
+Installed-Size: 152
+Maintainer: @termux
+Version: 0.197-1
+Homepage: https://sourceware.org/elfutils/
+Depends: libcurl, libelf (= 0.197-1)
+Description: Library for debuginfod
+Filename: ./libdebuginfod_0.197-1_aarch64.deb
+Size: 20556
+MD5sum: c059e0f8d61c1d3f7e8a434f36bed78f
+SHA1: 0b5b2cf350881fcd756610b34dea7b67dae6ea27
+SHA256: c1a22efbf49f48a4cb34e285d63622e9ef24bc6e13a13c7fd1a0b2be883b8582
+
+Package: libdw-static
+Architecture: aarch64
+Installed-Size: 1532
+Maintainer: @termux
+Version: 0.197-1
+Homepage: https://sourceware.org/elfutils/
+Depends: libdw, libelf (= 0.197-1)
+Description: Static library to read DWARF information
+Filename: ./libdw-static_0.197-1_aarch64.deb
+Size: 242924
+MD5sum: 26f9c061d0fd9ace4f1cad500b748caf
+SHA1: 4857c6e4cee9c32a081c8aee2654a0f69d80314d
+SHA256: 6e8522cb0130ed46d9c08ba54e3aff5f4ff70cc34c07301e8fae673891d4006c
+
+Package: libdw
+Architecture: aarch64
+Installed-Size: 832
+Maintainer: @termux
+Version: 0.197-1
+Homepage: https://sourceware.org/elfutils/
+Depends: argp, libbz2, liblzma, libelf (= 0.197-1)
+Description: Library to read DWARF information
+Filename: ./libdw_0.197-1_aarch64.deb
+Size: 216404
+MD5sum: a7fcc5012b5bb1ee0c6828ae85d339f9
+SHA1: 48e93ed47d4ada7e21a36965fccf6b7201b81ed6
+SHA256: 13096b9d76a9621b4b7e16db8d92e571b4fa1c4f01b85c015b1e82b58209eb3f
+
+Package: libelf-static
+Architecture: aarch64
+Installed-Size: 324
+Maintainer: @termux
+Version: 0.197-1
+Homepage: https://sourceware.org/elfutils/
+Depends: libelf (= 0.197-1)
+Description: Static libraries for libelf
+Filename: ./libelf-static_0.197-1_aarch64.deb
+Size: 45712
+MD5sum: 40a705cf6a71bc661a334b7258195eeb
+SHA1: c47912d49ca9cd50ef6ffcce5279ec6d9e1ce5ef
+SHA256: db1df3e18bcc2ac0f4f09e8169a569e283f2382eaaa68fb1a56eb5f9f237c59b
+
+Package: libelf
+Architecture: aarch64
+Installed-Size: 696
+Maintainer: @termux
+Version: 0.197-1
+Homepage: https://sourceware.org/elfutils/
+Depends: libandroid-support, zlib, zstd, json-c
+Conflicts: libelf-dev
+Replaces: libelf-dev
+Description: ELF object file access library
+Filename: ./libelf_0.197-1_aarch64.deb
+Size: 124160
+MD5sum: daa7ef3eb9831e20465e1df22940f5dd
+SHA1: 44c31c251c6c410945c8af8257eac81e0e35717e
+SHA256: ee76e886582d596a5134de56ff3bc6dd15d4c1b91e1cd44111fc6d787959b45a
 
 Package: libfdk-aac-static
 Architecture: aarch64
@@ -839,6 +1230,147 @@ MD5sum: 97fe32cb738031d6b5115bf5956e7e00
 SHA1: 0ffe11877185a8d62becd69269528e5878bbdad2
 SHA256: a16bb94d5086d72a71ee7b18f29188731dd4d12746e37404982ef67eecf351e3
 
+Package: libiniparser-static
+Architecture: aarch64
+Installed-Size: 52
+Maintainer: @termux
+Version: 4.3.2-1
+Homepage: https://github.com/ndevilla/iniparser
+Depends: libiniparser (= 4.3.2-1)
+Description: Static libraries for libiniparser
+Filename: ./libiniparser-static_4.3.2-1_aarch64.deb
+Size: 7040
+MD5sum: b72e2fd2e183bb7f98d0192f45e7f598
+SHA1: 91ba6ee9038ed110d6e1faf8fe3067cca0abe49a
+SHA256: 18aa428329f431e1b6458a70d9abfebd14180cd69a330e6fbb1b1f2b1c4ff62c
+
+Package: libiniparser
+Architecture: aarch64
+Installed-Size: 144
+Maintainer: @termux
+Version: 4.3.2-1
+Homepage: https://github.com/ndevilla/iniparser
+Description: Offers parsing of ini files from the C level
+Filename: ./libiniparser_4.3.2-1_aarch64.deb
+Size: 15508
+MD5sum: e86462a21a1bb16ffb3d85e0b9022d40
+SHA1: 257ade81cf3db751a941dc3309f3b36b9c7a8ccd
+SHA256: de4c7f09528db0d236fecf3ac28858fd7da6221fab0a1da936fbdda0d0129432
+
+Package: libjansson-static
+Architecture: aarch64
+Installed-Size: 176
+Maintainer: @termux
+Version: 2.15.1-1
+Homepage: http://www.digip.org/jansson/
+Depends: libjansson (= 2.15.1-1)
+Description: Static libraries for libjansson
+Filename: ./libjansson-static_2.15.1-1_aarch64.deb
+Size: 47108
+MD5sum: 9c839554d5dfb5e525aca47288d803d0
+SHA1: fc9926aea895caf14efe7ff8abd2679c606b3c10
+SHA256: 622ac5ce1fc06ebf57e2b4542a1aede7e8606fa0531592f56b15e01bbb067903
+
+Package: libjansson
+Architecture: aarch64
+Installed-Size: 168
+Maintainer: @termux
+Version: 2.15.1-1
+Homepage: http://www.digip.org/jansson/
+Breaks: libjansson-dev
+Replaces: libjansson-dev
+Description: C library for encoding, decoding and manipulating JSON data
+Filename: ./libjansson_2.15.1-1_aarch64.deb
+Size: 46908
+MD5sum: 2bb9cd0775693b46af226e9919245d50
+SHA1: 1ee051e1d25bbdf5e290e60a05983fc24acd0421
+SHA256: e3138af7483b8f141bf3d67249a6830152fc51b90d5e20b724a22b35c3a89b8d
+
+Package: libmicrohttpd-static
+Architecture: aarch64
+Installed-Size: 316
+Maintainer: @termux
+Version: 1.0.10-1
+Homepage: http://www.gnu.org/software/libmicrohttpd/
+Depends: libmicrohttpd (= 1.0.10-1)
+Description: Static libraries for libmicrohttpd
+Filename: ./libmicrohttpd-static_1.0.10-1_aarch64.deb
+Size: 76696
+MD5sum: 6680c838fc87677c87cf4943f7477332
+SHA1: 22e0822ae66344e444b2687e39029cf3d35c5b46
+SHA256: a15a5829151bd0555ecc90f4abbb25f2339eaa5c34da43d6d894376d25226ffb
+
+Package: libmicrohttpd
+Architecture: aarch64
+Installed-Size: 1020
+Maintainer: @termux
+Version: 1.0.10-1
+Homepage: http://www.gnu.org/software/libmicrohttpd/
+Breaks: libmicrohttpd-dev
+Depends: libgnutls
+Replaces: libmicrohttpd-dev
+Description: A small C library that is supposed to make it easy to run an HTTP server as part of another application
+Filename: ./libmicrohttpd_1.0.10-1_aarch64.deb
+Size: 219464
+MD5sum: 2d9c2372b877dac750f7cbbf97bf265f
+SHA1: 091ad412458655002f7ba3dd283ea46d5388a6ef
+SHA256: 175e7d3a13beb02e20437333f89e817a43645e183f2cbbefc6ef1309943a2d36
+
+Package: libneon-static
+Architecture: aarch64
+Installed-Size: 328
+Maintainer: @termux
+Version: 0.37.1-1
+Homepage: https://notroj.github.io/neon/
+Depends: libneon (= 0.37.1-1)
+Description: Static libraries for libneon
+Filename: ./libneon-static_0.37.1-1_aarch64.deb
+Size: 65084
+MD5sum: 4c98edd4c8cb58589ad0573f3925c9de
+SHA1: 49c4ca91912b7eb931b65e8af136658480333fbf
+SHA256: 628181ef24f6a74d9658b4c4d2147fabe00d2d189a67e0d9c959a2431bb18c59
+
+Package: libneon
+Architecture: aarch64
+Installed-Size: 1504
+Maintainer: @termux
+Version: 0.37.1-1
+Homepage: https://notroj.github.io/neon/
+Depends: libexpat, openssl, zlib
+Description: An HTTP/1.1 and WebDAV client library, with a C interface
+Filename: ./libneon_0.37.1-1_aarch64.deb
+Size: 203132
+MD5sum: 17ac76624b8deb8ec6b9e770c6bd1467
+SHA1: 3a5f4aa5ba82b8cef57f31f432d14a97b7b8e5d2
+SHA256: 35a263095034a634f90b22d8a9f1cbb52cbd5f87da8994a8bb2251da3770df76
+
+Package: libopenblas-static
+Architecture: aarch64
+Installed-Size: 23708
+Maintainer: @termux
+Version: 0.3.34-1
+Homepage: https://www.openblas.net
+Depends: libopenblas (= 0.3.34-1)
+Description: Static libraries for libopenblas
+Filename: ./libopenblas-static_0.3.34-1_aarch64.deb
+Size: 2630232
+MD5sum: 7ddd4edecb325329823336b375019c77
+SHA1: 51e5711a53afd0d370ecf2453a2b0284f585bc38
+SHA256: b4552f4bbd99e39e3b2e549d526a4c2b6e5bef3357dea43bfd900c0c0d7134f0
+
+Package: libopenblas
+Architecture: aarch64
+Installed-Size: 11860
+Maintainer: @termux
+Version: 0.3.34-1
+Homepage: https://www.openblas.net
+Description: An optimized BLAS library based on GotoBLAS2 1.13 BSD
+Filename: ./libopenblas_0.3.34-1_aarch64.deb
+Size: 2607732
+MD5sum: 0048ba3154f4d448b97ec208ecb8eb74
+SHA1: 1848fb90120f10e36a3292bed64460f9b3ba0d2d
+SHA256: 09dd798c0635662360110e1bf6577760a55c37993fbbf1f0fd403e3ba1076052
+
 Package: libpcreposix
 Architecture: aarch64
 Installed-Size: 36
@@ -866,6 +1398,36 @@ Size: 52324
 MD5sum: fbed2da9c00a4f119be76646af280644
 SHA1: 54918fb49bc1278628a196cbf90ddca3bd0af4d6
 SHA256: 9cb4a1f471575cfb943d68b4b18d86ad64f4826220ed333a4a2f2e60b730d934
+
+Package: libretls-static
+Architecture: aarch64
+Installed-Size: 156
+Maintainer: @termux
+Version: 3.8.1-2
+Homepage: https://git.causal.agency/libretls/about/
+Depends: libretls (= 3.8.1-2)
+Description: Static libraries for libretls
+Filename: ./libretls-static_3.8.1-2_aarch64.deb
+Size: 26376
+MD5sum: c718186beba9d78e064c723ed8918959
+SHA1: bf81bef72acf035899a28664863edc7309701e76
+SHA256: cb48b37a86582d1b19b0cee76876a7cf685e940b746d1ef7917aeb537780cd76
+
+Package: libretls
+Architecture: aarch64
+Installed-Size: 192
+Maintainer: @termux
+Version: 3.8.1-2
+Homepage: https://git.causal.agency/libretls/about/
+Depends: openssl
+Replaces: libtls
+Provides: libtls
+Description: libtls for OpenSSL
+Filename: ./libretls_3.8.1-2_aarch64.deb
+Size: 46120
+MD5sum: 556505d7f015abc065aa482dff0d0207
+SHA1: e18ee63fab094e31b12eb6a64841e8a47eec3efe
+SHA256: e1999b09212d6c9e499e17cb7577cc39129ed234a2c5e01e6d48ccfc05bb3448
 
 Package: libstemmer-static
 Architecture: aarch64
@@ -938,6 +1500,34 @@ MD5sum: 6b39dedf4f1ff57c176ba7993de27445
 SHA1: 9d412467b3bb2cbffcd95e9550aafc6995b95e5b
 SHA256: 49c3ca9e6a3b08e42bc91fae273587b2e7bedd21218c050d63cc67b075f2ff06
 
+Package: libxft-static
+Architecture: aarch64
+Installed-Size: 164
+Maintainer: @termux
+Version: 2.3.9-2
+Homepage: https://xorg.freedesktop.org/
+Depends: libxft (= 2.3.9-2)
+Description: Static libraries for libxft
+Filename: ./libxft-static_2.3.9-2_aarch64.deb
+Size: 36508
+MD5sum: 30582e86539e555bc69963229e09ee14
+SHA1: 1752d930efda4452b1083a83ec28251bbb13115f
+SHA256: 5d8bf0cb539474ca790094fb5f8a4d22473602ce40983286cfadfff472049664
+
+Package: libxft
+Architecture: aarch64
+Installed-Size: 496
+Maintainer: @termux
+Version: 2.3.9-2
+Homepage: https://xorg.freedesktop.org/
+Depends: fontconfig, freetype, libx11, libxrender
+Description: FreeType-based font drawing library for X
+Filename: ./libxft_2.3.9-2_aarch64.deb
+Size: 48112
+MD5sum: 7415c0716cbb768b4213d2ef3629b804
+SHA1: bfe3ea80073ab5ac7cf884f8b5665be72d52e9de
+SHA256: ef8a1fe2ce372a3f96802c8f4bf2bb5c3cead66faee762756b7539c44836439e
+
 Package: libxmlb
 Architecture: aarch64
 Installed-Size: 692
@@ -995,6 +1585,48 @@ Size: 24816
 MD5sum: f8ee80aaf7e15ffd23c7b5d9fcf2458b
 SHA1: 66cf65603e2fbea77991cc7c9116f922d02fafe8
 SHA256: 9220ecbfeb261415ca2c06f2e30c365670a17ca014d63775bcc617e066103379
+
+Package: python-ctranslate2
+Architecture: aarch64
+Installed-Size: 1496
+Maintainer: @termux
+Version: 4.8.3-2
+Homepage: https://github.com/OpenNMT/CTranslate2
+Depends: python, python-numpy, python-pip, ctranslate2 (= 4.8.3-2)
+Description: Python bindings for CTranslate2
+Filename: ./python-ctranslate2_4.8.3-2_aarch64.deb
+Size: 248240
+MD5sum: 751d0ce187fb74513c51e4331746990b
+SHA1: cab37730e34dd87f23ab861ee7303b733c1aa557
+SHA256: 4fe95fcd3887d31c5b20ff3c28617c476ae647e2aa0e3135405ba0c5b99af8bd
+
+Package: python-numpy-static
+Architecture: aarch64
+Installed-Size: 208
+Maintainer: @termux
+Version: 2.5.4-1
+Homepage: https://numpy.org/
+Depends: python-numpy (= 2.5.4-1)
+Description: Static libraries for python-numpy
+Filename: ./python-numpy-static_2.5.4-1_aarch64.deb
+Size: 46648
+MD5sum: c79f3374dd65453a04532f601b81b629
+SHA1: 49c863a2b7dab9072499ac8abbd44873aefcb9ab
+SHA256: 596ccf63d3862e5bf71921b9d7b183b3dccd5322b78c86b2dbe8abac229be585
+
+Package: python-numpy
+Architecture: aarch64
+Installed-Size: 21296
+Maintainer: @termux
+Version: 2.5.4-1
+Homepage: https://numpy.org/
+Depends: libc++, libopenblas, python
+Description: The fundamental package for scientific computing with Python
+Filename: ./python-numpy_2.5.4-1_aarch64.deb
+Size: 3622992
+MD5sum: 190c01842d09bc4f84b6bda620f0e39f
+SHA1: 1c58d9a3c581d06c80fb23e4453adb1933d3de87
+SHA256: 775da934c599dc170bfc06a20d6105f546862b7b9f6609c9bbfd05f1adf7d7d3
 
 Package: ruby-ri
 Architecture: all
@@ -1069,3 +1701,32 @@ Size: 17788
 MD5sum: c1b494227284632cab5129435340efb3
 SHA1: d9f559587b651d7d8a0dbd274ceb1f1f866a1a69
 SHA256: d9bc191492dace8dc78a7cb1ea1479c878bb4c0d45ffa892f30f2e5d83ba4d3a
+
+Package: texinfo
+Architecture: aarch64
+Installed-Size: 11024
+Maintainer: @termux
+Version: 7.3-1
+Homepage: https://www.gnu.org/software/texinfo/
+Depends: gawk, libiconv, ncurses, perl
+Recommends: update-info-dir
+Description: Documentation system for on-line information and printed output
+Filename: ./texinfo_7.3-1_aarch64.deb
+Size: 1212716
+MD5sum: b027b1075533ebdc36b9bd9b6e116cf6
+SHA1: 53066f5d738293c51c879c27f607731d04aa8eb0
+SHA256: 742d96e3c60eefdb10110f9c8742b3f5ca404ce442b29e448e1be9285a406a2f
+
+Package: update-info-dir
+Architecture: all
+Installed-Size: 48
+Maintainer: @termux
+Version: 7.3-1
+Homepage: https://www.gnu.org/software/texinfo/
+Depends: texinfo (= 7.3-1)
+Description: Update or create index file from all installed info files in directory
+Filename: ./update-info-dir_7.3-1_all.deb
+Size: 2488
+MD5sum: 6e9d85bdfb145f9ed803d85aaf294dea
+SHA1: 994c0da0115ac8dee1b53c7c6483c663d6d458a5
+SHA256: 24f754d5deeaf73737bf68d4606448a01382e934068e2ea5ec3cfae4f8448739

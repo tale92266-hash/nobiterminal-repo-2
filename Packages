@@ -1,3 +1,108 @@
+Package: aerc
+Architecture: aarch64
+Installed-Size: 19016
+Maintainer: @termux
+Version: 0.22.0-2
+Homepage: https://aerc-mail.org/
+Description: A pretty good email client
+Filename: ./aerc_0.22.0-2_aarch64.deb
+Size: 5123232
+MD5sum: 7d206cb2826685743e83c6d94752c888
+SHA1: f7f514316c4a228c77a6b70bdfe5d3e99c565fa9
+SHA256: adf584f786c69c91fac3ff1486c8dbb8dc5298313cf1554d1d8184fb4e590efd
+
+Package: agate
+Architecture: aarch64
+Installed-Size: 2084
+Maintainer: @termux
+Version: 3.3.24-1
+Homepage: https://github.com/mbrubeck/agate
+Description: Very simple server for the Gemini hypertext protocol
+Filename: ./agate_3.3.24-1_aarch64.deb
+Size: 786876
+MD5sum: cc7c1a25f47ed6bbe3fa077017c783f6
+SHA1: acd30784bf0fd0b999f15b10f60a55d9ef180a29
+SHA256: a4a71f925a65d2bc68b5f6796a88af7aee53e306ba50af3e8841195c415d5212
+
+Package: age
+Architecture: aarch64
+Installed-Size: 10520
+Maintainer: @termux
+Version: 1:1.3.2-2
+Homepage: https://github.com/FiloSottile/age
+Description: A simple, modern and secure encryption tool with small explicit keys, no config options, and UNIX-style composability
+Filename: ./age_1:1.3.2-2_aarch64.deb
+Size: 2062404
+MD5sum: 57c11b3af61f326afa70aa46ac9a1bca
+SHA1: 20cd86c404b7708cd2533047f56591bf042ca420
+SHA256: 7d3a6215515d8bc607af85ce8b09bd30fcb3eca3fe2835b5212edc994cdce124
+
+Package: agg
+Architecture: aarch64
+Installed-Size: 13512
+Maintainer: @termux
+Version: 1.9.0-1
+Homepage: https://github.com/asciinema/agg
+Recommends: asciinema
+Description: asciinema gif generator
+Filename: ./agg_1.9.0-1_aarch64.deb
+Size: 4895408
+MD5sum: 08c0faa66de0a063330c4a9e6e28cd4d
+SHA1: 6aa803aa2c7856a3434c95430d4da4b8e44e4f39
+SHA256: 7336f7394a5f817aa16e10d78bb6e9d3df0136c78e32a096c82201c32a1a0027
+
+Package: aha
+Architecture: aarch64
+Installed-Size: 136
+Maintainer: @termux
+Version: 0.5.1-3
+Homepage: https://github.com/theZiz/aha
+Description: Converts ANSI escape sequences of a unix terminal to HTML code
+Filename: ./aha_0.5.1-3_aarch64.deb
+Size: 27052
+MD5sum: e90c0181f118b44ed79b99132f58e259
+SHA1: b5a67c071353129955e55150c2fe258dc02e611d
+SHA256: b4e1ca344d4fe717de41adcee9163eb5ed617b80e56df38bc49abeb1936c8863
+
+Package: aichat
+Architecture: aarch64
+Installed-Size: 10388
+Maintainer: @termux
+Version: 0.30.0-2
+Homepage: https://github.com/sigoden/aichat
+Description: A powerful chatgpt cli
+Filename: ./aichat_0.30.0-2_aarch64.deb
+Size: 4005432
+MD5sum: 9821c6bfec0cc51f9d820f0edf252b6e
+SHA1: 21efeb08914c49f642aeba8d7e26eec1f5aeaebd
+SHA256: c225db92045ca2052b4f8e251b265d49eb13ad9c94f7683d78100bf50f651221
+
+Package: air
+Architecture: aarch64
+Installed-Size: 12168
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 1.67.4-2
+Homepage: https://github.com/air-verse/air
+Description: Live reload for Go apps - rebuilds and restarts your binary on file change
+Filename: ./air_1.67.4-2_aarch64.deb
+Size: 3258068
+MD5sum: fb6bca0311091558264e714f4d708007
+SHA1: 3bc01c5cb80d779c827a196ca13457a6b850728b
+SHA256: 88183f0d9f463d0925da7b4c0cb59fb34d36ef1759ee5347eb46eda934ee0b49
+
+Package: algernon
+Architecture: aarch64
+Installed-Size: 48872
+Maintainer: @termux
+Version: 1.17.12-2
+Homepage: https://algernon.roboticoverlords.org/
+Description: Small self-contained web server with Lua, Markdown, QUIC, Redis and PostgreSQL support
+Filename: ./algernon_1.17.12-2_aarch64.deb
+Size: 12236960
+MD5sum: dd4919cc7efbeaa308491aa4791be91d
+SHA1: 62bac6d350832ec58fe0c0c969b6708b4f5792ea
+SHA256: 64f29d830f1a9970cddf82afaf46f1e12f53a6e804f8cb94a410337854b9d396
+
 Package: antiword
 Architecture: aarch64
 Installed-Size: 604
@@ -67,6 +172,21 @@ MD5sum: f68ba98d43f0c28fd0eadf9b1e93b117
 SHA1: b75ef5dad71f1609bf17154586bde2bdcff8cf45
 SHA256: a26469ecbcf338276b5a1fed3e0d23fc8178d361d5718c85248c58cbcab53d40
 
+Package: apt-file
+Architecture: all
+Installed-Size: 112
+Maintainer: @termux
+Version: 3.4-1
+Homepage: https://wiki.debian.org/apt-file
+Depends: apt, libapt-pkg-perl, libregexp-assemble-perl, perl
+Replaces: whatprovides
+Description: search for files within packages
+Filename: ./apt-file_3.4-1_all.deb
+Size: 17084
+MD5sum: a97434fb4add060113bb2e4bdb9d1bb5
+SHA1: 90d2a8bdb20eb9b061d76f4ba8c8b842b0e68c7b
+SHA256: c40a985485b1705f8553aaef06e8836227528a788c054546e47fe09433a11336
+
 Package: apt-ftparchive
 Architecture: aarch64
 Installed-Size: 316
@@ -81,6 +201,20 @@ MD5sum: aed23876f3fce4ee78c894f729bfffe2
 SHA1: a494593e3707fa7a5a100496aec6fa4c5316fe02
 SHA256: 749adf6bb4c79977a0c3a2091c65ecdf7c0bf7ac63449a64a0bbb25fae5f8daf
 
+Package: apt-show-versions
+Architecture: all
+Installed-Size: 116
+Maintainer: @termux
+Version: 0.22.16-1
+Homepage: https://salsa.debian.org/debian/apt-show-versions
+Depends: apt, libapt-pkg-perl, perl
+Description: Lists available package versions with distribution
+Filename: ./apt-show-versions_0.22.16-1_all.deb
+Size: 13404
+MD5sum: 3ad5f508b76cd2afb15764b5ea1d6344
+SHA1: 79f35206581dd81fc36e91197141f91b6897a96a
+SHA256: 2df5a128fdb7435591f6305bac79bb850b2bbd34390205703f13cdf76e166611
+
 Package: apt-transport-tor
 Architecture: all
 Installed-Size: 44
@@ -94,6 +228,322 @@ Size: 928
 MD5sum: 1b50ac3df3a4feb8d82bbb5a0f606969
 SHA1: 610fa6549ba69a777d3b2fad3249ac1282868c52
 SHA256: 36f35e3918260cf0b0bcd1c822819f81355cc28966ddae8990630fd1e377cc2b
+
+Package: aptly
+Architecture: aarch64
+Installed-Size: 72664
+Maintainer: @termux
+Version: 1.6.3-2
+Homepage: https://www.aptly.info
+Description: A Swiss Army knife for Debian repository management
+Filename: ./aptly_1.6.3-2_aarch64.deb
+Size: 14279520
+MD5sum: 8125b3a9f238379fe83094c12073c06b
+SHA1: 40b16a458c0ee18413a07897daf9a5807277c361
+SHA256: dda744db854b44ab1b96cc1c3b520e9f94fd697e4323e176e1a389baf32332d8
+
+Package: argon2-static
+Architecture: aarch64
+Installed-Size: 224
+Maintainer: @termux
+Version: 20190702-3
+Homepage: https://github.com/P-H-C/phc-winner-argon2
+Depends: argon2 (= 20190702-3)
+Description: Static libraries for argon2
+Filename: ./argon2-static_20190702-3_aarch64.deb
+Size: 44812
+MD5sum: e5de3ef6e4a27d274f60c855062ad9a5
+SHA1: a9fcba834c7ec836821ce277b054b5d0b3ffa0c0
+SHA256: a72e7c8c9aef4485dea98bea81613e3e22adb0c941524f30818d2c3b597bc162
+
+Package: argon2
+Architecture: aarch64
+Installed-Size: 144
+Maintainer: @termux
+Version: 20190702-3
+Homepage: https://github.com/P-H-C/phc-winner-argon2
+Description: A password-hashing function (reference C implementation)
+Filename: ./argon2_20190702-3_aarch64.deb
+Size: 22504
+MD5sum: 4fd254f25b9d679b63aaa9eed64e60ee
+SHA1: be1673a663d6cba7fc511711714d0da43c503c7c
+SHA256: 574288018a523aac72aeb726701918bf5a01f417a0d7e75de91cb5bd76908cd1
+
+Package: argp-static
+Architecture: aarch64
+Installed-Size: 200
+Maintainer: @termux
+Version: 1.5.0-2
+Homepage: https://github.com/argp-standalone/argp-standalone
+Depends: argp (= 1.5.0-2)
+Description: Static libraries for argp
+Filename: ./argp-static_1.5.0-2_aarch64.deb
+Size: 42192
+MD5sum: 9b8d448792d1c8287582e668f036f5c4
+SHA1: 2a123c6426842cfafcc6fe09288ebcfa9e853ec3
+SHA256: cd88a5dcf3a32c8ff3aea0cbe2b08c475606aaecb7b129326a106c09e738ebfc
+
+Package: argp
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: @termux
+Version: 1.5.0-2
+Homepage: https://github.com/argp-standalone/argp-standalone
+Description: Standalone version of arguments parsing functions from GLIBC
+Filename: ./argp_1.5.0-2_aarch64.deb
+Size: 21384
+MD5sum: 2903ddc075ead1aa00f82672b695bb46
+SHA1: 0e30211a898f84f378cce45c2cf957b5ecb7e998
+SHA256: a0aa9dd124bb78c8ddef3245a7b51fd135ab96cc5d7b9ba89100975542f2ac7f
+
+Package: aria2
+Architecture: aarch64
+Installed-Size: 2696
+Maintainer: @termux
+Version: 1.37.0-4
+Homepage: https://aria2.github.io
+Depends: libc++, c-ares, openssl, libxml2, zlib
+Description: Download utility supporting HTTP/HTTPS, FTP, BitTorrent and Metalink
+Filename: ./aria2_1.37.0-4_aarch64.deb
+Size: 680120
+MD5sum: aa217e2eed08541490fac382f0e11029
+SHA1: 6102e258b66d99fa3f80c69497b7e97f5dc0a1c0
+SHA256: b8dde1c580644c1ab69b3c8bd4578e95c60cce9795156a277bff847bd3d532fd
+
+Package: arj
+Architecture: aarch64
+Installed-Size: 384
+Maintainer: @termux
+Version: 3.10.22-7
+Homepage: https://arj.sourceforge.net/
+Description: Open-source version of arj archiver
+Filename: ./arj_3.10.22-7_aarch64.deb
+Size: 118404
+MD5sum: 7969500579564e23c5352b62e2c39878
+SHA1: 4c6c168099abc42296f3c61bc570887ddfdf80aa
+SHA256: 9d802ed8718c0c5806fc5947252a4f215e2903720650306b03402db9da45455a
+
+Package: artalk
+Architecture: aarch64
+Installed-Size: 55344
+Maintainer: Moraxyc <termux@qaq.li>
+Version: 2.10.0-2
+Homepage: https://artalk.js.org/
+Description: A self-hosted comment system
+Filename: ./artalk_2.10.0-2_aarch64.deb
+Size: 11941332
+MD5sum: da7b2044d04bda54f60c16e1b520b414
+SHA1: 46db44c99f3ecedf55111fdf018573aaa6d558f5
+SHA256: 638815ca28b5885db157a35748b670268a95fda58f1d576ae325be01f13f8409
+
+Package: ascii
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: @termux
+Version: 3.32-1
+Homepage: http://www.catb.org/~esr/ascii/
+Description: List ASCII idiomatic names and octal/decimal code-point forms
+Filename: ./ascii_3.32-1_aarch64.deb
+Size: 14100
+MD5sum: f99930ae016afa0244d8c740542ca8af
+SHA1: 3b643ea6b44cf2471a0ed21edff03515cb6db03f
+SHA256: c3a5ebea10e2388d7765c56d80b5c065d50d3e23429fb86c8fbea40cd1d02afe
+
+Package: asciidoc
+Architecture: all
+Installed-Size: 1280
+Maintainer: @termux
+Version: 10.2.1-4
+Homepage: https://asciidoc.org
+Depends: docbook-xsl, libxml2-utils, python, xsltproc
+Suggests: w3m
+Description: Text document format for short documents, articles, books and UNIX man pages.
+Filename: ./asciidoc_10.2.1-4_all.deb
+Size: 180848
+MD5sum: 5c6e3debe448ae4473a9f32d07ca5073
+SHA1: 7c8ac4abe57b2a23e095c5fb44037d6c85ab4a19
+SHA256: 1f37944a4c1880d40a7cb0c6bb6d7517a8fc17a79d96e6e08442c581a1d811e7
+
+Package: asciidoctor
+Architecture: all
+Installed-Size: 6464
+Maintainer: @termux
+Version: 2.0.26-2
+Homepage: https://asciidoctor.org/
+Depends: ruby
+Description: An implementation of AsciiDoc in Ruby
+Filename: ./asciidoctor_2.0.26-2_all.deb
+Size: 599512
+MD5sum: cb63baf1217fcd8d86f6c937602f5743
+SHA1: f7622ee7a8ca6acae4539139cac0d69aca110bba
+SHA256: 096fc0f9cea15459730c233347d48b00a57cc4f9dea20e621eab53d72e5df1f3
+
+Package: asciinema
+Architecture: aarch64
+Installed-Size: 7080
+Maintainer: @termux
+Version: 1:3.2.1-1
+Homepage: https://asciinema.org/
+Description: Record and share your terminal sessions, the right way
+Filename: ./asciinema_1:3.2.1-1_aarch64.deb
+Size: 3124120
+MD5sum: 8b1a6be64f2949f20d7a484182148da7
+SHA1: 932d0d9ff359e68cf25c86076e1ee29d782143fc
+SHA256: 0f95d66d22052408a5503ee0ddd90a5d14850e91a4ff0e0dd8c733695feff092
+
+Package: asm-lsp
+Architecture: aarch64
+Installed-Size: 8720
+Maintainer: @termux
+Version: 0.10.1-1
+Homepage: https://github.com/bergercookie/asm-lsp
+Description: language server for NASM/GAS/GO assembly
+Filename: ./asm-lsp_0.10.1-1_aarch64.deb
+Size: 1799352
+MD5sum: 5f5d1ad9b1f2fd4f71311c67a61e7f41
+SHA1: f7d205da4fc01850fb20a3e4aea687582fba7605
+SHA256: 13c258aedebc59a926523a5168df78032ebd92a4242b763f48beae9fea73b0fe
+
+Package: bftpd
+Architecture: aarch64
+Installed-Size: 144
+Maintainer: @termux
+Version: 6.7-1
+Homepage: https://bftpd.sourceforge.net/
+Depends: libcrypt
+Description: Small, easy-to-configure FTP server
+Filename: ./bftpd_6.7-1_aarch64.deb
+Size: 32280
+MD5sum: 67429848018c40de20307a4774c6fc70
+SHA1: 0108d4f346c9fd63dd87afa0c9a258c35a9c7921
+SHA256: f969aad55fdca2c2d907dce6cbd12898102a215ba46d079074926541b85b4679
+
+Package: bgrep
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: @termux
+Version: 1.0-6
+Homepage: https://debugmo.de/2009/04/bgrep-a-binary-grep/
+Description: Binary string grep tool
+Filename: ./bgrep_1.0-6_aarch64.deb
+Size: 28632
+MD5sum: eeb85cab0366cd7947c9ae18c6bea30c
+SHA1: 0707f85504a55ba7e840aad6a15cfa605c4fa283
+SHA256: 802d25b4d1af38ff9b4065831bc4e5326e2eeb48a16fc6028a40f0b978fe0afd
+
+Package: biboumi
+Architecture: aarch64
+Installed-Size: 988
+Maintainer: @termux
+Version: 9.0-6
+Homepage: https://biboumi.louiz.org/
+Depends: libc++, libexpat, libgcrypt, libiconv, libidn, libsqlite, libuuid
+Description: An XMPP gateway that connects to IRC servers and translates between the two protocols
+Filename: ./biboumi_9.0-6_aarch64.deb
+Size: 247080
+MD5sum: 78703eadbed15e11318893df079af044
+SHA1: ade545df47ca1a9ddf1735e6fe8071660f963251
+SHA256: efdcc76dfa501ba1a495242e8f1f38d88748ea4701a1b726f745d4ffda7d2b95
+
+Package: binaryen
+Architecture: aarch64
+Installed-Size: 19548
+Maintainer: @termux
+Version: 133-1
+Homepage: https://github.com/WebAssembly/binaryen
+Depends: libc++
+Description: Binaryen is a compiler and toolchain infrastructure library for WebAssembly
+Filename: ./binaryen_133-1_aarch64.deb
+Size: 3735048
+MD5sum: a82a7fbfb66f47ea5788071e82935cf8
+SHA1: 6755f9986529ff693c3b8efdd3042abf6a770638
+SHA256: 7846e579d3dbe165627aef12f47a8ec71e0a0be09ec8a47f32d1f0b8b76489df
+
+Package: binwalk
+Architecture: aarch64
+Installed-Size: 3868
+Maintainer: @xingguangcuican6666
+Version: 3.1.0-1
+Homepage: https://github.com/ReFirmLabs/binwalk
+Depends: fontconfig, freetype, libexpat, ttf-dejavu
+Description: An Binwalk firmware analysis tool.
+Filename: ./binwalk_3.1.0-1_aarch64.deb
+Size: 1336432
+MD5sum: a7409d480498027c44124e2d5dc4ef24
+SHA1: b1da4f98013da99c3e758119e52b449fdc186a0c
+SHA256: 079656f0f2d25a34d1f4e46c19abc6b310ca9ae0dd033e448b2fc3ae6eb77f10
+
+Package: bitcoin
+Architecture: aarch64
+Installed-Size: 40148
+Maintainer: @termux
+Version: 31.1-2
+Homepage: https://bitcoincore.org/
+Depends: capnproto, libc++, libevent
+Description: Bitcoin Core
+Filename: ./bitcoin_31.1-2_aarch64.deb
+Size: 13547844
+MD5sum: 8a9af9ed122fbb65262af7f467312822
+SHA1: 74495949f1b0ff84d67212e1dd13355d70547b88
+SHA256: d0580f732d0a6243c268cb0152059f6e5f500dccfda3f696437625e4447eba1a
+
+Package: byobu
+Architecture: all
+Installed-Size: 2128
+Maintainer: @termux
+Version: 7.22-1
+Homepage: https://www.byobu.org/
+Depends: gawk, tmux
+Description: Byobu is a GPLv3 open source text-based window manager and terminal multiplexer
+Filename: ./byobu_7.22-1_all.deb
+Size: 732420
+MD5sum: a7d87cf3415f383d216d45a39fe46f68
+SHA1: ab78ffaf2aadbe256c27ccfc39455c94852558ea
+SHA256: bbfb3710ce73eaf34a869527d24056515f8441f090f42409afa80e6c50da6df9
+
+Package: c-toxcore-static
+Architecture: aarch64
+Installed-Size: 1356
+Maintainer: @termux
+Version: 0.2.23-1
+Homepage: https://tox.chat
+Depends: c-toxcore (= 0.2.23-1)
+Description: Static libraries for c-toxcore
+Filename: ./c-toxcore-static_0.2.23-1_aarch64.deb
+Size: 248232
+MD5sum: bdc2b69b8d8eed22292587fef1a8b35b
+SHA1: d95d2a092dda19672c19deabc054aa2754e2866d
+SHA256: a5c17e3c70e574138a03e377337a248514c2beffad5f78091ec9af917a4af7a5
+
+Package: c-toxcore
+Architecture: aarch64
+Installed-Size: 1056
+Maintainer: @termux
+Version: 0.2.23-1
+Homepage: https://tox.chat
+Breaks: c-toxcore-dev
+Depends: libsodium, libopus, libvpx
+Replaces: c-toxcore-dev
+Description: Backend library for the Tox protocol
+Filename: ./c-toxcore_0.2.23-1_aarch64.deb
+Size: 261916
+MD5sum: 81ad6bc02da42631654fff11c63a4c7f
+SHA1: 3ba0947e6ea929d712f028abb3d545240d3454a5
+SHA256: e1c55d014488d5a0e60161dce63dba446a5fa947a5d7a10d184f1044c47a20b0
+
+Package: capnproto
+Architecture: aarch64
+Installed-Size: 9060
+Maintainer: @termux
+Version: 1.5.0-1
+Homepage: https://capnproto.org/
+Depends: libc++
+Description: Data interchange format and capability-based RPC system
+Filename: ./capnproto_1.5.0-1_aarch64.deb
+Size: 1682976
+MD5sum: 2e782611fc9a41483fca69e3e45b952a
+SHA1: fdbe3b348442009c7c58c8b1649161b6d7b254e5
+SHA256: a9d0d2cc136c4a9d6b54ad9860308afd68bf77f06fee32ab9b14fd25a07b8988
 
 Package: docbook-xml
 Architecture: all
@@ -193,6 +643,34 @@ MD5sum: 97fe32cb738031d6b5115bf5956e7e00
 SHA1: 0ffe11877185a8d62becd69269528e5878bbdad2
 SHA256: a16bb94d5086d72a71ee7b18f29188731dd4d12746e37404982ef67eecf351e3
 
+Package: libpcreposix
+Architecture: aarch64
+Installed-Size: 36
+Maintainer: @termux
+Version: 8.45-3
+Homepage: https://www.pcre.org
+Depends: pcre (= 8.45-3)
+Description: Posix-compatible runtime libraries for libpcre
+Filename: ./libpcreposix_8.45-3_aarch64.deb
+Size: 3396
+MD5sum: 1fc3fddbc05ec20fb51fe456b037acfb
+SHA1: c605a1e20952cf7135d2f6bb8d1490a6c88e5e52
+SHA256: 4b49f0aebbacb1da96ef8f7a80a2c2fafea1a648d74352c011894a8d01168f59
+
+Package: libregexp-assemble-perl
+Architecture: all
+Installed-Size: 200
+Maintainer: @termux
+Version: 0.38-11
+Homepage: https://metacpan.org/pod/Regexp::Assemble
+Depends: perl
+Description: Perl module to merge several regular expressions
+Filename: ./libregexp-assemble-perl_0.38-11_all.deb
+Size: 52324
+MD5sum: fbed2da9c00a4f119be76646af280644
+SHA1: 54918fb49bc1278628a196cbf90ddca3bd0af4d6
+SHA256: 9cb4a1f471575cfb943d68b4b18d86ad64f4826220ed333a4a2f2e60b730d934
+
 Package: libstemmer-static
 Architecture: aarch64
 Installed-Size: 1952
@@ -220,6 +698,36 @@ MD5sum: b2a9c4e24918e5d791a98d824c166113
 SHA1: e7ac2fdb7d446ce4877ccfb10ca89c8eefc1f7f4
 SHA256: 0de1a916a20b71be24c3c4944063b4bc598d568f0d3b911cdfe66321166dd033
 
+Package: libvpx-static
+Architecture: aarch64
+Installed-Size: 3336
+Maintainer: @termux
+Version: 1:1.17.0-1
+Homepage: https://www.webmproject.org
+Depends: libvpx (= 1:1.17.0-1)
+Description: Static libraries for libvpx
+Filename: ./libvpx-static_1:1.17.0-1_aarch64.deb
+Size: 946620
+MD5sum: d2b0d8593d49093077c1dbe6b8483976
+SHA1: a7574a579c8468b7b2fc8636db2c4605467ca902
+SHA256: 456dcb6b27b83855cccf9327bc737c41a562a474807ebc958e5f833d62567f0b
+
+Package: libvpx
+Architecture: aarch64
+Installed-Size: 2456
+Maintainer: @termux
+Version: 1:1.17.0-1
+Homepage: https://www.webmproject.org
+Breaks: libvpx-dev
+Depends: libc++
+Replaces: libvpx-dev
+Description: VP8 & VP9 Codec SDK
+Filename: ./libvpx_1:1.17.0-1_aarch64.deb
+Size: 873028
+MD5sum: 6b39dedf4f1ff57c176ba7993de27445
+SHA1: 9d412467b3bb2cbffcd95e9550aafc6995b95e5b
+SHA256: 49c3ca9e6a3b08e42bc91fae273587b2e7bedd21218c050d63cc67b075f2ff06
+
 Package: libxmlb
 Architecture: aarch64
 Installed-Size: 692
@@ -233,6 +741,81 @@ Size: 90184
 MD5sum: eddc561ad1e9814279e25063d92f588b
 SHA1: 38f85441925bf3ad9dbbdd1b077f82728b6c6259
 SHA256: 4b86a60229b1427bea535b07216bf4dd097b88abacd2f9855dad2a97a3f740ae
+
+Package: pcre-static
+Architecture: aarch64
+Installed-Size: 528
+Maintainer: @termux
+Version: 8.45-3
+Homepage: https://www.pcre.org
+Depends: pcre (= 8.45-3)
+Description: Static libraries for pcre
+Filename: ./pcre-static_8.45-3_aarch64.deb
+Size: 135616
+MD5sum: 9f0c0ef2efeb2b49896ae6f3c28ace9e
+SHA1: 02da35211bb399e0974683afa0282975542b7ed4
+SHA256: 8be2cc0e6d5a1058a606b1574155cafd49ab373723f7930437592d2a28bd9cdc
+
+Package: pcre
+Architecture: aarch64
+Installed-Size: 2724
+Maintainer: @termux
+Version: 8.45-3
+Homepage: https://www.pcre.org
+Breaks: pcre-dev
+Depends: libc++
+Replaces: pcre-dev
+Description: Library implementing regular expression pattern matching using the same syntax and semantics as Perl 5
+Filename: ./pcre_8.45-3_aarch64.deb
+Size: 665928
+MD5sum: 6a56689404f2b4025c2222ca345cdc73
+SHA1: 2ec8240951e90121c5d567280fef2fb2d65de589
+SHA256: bf9ef58b6cf3feab4888216f5d77834d0a569a2d5709cf84aec5552c22ecc526
+
+Package: pcregrep
+Architecture: aarch64
+Installed-Size: 88
+Maintainer: @termux
+Version: 8.45-3
+Homepage: https://www.pcre.org
+Depends: pcre (= 8.45-3)
+Description: A grep with Perl-compatible regular expressions
+Filename: ./pcregrep_8.45-3_aarch64.deb
+Size: 24816
+MD5sum: f8ee80aaf7e15ffd23c7b5d9fcf2458b
+SHA1: 66cf65603e2fbea77991cc7c9116f922d02fafe8
+SHA256: 9220ecbfeb261415ca2c06f2e30c365670a17ca014d63775bcc617e066103379
+
+Package: ruby-ri
+Architecture: all
+Installed-Size: 64044
+Maintainer: @termux
+Version: 4.0.7-1
+Homepage: https://www.ruby-lang.org/
+Depends: ruby (= 4.0.7-1)
+Description: Ruby documentation index
+Filename: ./ruby-ri_4.0.7-1_all.deb
+Size: 1709356
+MD5sum: 2188c90ea5adddb27377bbe9e745da3d
+SHA1: 4047ba2f2a3fa2685b16fc415e967522bf7b5d12
+SHA256: 749f42efe02ce9ff836f26e9ed286198b03091e0d2fecc87a4943f1cdc25791b
+
+Package: ruby
+Architecture: aarch64
+Installed-Size: 46176
+Maintainer: @termux
+Version: 4.0.7-1
+Homepage: https://www.ruby-lang.org/
+Breaks: ruby-dev
+Depends: libandroid-execinfo, libandroid-support, libffi, libgmp, readline, openssl, libyaml, zlib
+Recommends: clang, make, pkg-config, resolv-conf
+Replaces: ruby-dev
+Description: Dynamic programming language with a focus on simplicity and productivity
+Filename: ./ruby_4.0.7-1_aarch64.deb
+Size: 9743596
+MD5sum: 3a41ddac91e74e48466ea5fe74f74bf7
+SHA1: 20a0ccc32a7e5bf7f24877fa0d18021c3d9934a1
+SHA256: 357a9e8aabcee269f97a74d9fc06f5ccdec5fb1377be29662d740a77b495e2b7
 
 Package: stemwords
 Architecture: aarch64

@@ -1,0 +1,248 @@
+Package: antiword
+Architecture: aarch64
+Installed-Size: 604
+Maintainer: @termux
+Version: 0.37-5
+Homepage: https://en.m.wikipedia.org/wiki/Antiword
+Description: A free MS Word reader
+Filename: ./antiword_0.37-5_aarch64.deb
+Size: 91104
+MD5sum: 1402bc6584e97494d96f2a9f881aa5f3
+SHA1: c3375ac39ac412a9550f0ec8d0314d2d13e66a7d
+SHA256: f2dfa14c308bbfbc632212b84224a2c06014d22c688ba4431e1383e1de552f3b
+
+Package: apkeep
+Architecture: aarch64
+Installed-Size: 10992
+Maintainer: @termux
+Version: 1.1.0-1
+Homepage: https://github.com/EFForg/apkeep
+Depends: openssl (>= 3.0.3)
+Description: A command-line tool for downloading APK files from various sources
+Filename: ./apkeep_1.1.0-1_aarch64.deb
+Size: 2966060
+MD5sum: d11c73f704a2148e4d68e8f9ecc0e31b
+SHA1: 209973e0a65bb25ad32d091fa4d5c5d65febf477
+SHA256: 4a5c1e53f3e1cedf98a17eb74f1aeb618f771ffbe5ff051e9360fd53166dd3e3
+
+Package: apksigner
+Architecture: all
+Installed-Size: 1204
+Maintainer: @termux
+Version: 37.0.0-1
+Homepage: https://developer.android.com/studio/command-line/apksigner
+Depends: openjdk-21
+Description: APK signing tool from Android SDK
+Filename: ./apksigner_37.0.0-1_all.deb
+Size: 1069824
+MD5sum: ef423a0edca5319d15feb0a9bbe08b77
+SHA1: 6836ca9e48fcd18bb6b4e183a4c9b7bb9989c4db
+SHA256: 68ef2cf3591731ed206e53d47f2dc4c2c99c00a098f0d6bcd82a17a1900e81a7
+
+Package: apktool
+Architecture: aarch64
+Installed-Size: 6048
+Maintainer: xingguangcuican6666
+Version: 3.0.3-1
+Homepage: https://apktool.org/
+Depends: openjdk-21, aapt2
+Description: A tool for reverse engineering Android apps (decoding, rebuilding, and smali debugging).
+Filename: ./apktool_3.0.3-1_aarch64.deb
+Size: 5900140
+MD5sum: 725599e6f1fcff7aabc5a625a8c683ca
+SHA1: 8b135fd380abe4821396f19e3752d00c2c6fe42e
+SHA256: 72c3bc2e788f052243540ae08408902cb8fb80263cee7446bc930d80656d9024
+
+Package: appstream
+Architecture: aarch64
+Installed-Size: 2460
+Maintainer: @termux
+Version: 1.2.1-1
+Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
+Depends: curl, glib, libfyaml, libxml2, libxmlb, zstd
+Description: Provides a standard for creating app stores across distributions
+Filename: ./appstream_1.2.1-1_aarch64.deb
+Size: 358076
+MD5sum: f68ba98d43f0c28fd0eadf9b1e93b117
+SHA1: b75ef5dad71f1609bf17154586bde2bdcff8cf45
+SHA256: a26469ecbcf338276b5a1fed3e0d23fc8178d361d5718c85248c58cbcab53d40
+
+Package: apt-ftparchive
+Architecture: aarch64
+Installed-Size: 316
+Maintainer: @termux
+Version: 2.8.1-3
+Homepage: https://packages.debian.org/apt
+Depends: libdb, apt (= 2.8.1-3)
+Description: apt-ftparchive is the command line tool that generates the index files that APT uses to access a distribution source
+Filename: ./apt-ftparchive_2.8.1-3_aarch64.deb
+Size: 95568
+MD5sum: aed23876f3fce4ee78c894f729bfffe2
+SHA1: a494593e3707fa7a5a100496aec6fa4c5316fe02
+SHA256: 749adf6bb4c79977a0c3a2091c65ecdf7c0bf7ac63449a64a0bbb25fae5f8daf
+
+Package: apt-transport-tor
+Architecture: all
+Installed-Size: 44
+Maintainer: @termux
+Version: 2.8.1-3
+Homepage: https://packages.debian.org/apt
+Depends: tor, apt (= 2.8.1-3)
+Description: APT transport for anonymous package downloads via Tor
+Filename: ./apt-transport-tor_2.8.1-3_all.deb
+Size: 928
+MD5sum: 1b50ac3df3a4feb8d82bbb5a0f606969
+SHA1: 610fa6549ba69a777d3b2fad3249ac1282868c52
+SHA256: 36f35e3918260cf0b0bcd1c822819f81355cc28966ddae8990630fd1e377cc2b
+
+Package: docbook-xml
+Architecture: all
+Installed-Size: 2412
+Maintainer: @termux
+Version: 5.1-2
+Homepage: https://www.oasis-open.org/docbook/
+Breaks: docbook-xsl (<= 1.79.2-1)
+Depends: libxml2-utils
+Description: A widely used XML scheme for writing documentation and help
+Filename: ./docbook-xml_5.1-2_all.deb
+Size: 78236
+MD5sum: d16e9f7d4cccfa087d091ba66ecfdd21
+SHA1: cdd22b34a49a95285c435f804ce0ffbb1358daf6
+SHA256: e372776fce72f9c3c9f13fa158513769618387dc2891ed694b3d25581c99b3b2
+
+Package: docbook-xsl
+Architecture: all
+Installed-Size: 33412
+Maintainer: @termux
+Version: 1.79.2-5
+Homepage: https://docbook.org/
+Depends: docbook-xml (>= 5.1), libxml2-utils, xsltproc
+Description: XML stylesheets for Docbook-xml transformations
+Filename: ./docbook-xsl_1.79.2-5_all.deb
+Size: 1387572
+MD5sum: 06bc429b1c772c4c34937a0116e1abcc
+SHA1: bc4f363df7dfc7179bd6cc171c38a6f982c22a85
+SHA256: 3efce36525edb04f989c3b2c4f5e2efd470a20eeb8c613cb6b81d978df7eeaeb
+
+Package: dpkg-perl
+Architecture: all
+Installed-Size: 940
+Maintainer: @termux
+Version: 1.22.6-6
+Homepage: https://packages.debian.org/dpkg
+Depends: perl, clang, make, dpkg (= 1.22.6-6)
+Description: Perl modules for dpkg
+Filename: ./dpkg-perl_1.22.6-6_all.deb
+Size: 126288
+MD5sum: 1efad81543a806d3c59d5626aa31ec3b
+SHA1: 2382500da20d2ce8b1670b5e1ba2b7b101c520fd
+SHA256: f2b588b764246d01bda11e2bd318bd85894e4a5929eae9268ba8f190744c3b92
+
+Package: dpkg-scanpackages
+Architecture: all
+Installed-Size: 56
+Maintainer: @termux
+Version: 1.22.6-6
+Homepage: https://packages.debian.org/dpkg
+Depends: dpkg-perl, dpkg (= 1.22.6-6)
+Description: Creates Packages index files
+Filename: ./dpkg-scanpackages_1.22.6-6_all.deb
+Size: 6516
+MD5sum: 4e974139fd6b981cd01a51aa1bfe84c0
+SHA1: f41c4c1259dd12c7fb16ea295baccd48c55735a9
+SHA256: fafc828135a14728baeca319421b334fe2d89a3eb16c0bf155425ec55670396e
+
+Package: libapt-pkg-perl
+Architecture: aarch64
+Installed-Size: 308
+Maintainer: @termux
+Version: 0.1.43-2
+Homepage: https://packages.debian.org/libapt-pkg-perl
+Depends: apt, libc++, perl
+Description: Perl interface to APT's libapt-pkg
+Filename: ./libapt-pkg-perl_0.1.43-2_aarch64.deb
+Size: 66016
+MD5sum: dab02f0083cce89a5f8e9b23224c06ff
+SHA1: 82b3213d7f8aa055b585703ca49bb00bf04a51f8
+SHA256: 5da543ce22594f5d57719fefb9d44ceeffc4ee991af9413692897674b1b08a53
+
+Package: libfyaml-static
+Architecture: aarch64
+Installed-Size: 1100
+Maintainer: @termux
+Version: 0.9.6-2
+Homepage: https://pantoniou.github.io/libfyaml/
+Depends: libfyaml (= 0.9.6-2)
+Description: Static libraries for libfyaml
+Filename: ./libfyaml-static_0.9.6-2_aarch64.deb
+Size: 240328
+MD5sum: e91bf3a772884607992d04785f6247cb
+SHA1: 4e6d1c7621a926a2195bc51cb5223c9d56c84c4f
+SHA256: da6bd5fa82e499e5b6fd8c337f664a27b4c52c09e78acd63fa2cc7ededdc3f6f
+
+Package: libfyaml
+Architecture: aarch64
+Installed-Size: 1264
+Maintainer: @termux
+Version: 0.9.6-2
+Homepage: https://pantoniou.github.io/libfyaml/
+Description: Fully feature complete YAML parser and emitter
+Filename: ./libfyaml_0.9.6-2_aarch64.deb
+Size: 371832
+MD5sum: 97fe32cb738031d6b5115bf5956e7e00
+SHA1: 0ffe11877185a8d62becd69269528e5878bbdad2
+SHA256: a16bb94d5086d72a71ee7b18f29188731dd4d12746e37404982ef67eecf351e3
+
+Package: libstemmer-static
+Architecture: aarch64
+Installed-Size: 1952
+Maintainer: @termux
+Version: 3.1.1-1
+Homepage: https://snowballstem.org/
+Depends: libstemmer (= 3.1.1-1)
+Description: Static libraries for libstemmer
+Filename: ./libstemmer-static_3.1.1-1_aarch64.deb
+Size: 184168
+MD5sum: f0fde00a626c742b9918e59a4dd88a1e
+SHA1: 76ff0bba0669ad0d809f8fd395b914346b8a87d3
+SHA256: 823f372bf710e66b574d81440e40ea2ded72d9c3099434dcaaee8106eddaf63f
+
+Package: libstemmer
+Architecture: aarch64
+Installed-Size: 1216
+Maintainer: @termux
+Version: 3.1.1-1
+Homepage: https://snowballstem.org/
+Description: Snowball compiler and stemming algorithms
+Filename: ./libstemmer_3.1.1-1_aarch64.deb
+Size: 109280
+MD5sum: b2a9c4e24918e5d791a98d824c166113
+SHA1: e7ac2fdb7d446ce4877ccfb10ca89c8eefc1f7f4
+SHA256: 0de1a916a20b71be24c3c4944063b4bc598d568f0d3b911cdfe66321166dd033
+
+Package: libxmlb
+Architecture: aarch64
+Installed-Size: 692
+Maintainer: @termux
+Version: 0.3.29-1
+Homepage: https://github.com/hughsie/libxmlb
+Depends: glib, liblzma, libstemmer, zstd
+Description: Library to help create and query binary XML blobs
+Filename: ./libxmlb_0.3.29-1_aarch64.deb
+Size: 90184
+MD5sum: eddc561ad1e9814279e25063d92f588b
+SHA1: 38f85441925bf3ad9dbbdd1b077f82728b6c6259
+SHA256: 4b86a60229b1427bea535b07216bf4dd097b88abacd2f9855dad2a97a3f740ae
+
+Package: stemwords
+Architecture: aarch64
+Installed-Size: 1196
+Maintainer: @termux
+Version: 3.1.1-1
+Homepage: https://snowballstem.org/
+Description: A command-line tool which uses libstemmer
+Filename: ./stemwords_3.1.1-1_aarch64.deb
+Size: 110808
+MD5sum: fd2bbeed0da1f5223977bf6a0af1b630
+SHA1: f0c0ed37f5f7b748d31a1d50db89a83153031e29
+SHA256: 3fe989b368702099427e22a41ab93fc60adb86baae0ba93097f313615d6845da

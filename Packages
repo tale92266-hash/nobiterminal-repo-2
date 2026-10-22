@@ -404,6 +404,132 @@ MD5sum: 5f5d1ad9b1f2fd4f71311c67a61e7f41
 SHA1: f7d205da4fc01850fb20a3e4aea687582fba7605
 SHA256: 13c258aedebc59a926523a5168df78032ebd92a4242b763f48beae9fea73b0fe
 
+Package: aspnetcore-runtime-10.0
+Architecture: aarch64
+Installed-Size: 11120
+Maintainer: @truboxl
+Version: 10.0.13-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-runtime-10.0
+Description: ASP.NET Core 10.0 Runtime
+Filename: ./aspnetcore-runtime-10.0_10.0.13-1_aarch64.deb
+Size: 2896944
+MD5sum: f3d266c18319b5caba182544234943ef
+SHA1: 691451acf114629048a34644450a557ce6c74562
+SHA256: 09fa1d95eb81c3c928f3483ac05242ba3f744afcc45870b2d4f0dac6f650781d
+
+Package: aspnetcore-runtime-8.0
+Architecture: aarch64
+Installed-Size: 11088
+Maintainer: @truboxl
+Version: 8.0.32-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-runtime-8.0
+Description: ASP.NET Core 8.0 Runtime
+Filename: ./aspnetcore-runtime-8.0_8.0.32-1_aarch64.deb
+Size: 2855800
+MD5sum: 84147d5b75c954fed25894b8c23fe3fd
+SHA1: 73f9bc830e5dbda7b5ae5b941038f460359905cc
+SHA256: f27ec5289e0c7a9177576e4b8f9fdce5f875f139056200690752b81d91b32af9
+
+Package: aspnetcore-runtime-9.0
+Architecture: aarch64
+Installed-Size: 10888
+Maintainer: @truboxl
+Version: 9.0.21-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-runtime-9.0
+Description: ASP.NET Core 9.0 Runtime
+Filename: ./aspnetcore-runtime-9.0_9.0.21-1_aarch64.deb
+Size: 2799176
+MD5sum: 789c09e48e6e96b68e2562a67d9f4356
+SHA1: 111b36f01d55e1efbc3ae89d4dbcabc57be29405
+SHA256: e97178b8b6bcbb281ea26bcdaafb77d1df35860d77eb971b408b0444a0e56b07
+
+Package: aspnetcore-runtime-dbg-10.0
+Architecture: aarch64
+Installed-Size: 5852
+Maintainer: @truboxl
+Version: 10.0.13-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: aspnetcore-runtime-10.0
+Description: ASP.NET Core 10.0 Runtime Managed Debug Symbols
+Filename: ./aspnetcore-runtime-dbg-10.0_10.0.13-1_aarch64.deb
+Size: 1555012
+MD5sum: e5b00d18bdc83d63ed6aae396c844197
+SHA1: 709e7599b8a41594ad351c71f5d4d3a58421198b
+SHA256: 85c76be6c4ad8c1b0b79edaca7fd3b0a36c7d801b70fdb2def9487b03ebd0ec7
+
+Package: aspnetcore-runtime-dbg-8.0
+Architecture: aarch64
+Installed-Size: 11424
+Maintainer: @truboxl
+Version: 8.0.32-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: aspnetcore-runtime-8.0
+Description: ASP.NET Core 8.0 Runtime Managed Debug Symbols
+Filename: ./aspnetcore-runtime-dbg-8.0_8.0.32-1_aarch64.deb
+Size: 6722444
+MD5sum: 3c6574168a82b40550093a7b30d816f0
+SHA1: 794ddacd620b4f0b956242cf8f259e8e12adb4d6
+SHA256: 6db565eca8f1bb602a4afe3f54a431d52aa8d6c50a9d27530f52f661363a9331
+
+Package: aspnetcore-runtime-dbg-9.0
+Architecture: aarch64
+Installed-Size: 5644
+Maintainer: @truboxl
+Version: 9.0.21-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: aspnetcore-runtime-9.0
+Description: ASP.NET Core 9.0 Runtime Managed Debug Symbols
+Filename: ./aspnetcore-runtime-dbg-9.0_9.0.21-1_aarch64.deb
+Size: 1506368
+MD5sum: d4716c9061e978f66fcb85bb6e52395d
+SHA1: 1d55414ae6da1f30576badbc73c519de7b0479e9
+SHA256: d6135f07892e9066cc325bc87f06d9900fb202736230f4ddee97e4666d2fe749
+
+Package: aspnetcore-targeting-pack-10.0
+Architecture: aarch64
+Installed-Size: 47264
+Maintainer: @truboxl
+Version: 10.0.13-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: ASP.NET Core 10.0 Targeting Pack
+Filename: ./aspnetcore-targeting-pack-10.0_10.0.13-1_aarch64.deb
+Size: 3416772
+MD5sum: 24eb74a83aab7c917db3c99b9d5648f4
+SHA1: 17130885860ae834a1f6558f79a4f7021941d720
+SHA256: f3faeb1a5b2b6d2c58fe492611c9645e67425358e7f3c93af3a729ccab0f9204
+
+Package: aspnetcore-targeting-pack-8.0
+Architecture: aarch64
+Installed-Size: 15692
+Maintainer: @truboxl
+Version: 8.0.32-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: ASP.NET Core 8.0 Targeting Pack
+Filename: ./aspnetcore-targeting-pack-8.0_8.0.32-1_aarch64.deb
+Size: 1741832
+MD5sum: b01132f0f03ffec015cc9e07ee8e96b0
+SHA1: 1d4ce1aa34c08d98adc697ee1f4dd9d8a9e85be7
+SHA256: 13b3bb8fd9db74ae7e34487034162db572f368f5ba2a68a908b17f5ca60b166a
+
+Package: aspnetcore-targeting-pack-9.0
+Architecture: aarch64
+Installed-Size: 15764
+Maintainer: @truboxl
+Version: 9.0.21-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: ASP.NET Core 9.0 Targeting Pack
+Filename: ./aspnetcore-targeting-pack-9.0_9.0.21-1_aarch64.deb
+Size: 1739996
+MD5sum: 94b59422a3f59e7833a34c17b30ca74b
+SHA1: 2c93d26d7f6a806746a9a848392677cae82e406e
+SHA256: 496af70319eebe587d2de0e33219734037fcb3e2961de2deaeef40ef545a9c79
+
 Package: bftpd
 Architecture: aarch64
 Installed-Size: 144
@@ -929,6 +1055,104 @@ MD5sum: 25442c841f3693fd297eb5ea83433340
 SHA1: 1591ade7a9932603a4b9d1a144f41fbbe4f8adf9
 SHA256: 47e8449d5c4b906282c35c9eeb5016eb1df6754692f3e04aa917fbfdfed51345
 
+Package: cmusfm
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: @termux
+Version: 0.5.0-2
+Homepage: https://github.com/Arkq/cmusfm
+Depends: libandroid-spawn, libcurl, openssl
+Description: Last.fm standalone scrobbler for the cmus music player
+Filename: ./cmusfm_0.5.0-2_aarch64.deb
+Size: 11400
+MD5sum: b45297f4c3080b231a24e4b0bf1d9b83
+SHA1: 09844c508e39396fada6383ef2bcf0ada17c9d73
+SHA256: 2c6c274fe17af2d4c780999df8318262d9e535a7cfb75570c330765eb439f3a2
+
+Package: codecrypt
+Architecture: aarch64
+Installed-Size: 472
+Maintainer: @termux
+Version: 1.8-11
+Homepage: http://e-x-a.org/codecrypt/
+Depends: cryptopp, fftw, libc++, libgmp
+Description: The post-quantum cryptography tool
+Filename: ./codecrypt_1.8-11_aarch64.deb
+Size: 129128
+MD5sum: 4c74c8ba349b18358651933127895d91
+SHA1: add4cdd855fe6c37996bea97efc61eafe9906dae
+SHA256: b3848c3b769b68d95efa7b8ec0eaa21b1f84cc2103cfa97e65750056b4986168
+
+Package: codon
+Architecture: aarch64
+Installed-Size: 274056
+Maintainer: @termux
+Version: 0.20.2-2
+Homepage: https://github.com/exaloop/codon
+Depends: libc++, libxml2, zlib, zstd
+Description: A high-performance, zero-overhead, extensible Python compiler using LLVM
+Filename: ./codon_0.20.2-2_aarch64.deb
+Size: 37833236
+MD5sum: 11702008eb825308b0d43c4770a789b4
+SHA1: 596494044dff7f8636f6204571d38b2027576c3f
+SHA256: 5237f81378171ccc6aa57e70eb87d10ca7f9caa173254958d0215ea472c247c2
+
+Package: coinor-cbc-static
+Architecture: aarch64
+Installed-Size: 4644
+Maintainer: @termux
+Version: 2.10.13-1
+Homepage: https://github.com/coin-or/Cbc
+Depends: coinor-cbc (= 2.10.13-1)
+Description: Static libraries for coinor-cbc
+Filename: ./coinor-cbc-static_2.10.13-1_aarch64.deb
+Size: 726364
+MD5sum: b4ef395d280a2b5c92355b87d170bdcc
+SHA1: cbc99d242e4c9258c7d596cfd3c084d3eab085e8
+SHA256: 33fef89bf5810a331d847b1886eb27e86643c048ff3ae9ec8ccdbe879e36dca3
+
+Package: coinor-cbc
+Architecture: aarch64
+Installed-Size: 2752
+Maintainer: @termux
+Version: 2.10.13-1
+Homepage: https://github.com/coin-or/Cbc
+Depends: coinor-clp, libc++, libcoinor-cgl, libcoinor-osi, libcoinor-utils
+Description: An open-source mixed integer linear programming solver
+Filename: ./coinor-cbc_2.10.13-1_aarch64.deb
+Size: 660292
+MD5sum: e945f568ad956b565c54c67ae44e8d93
+SHA1: 55c8b7a20a88923f4e79bcfad56d3869c27d9713
+SHA256: 86ed0e3eba4142d0441893ae6cc791dabc869c3d462c15f6292deb21a78fc312
+
+Package: coinor-clp-static
+Architecture: aarch64
+Installed-Size: 7556
+Maintainer: @termux
+Version: 1:1.17.11-1
+Homepage: https://github.com/coin-or/Clp
+Depends: coinor-clp (= 1:1.17.11-1)
+Description: Static libraries for coinor-clp
+Filename: ./coinor-clp-static_1:1.17.11-1_aarch64.deb
+Size: 826552
+MD5sum: 7fec9444293fe833cd90c8ea5b34383b
+SHA1: 64f87d5dbb24e52862e059215ce20824007acbcd
+SHA256: 966b6771f46bcbec6e49fc33717de6a5207f82d726fa24ab98b3dfa09841454b
+
+Package: coinor-clp
+Architecture: aarch64
+Installed-Size: 2752
+Maintainer: @termux
+Version: 1:1.17.11-1
+Homepage: https://github.com/coin-or/Clp
+Depends: libc++, libcoinor-osi, libcoinor-utils
+Description: An open-source linear programming solver
+Filename: ./coinor-clp_1:1.17.11-1_aarch64.deb
+Size: 733132
+MD5sum: 01efc052fdbf1ffff50caefd4ead1208
+SHA1: 7d07da2beac7dc4e2853b7f0fe564515f6dc1c41
+SHA256: 0e8a46dd6a24f8881c2993a7b8a5317ffc76348bf0381a9af1bbbd38eda7285d
+
 Package: cointop
 Architecture: aarch64
 Installed-Size: 13196
@@ -1261,6 +1485,36 @@ Size: 29292
 MD5sum: 34de49017e638cba8360d30092571de3
 SHA1: 777e7eeb0673d6e204fb93d2f8cf993f9e3f2cfd
 SHA256: 59024ffe43e8cbdbe58d5790faa6e8ad43185719b6e657daea4b10f579f86fe0
+
+Package: cryptopp-static
+Architecture: aarch64
+Installed-Size: 52312
+Maintainer: @termux
+Version: 8.9.0-2
+Homepage: https://www.cryptopp.com/
+Depends: cryptopp (= 8.9.0-2)
+Description: Static libraries for cryptopp
+Filename: ./cryptopp-static_8.9.0-2_aarch64.deb
+Size: 5823248
+MD5sum: 72a7c5387fc1c50419587b51068e71b8
+SHA1: a55cfa1d4525c8298c1b3061f0a2429f5dd626c5
+SHA256: 2a81650ce0b168c998e2b70779f0bfa1b5b5f0c6a27aa379ea673e426e86d8d3
+
+Package: cryptopp
+Architecture: aarch64
+Installed-Size: 7552
+Maintainer: @termux
+Version: 8.9.0-2
+Homepage: https://www.cryptopp.com/
+Breaks: cryptopp-dev
+Depends: libc++
+Replaces: cryptopp-dev
+Description: A free C++ class library of cryptographic schemes
+Filename: ./cryptopp_8.9.0-2_aarch64.deb
+Size: 1264204
+MD5sum: d0b908a7e11c03db64c1b6ad778b825f
+SHA1: be48cdd4f81af0fcb99a705444e76cb648f07f5d
+SHA256: 18998c0c6045e35b65c7c6792788518bbe9d5901947f4cc2a91ba90ab2ec02c3
 
 Package: crystal
 Architecture: aarch64
@@ -1847,6 +2101,86 @@ MD5sum: b3232c0d687341dec0d8dc0429a22b8e
 SHA1: 49827d868a930198a4f6496f452f065d10be7122
 SHA256: 37e818664e515dab188da84f1ea7c4b680b29d6b100887cd8e4219ca936a57db
 
+Package: dotnet-apphost-pack-10.0
+Architecture: aarch64
+Installed-Size: 2016
+Maintainer: @truboxl
+Version: 10.0.13-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 10.0 Targeting Pack
+Filename: ./dotnet-apphost-pack-10.0_10.0.13-1_aarch64.deb
+Size: 277560
+MD5sum: a4ffd0a50c2d2ff7eb158c81a3cfb80e
+SHA1: 14dd71e6096ce117ab38523aac2be70f753c6f0d
+SHA256: fef3e66f3cffe40adf841ac7fd11f006855ab8df02b381025bea81ce6703819d
+
+Package: dotnet-apphost-pack-8.0
+Architecture: aarch64
+Installed-Size: 2720
+Maintainer: @truboxl
+Version: 8.0.32-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 8.0 Targeting Pack
+Filename: ./dotnet-apphost-pack-8.0_8.0.32-1_aarch64.deb
+Size: 395416
+MD5sum: b731b8767ff3b7705fab4040c3c6df5e
+SHA1: 305bcfa35a393b772853d67ff7212d6dcaba3249
+SHA256: f00d4f20e02c7d70bb85b059312a97cc70938c5b3d6da2fb7b894d6016d4a01a
+
+Package: dotnet-apphost-pack-9.0
+Architecture: aarch64
+Installed-Size: 2828
+Maintainer: @truboxl
+Version: 9.0.21-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 9.0 Targeting Pack
+Filename: ./dotnet-apphost-pack-9.0_9.0.21-1_aarch64.deb
+Size: 413724
+MD5sum: 18f29703383d1f67654e23bb183ed758
+SHA1: 79920223c6de5ea26d7f1f3ea108e3e360269e0f
+SHA256: 84bd18fec4491d6e6cd3fc052f57f01f7187fc5b644622a323f120d7dedc4b12
+
+Package: dotnet-host-10.0
+Architecture: aarch64
+Installed-Size: 552
+Maintainer: @truboxl
+Version: 10.0.13-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Conflicts: dotnet-host-8.0, dotnet-host-9.0
+Description: .NET 10.0 Host
+Filename: ./dotnet-host-10.0_10.0.13-1_aarch64.deb
+Size: 179000
+MD5sum: 30bd0464fa5d14676e9375d334d77f1f
+SHA1: c28bf35c012a8e47bac1bb77adcc9a16661d3a4e
+SHA256: b1d652175b2e62164f8e4c3bc2a226790f8cdd0a41440f91ee2a5d0677b9af6c
+
+Package: dotnet-host-8.0
+Architecture: aarch64
+Installed-Size: 744
+Maintainer: @truboxl
+Version: 8.0.32-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 8.0 Host
+Filename: ./dotnet-host-8.0_8.0.32-1_aarch64.deb
+Size: 213496
+MD5sum: 2f94ba82a48055f6d543b7c3c008b21b
+SHA1: 15479896b7fa2354189603d16f0583dd75e1b101
+SHA256: ed43800fa331fc840ac13609d75539e7293ea9082699ba75b44cf7bb6651603b
+
+Package: dotnet-host-9.0
+Architecture: aarch64
+Installed-Size: 768
+Maintainer: @truboxl
+Version: 9.0.21-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Conflicts: dotnet-host-8.0
+Description: .NET 9.0 Host
+Filename: ./dotnet-host-9.0_9.0.21-1_aarch64.deb
+Size: 229296
+MD5sum: 34c34967d4ee650a7fc35ac2fc927ba0
+SHA1: 26b8746b877600dc1c567d74fb0ff25e54706a47
+SHA256: 58fbaff9227f368c8c76d6b5b69e1ae20ee161610a904f9ea95578c9d185b4cc
+
 Package: dotnet-host
 Architecture: aarch64
 Installed-Size: 4
@@ -1860,6 +2194,305 @@ Size: 720
 MD5sum: 11d3d74fa4fcb640bb92d9b6295839a3
 SHA1: 1ff5cae97f7f589d06ee3e7145bb91d40ee3793f
 SHA256: dba2174e3de5d7ad1cec0af374e9164c4aed613de6ada4a11e2112d2b1132df7
+
+Package: dotnet-hostfxr-10.0
+Architecture: aarch64
+Installed-Size: 480
+Maintainer: @truboxl
+Version: 10.0.13-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: .NET 10.0 Host Resolver
+Filename: ./dotnet-hostfxr-10.0_10.0.13-1_aarch64.deb
+Size: 144912
+MD5sum: c4a7a25f9a93fa49bea54c099f758e64
+SHA1: 8fc5cbb5113b651d2b8a06819003be5fdc263e3d
+SHA256: e634c127ab629bdec8ec7d03ee7628fcd874a970c4dde966423cc5740a3f3893
+
+Package: dotnet-hostfxr-8.0
+Architecture: aarch64
+Installed-Size: 884
+Maintainer: @truboxl
+Version: 8.0.32-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: .NET 8.0 Host Resolver
+Filename: ./dotnet-hostfxr-8.0_8.0.32-1_aarch64.deb
+Size: 219228
+MD5sum: 8548ccf68fc97fd372845dfd16a55c8c
+SHA1: 0cffaeb4a7d040b1f0dc1675ac2c82dc27b2476e
+SHA256: 0b91e64a5302ba6bff2a9da0954a634058fed9680f8ca9fb9acb09684b57aef5
+
+Package: dotnet-hostfxr-9.0
+Architecture: aarch64
+Installed-Size: 888
+Maintainer: @truboxl
+Version: 9.0.21-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: .NET 9.0 Host Resolver
+Filename: ./dotnet-hostfxr-9.0_9.0.21-1_aarch64.deb
+Size: 221196
+MD5sum: 63f29739ad48c22addb7864e7ba1e860
+SHA1: 8246cf2427405afe8f4aa966a39027150f4a20a1
+SHA256: 6bf1d2ec314479d78bd67baf14a98ff02e166103917793dbb6b01e39689d19e1
+
+Package: dotnet-runtime-10.0
+Architecture: aarch64
+Installed-Size: 72012
+Maintainer: @truboxl
+Version: 10.0.13-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-hostfxr-10.0, libicu, openssl, zlib
+Description: .NET 10.0 Runtime
+Filename: ./dotnet-runtime-10.0_10.0.13-1_aarch64.deb
+Size: 14520456
+MD5sum: 9afe5af2088ce4fc618ffc3634acf589
+SHA1: e99a5705bbb758add33fa719d0837db35f1058bc
+SHA256: e6a4c0269ce74fe14c08015a7cf424f6ea2aeabe2ac0f4984e7be433bbfcd9fc
+
+Package: dotnet-runtime-8.0
+Architecture: aarch64
+Installed-Size: 32788
+Maintainer: @truboxl
+Version: 8.0.32-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-hostfxr-8.0, libicu, openssl, zlib
+Description: .NET 8.0 Runtime
+Filename: ./dotnet-runtime-8.0_8.0.32-1_aarch64.deb
+Size: 8225744
+MD5sum: 9bc60dd8a71c7404c46e786291f97a56
+SHA1: 3177e92a5042560e7744cc467e1dc28e4bffe9ae
+SHA256: 56aa594c143a6fff2f23dc836661e0e661b34b5503bb18bc46bbb47fdf7b6e47
+
+Package: dotnet-runtime-9.0
+Architecture: aarch64
+Installed-Size: 33492
+Maintainer: @truboxl
+Version: 9.0.21-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-hostfxr-9.0, libicu, openssl, zlib
+Description: .NET 9.0 Runtime
+Filename: ./dotnet-runtime-9.0_9.0.21-1_aarch64.deb
+Size: 8393256
+MD5sum: c177b39f212e22ac21dc61cc97962a0f
+SHA1: 6abe5ebc886ea613980f32ecf1dbb3b7f9bceebf
+SHA256: 16b0d2896b5476d40f5683769d76948a423eefaceafc5f38c4c831768eed7778
+
+Package: dotnet-runtime-dbg-10.0
+Architecture: aarch64
+Installed-Size: 8832
+Maintainer: @truboxl
+Version: 10.0.13-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-runtime-10.0
+Description: .NET 10.0 Runtime Managed Debug Symbols
+Filename: ./dotnet-runtime-dbg-10.0_10.0.13-1_aarch64.deb
+Size: 2589380
+MD5sum: 78572cb86734cef831ae4b3ac3ab440a
+SHA1: 4424c4db6d05a8a85bc8572ec4fc7f32dae56e57
+SHA256: bf2e9d371ae97980e0a8d579a7411afd55c5ab3a3c308cd6d2e82b1a8ad082e3
+
+Package: dotnet-runtime-dbg-8.0
+Architecture: aarch64
+Installed-Size: 20948
+Maintainer: @truboxl
+Version: 8.0.32-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-runtime-8.0
+Description: .NET 8.0 Runtime Managed Debug Symbols
+Filename: ./dotnet-runtime-dbg-8.0_8.0.32-1_aarch64.deb
+Size: 15259548
+MD5sum: 19162757784c96d4f65111502c2124cb
+SHA1: febbc7b1393d73a69e786bf5433b5732ece9bac3
+SHA256: 0abf1dfd1a2818407cefd3cad7a047f6e99e4b3911715bcb59c5c36dee15ec48
+
+Package: dotnet-runtime-dbg-9.0
+Architecture: aarch64
+Installed-Size: 8608
+Maintainer: @truboxl
+Version: 9.0.21-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-runtime-9.0
+Description: .NET 9.0 Runtime Managed Debug Symbols
+Filename: ./dotnet-runtime-dbg-9.0_9.0.21-1_aarch64.deb
+Size: 2790412
+MD5sum: 81e614d843989a9d30a41b5d6e719ef9
+SHA1: cc2bc33122d201488cf0a1e906644d37059b0b02
+SHA256: 15d884152b34d3fc17726da596957690f356e78eec38fc60638672a775e712fc
+
+Package: dotnet-sdk-dbg-10.0
+Architecture: aarch64
+Installed-Size: 16472
+Maintainer: @truboxl
+Version: 10.0.13-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-sdk-10.0
+Description: .NET 10.0 SDK Managed Debug Symbols
+Filename: ./dotnet-sdk-dbg-10.0_10.0.13-1_aarch64.deb
+Size: 2851212
+MD5sum: 89594110ee0dd4d85463859f2436d24a
+SHA1: 53fbf755055f5ae1c223764a0e52e08389b68a1c
+SHA256: ecabd70ce1c80d1cbfbd15f1130b4b0b094a03fc9126f701a2a4a978bcd390c1
+
+Package: dotnet-sdk-dbg-9.0
+Architecture: aarch64
+Installed-Size: 47948
+Maintainer: @truboxl
+Version: 9.0.21-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-sdk-9.0
+Description: .NET 9.0 SDK Managed Debug Symbols
+Filename: ./dotnet-sdk-dbg-9.0_9.0.21-1_aarch64.deb
+Size: 15658836
+MD5sum: 806a7a547d0e58c28558d1b936868f28
+SHA1: 72ffb26e19f3932c9e548a81a3092cb3f0441b69
+SHA256: f22785ab76bfe9fc50c0b6fbc80245b9052dc980ee0fefdf975bb324df47acb0
+
+Package: dotnet-targeting-pack-10.0
+Architecture: aarch64
+Installed-Size: 40552
+Maintainer: @truboxl
+Version: 10.0.13-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: .NET 10.0 Targeting Pack
+Filename: ./dotnet-targeting-pack-10.0_10.0.13-1_aarch64.deb
+Size: 2981448
+MD5sum: 98857588540370819444a5fc94a8455c
+SHA1: 8a86ef7c25a698d7612dcffada10c2e30dd9724c
+SHA256: 7e5a335292ab1bc45a91d8ca64438fc8767482c307ad2f0a16c465451ee7673d
+
+Package: dotnet-targeting-pack-8.0
+Architecture: aarch64
+Installed-Size: 36400
+Maintainer: @truboxl
+Version: 8.0.32-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: .NET 8.0 Targeting Pack
+Filename: ./dotnet-targeting-pack-8.0_8.0.32-1_aarch64.deb
+Size: 2782512
+MD5sum: 9b6910e0d95ec2aad431a683c2ea2022
+SHA1: 9b409ae6e6f49c659d3df37c1e1ef46d573add92
+SHA256: b91b0efb7f54da4666c85c9358169ab0770026970e47c2e0dad6ff967393eb1f
+
+Package: dotnet-targeting-pack-9.0
+Architecture: aarch64
+Installed-Size: 38564
+Maintainer: @truboxl
+Version: 9.0.21-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: .NET 9.0 Targeting Pack
+Filename: ./dotnet-targeting-pack-9.0_9.0.21-1_aarch64.deb
+Size: 2883752
+MD5sum: 76463415c0787b3f3d9f3333139623e1
+SHA1: 8fd5b6d850cc41e275565cd5fc980322369dbb44
+SHA256: f5a281d8c4e97a4dfca73149468d971771867a7643c9e8c20b01f8f882833f96
+
+Package: dotnet-templates-10.0
+Architecture: aarch64
+Installed-Size: 10312
+Maintainer: @truboxl
+Version: 10.0.13-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: .NET 10.0 Templates
+Filename: ./dotnet-templates-10.0_10.0.13-1_aarch64.deb
+Size: 2931760
+MD5sum: 4cdbbeb9e1ddb5a678a0bcec4638a2eb
+SHA1: a0323c50004028b5865e15da14fb8958fe8ae797
+SHA256: 789a329c02ed3d88f487f174ededa9e28a9a8cf2b47d9cacd89f89fe04505442
+
+Package: dotnet-templates-8.0
+Architecture: aarch64
+Installed-Size: 5884
+Maintainer: @truboxl
+Version: 8.0.32-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: .NET 8.0 Templates
+Filename: ./dotnet-templates-8.0_8.0.32-1_aarch64.deb
+Size: 2174948
+MD5sum: 60f539f3ef0aa0c90f12e07bfe6b38bb
+SHA1: a60eff44a3a9f59240d794fcb6ea2b5dd078f07f
+SHA256: bdefb7c1917eba34933368ad4c9891e3a2f100bb1d4419ffc774313d4417d0b3
+
+Package: dotnet-templates-9.0
+Architecture: aarch64
+Installed-Size: 9988
+Maintainer: @truboxl
+Version: 9.0.21-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: .NET 9.0 Templates
+Filename: ./dotnet-templates-9.0_9.0.21-1_aarch64.deb
+Size: 2719816
+MD5sum: 88dba9fcf542e3c190dce4c6a70d3c4d
+SHA1: eab94d7560fa29100f10d7e4bd332c4c19844113
+SHA256: 9d71219e0202d9ac06db637981edb116f32cda24610f9e9f07009d952eb290f5
+
+Package: dotnet10.0
+Architecture: aarch64
+Installed-Size: 52
+Maintainer: @truboxl
+Version: 10.0.13-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: aspnetcore-runtime-10.0, dotnet-host, dotnet-runtime-10.0
+Conflicts: dotnet8.0, dotnet9.0
+Suggests: dotnet-sdk-10.0
+Description: .NET 10.0
+Filename: ./dotnet10.0_10.0.13-1_aarch64.deb
+Size: 1696
+MD5sum: 6305f71ea2727e7df6932812b29238ad
+SHA1: dca50f480ae20e0a7cd6c7356fc7b043d06e7606
+SHA256: bb55ed2f8f6c1d306cd8282bb4496ee73b59afeb4fa2520aea4aec478d80bde3
+
+Package: dotnet8.0
+Architecture: aarch64
+Installed-Size: 40
+Maintainer: @truboxl
+Version: 8.0.32-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: aspnetcore-runtime-8.0, dotnet-host, dotnet-runtime-8.0
+Suggests: dotnet-sdk-8.0
+Description: .NET 8.0
+Filename: ./dotnet8.0_8.0.32-1_aarch64.deb
+Size: 1548
+MD5sum: ac481e6378976508f5c3fa825e0b8bec
+SHA1: 0e0c2d3c267bdbb3ff4028d8d370053a1bc4fc04
+SHA256: 7e95110cffe8108b5248751a1e8ec429ffbf387d580d6caa328ebf968e55d309
+
+Package: dotnet9.0
+Architecture: aarch64
+Installed-Size: 40
+Maintainer: @truboxl
+Version: 9.0.21-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: aspnetcore-runtime-9.0, dotnet-host, dotnet-runtime-9.0
+Conflicts: dotnet8.0
+Suggests: dotnet-sdk-9.0
+Description: .NET 9.0
+Filename: ./dotnet9.0_9.0.21-1_aarch64.deb
+Size: 1556
+MD5sum: 04db1bddd0d44cd9c665a805064d5405
+SHA1: c8bfe6b4e31d4e06527fc49ce4f5b41cfc956843
+SHA256: 17f5b6d0bbd52ef6ea1589ff90e4b381b5f72e76f298b202df8233ccd33aaede
+
+Package: double-conversion
+Architecture: aarch64
+Installed-Size: 288
+Maintainer: @termux
+Version: 3.4.0-1
+Homepage: https://github.com/google/double-conversion
+Depends: libc++
+Description: Binary-decimal and decimal-binary routines for IEEE doubles
+Filename: ./double-conversion_3.4.0-1_aarch64.deb
+Size: 55588
+MD5sum: c1ceeb0810ae9c53dbd9d7b45e2103fe
+SHA1: ca0a3018e7f4b7c11ef2af59c6328e5c4fcb4163
+SHA256: 9f863c7193a946125c6967031cc2f45e8ffcbddace38b19bd6c6f0eb78b6aa9c
 
 Package: doxygen
 Architecture: aarch64
@@ -1902,6 +2535,189 @@ Size: 6516
 MD5sum: 4e974139fd6b981cd01a51aa1bfe84c0
 SHA1: f41c4c1259dd12c7fb16ea295baccd48c55735a9
 SHA256: fafc828135a14728baeca319421b334fe2d89a3eb16c0bf155425ec55670396e
+
+Package: draco-static
+Architecture: aarch64
+Installed-Size: 4220
+Maintainer: @termux
+Version: 1.5.9-1
+Homepage: https://google.github.io/draco/
+Depends: draco (= 1.5.9-1)
+Description: Static libraries for draco
+Filename: ./draco-static_1.5.9-1_aarch64.deb
+Size: 412204
+MD5sum: 9cc68a503b28af4e60253c15b201b210
+SHA1: a4aacd83d35e9e7a043c404e3123e57adcf8a322
+SHA256: 712c9bba8f58ab049d62fc05016668c4b4165cfc62d82b2be3f47c7db42ea730
+
+Package: draco
+Architecture: aarch64
+Installed-Size: 3556
+Maintainer: @termux
+Version: 1.5.9-1
+Homepage: https://google.github.io/draco/
+Depends: libc++
+Description: Library for compressing and decompressing 3D geometric meshes and point clouds
+Filename: ./draco_1.5.9-1_aarch64.deb
+Size: 481640
+MD5sum: 48ac09f7f5d4e19ed3c1b10fbeb3e6ae
+SHA1: 3f8d3fce1c031dc8e0e1cd9f43ca644aedcbe985
+SHA256: 3f6a31937d04513c6234bab2fca3dae9e360b52ff30040b048b13aae24bad3e6
+
+Package: dropbear
+Architecture: aarch64
+Installed-Size: 444
+Maintainer: @termux
+Version: 2026.94-1
+Homepage: https://matt.ucc.asn.au/dropbear/dropbear.html
+Depends: termux-auth, zlib
+Conflicts: openssh
+Suggests: openssh-sftp-server, termux-services
+Description: Small SSH server and client
+Filename: ./dropbear_2026.94-1_aarch64.deb
+Size: 143632
+MD5sum: ee1b347a378a2356423fe5f30cbfad71
+SHA1: 657bb63d667e83a83d02fb3828f160b5153a0ccf
+SHA256: 8976c010ad5bae8a24793b1cfd15ca5d85052173037cde8a556c52ccf57ba770
+
+Package: dtach
+Architecture: aarch64
+Installed-Size: 72
+Maintainer: @termux
+Version: 0.9-3
+Homepage: https://dtach.sourceforge.net/
+Description: Emulates the detach feature of screen
+Filename: ./dtach_0.9-3_aarch64.deb
+Size: 9464
+MD5sum: 98f4465b5f021f3349a81d2e96d1eadf
+SHA1: 71f032a477439872fac8fac76c699f94b85fcd38
+SHA256: 493d62592788cb844334485273bfc6f58c29bb79a9ca016dacf98f19f6a7eb32
+
+Package: dtc-static
+Architecture: aarch64
+Installed-Size: 92
+Maintainer: @termux
+Version: 1.8.1-1
+Homepage: https://git.kernel.org/pub/scm/utils/dtc/dtc
+Depends: dtc (= 1.8.1-1)
+Description: Static libraries for dtc
+Filename: ./dtc-static_1.8.1-1_aarch64.deb
+Size: 16216
+MD5sum: b9b9445be8efcf7f6b37da77be1b6810
+SHA1: 46e005550188d172d339cec22463d35f977d325e
+SHA256: e64f321860ed2f2a93c57303cf72d1007aa7c5e949990b3945c923144b1bde2a
+
+Package: dtc
+Architecture: aarch64
+Installed-Size: 416
+Maintainer: @termux
+Version: 1.8.1-1
+Homepage: https://git.kernel.org/pub/scm/utils/dtc/dtc
+Breaks: dtc-dev, qemu-common (<< 1:8.2.5-2), qemu-system-x86-64 (<< 1:8.2.5-3)
+Replaces: dtc-dev, qemu-common (<< 1:8.2.5-2), qemu-system-x86-64 (<< 1:8.2.5-3)
+Description: Device Tree Compiler
+Filename: ./dtc_1.8.1-1_aarch64.deb
+Size: 85652
+MD5sum: d0fe31915b515401eea16cf968728b27
+SHA1: d2a6b397b6cc8595baec2ee7930b9c090135f72a
+SHA256: 785f7f6f5ddbbd29e9c563a06eb26ba5501e1e5256983cf3dd6728b2e715f3cc
+
+Package: dwarves
+Architecture: aarch64
+Installed-Size: 1100
+Maintainer: @termux
+Version: 1.32-1
+Homepage: https://git.kernel.org/cgit/devel/pahole/pahole.git/
+Depends: argp, libandroid-spawn, libdw, libelf, zlib
+Description: Pahole and other DWARF utils
+Filename: ./dwarves_1.32-1_aarch64.deb
+Size: 308768
+MD5sum: 65229c403c58b6f889079628b2eb29e9
+SHA1: 782fe71e7e2aff5ff3ed096a939618bcbcc7ca53
+SHA256: 5a05f59886a30c1d3cf587abab84e74a0abd6f5586b02b41d8ca42ce5098e65f
+
+Package: dx
+Architecture: all
+Installed-Size: 1472
+Maintainer: @termux
+Version: 1:1.16-8
+Homepage: http://developer.android.com/tools/help/index.html
+Description: Command which takes in Java class files and converts them to format executable by Dalvik VM
+Filename: ./dx_1:1.16-8_all.deb
+Size: 1433512
+MD5sum: 224fe8078f18c96e8835d9ee02eabf58
+SHA1: 5f610f8e8c09aad3ca7a5754e85545d586872fb8
+SHA256: d6a2416d2598d614f2fba7ecf0fdbda0fb9d5492b083c0cd62fb2a4e655e05c7
+
+Package: e2tools
+Architecture: aarch64
+Installed-Size: 384
+Maintainer: @termux
+Version: 0.1.2-2
+Homepage: https://github.com/e2tools/e2tools
+Depends: e2fsprogs
+Description: mtools analogue for ext2/3 filesystems
+Filename: ./e2tools_0.1.2-2_aarch64.deb
+Size: 130756
+MD5sum: 7b4307318b957d5580675e3e085b1006
+SHA1: 73f7cd7c191ee725f9cec240c52084be458ea7a2
+SHA256: 94392174a714a6b69122a372e50fdad595c58800256a095ac5b773e40e6b8065
+
+Package: ebook-tools
+Architecture: aarch64
+Installed-Size: 132
+Maintainer: @termux
+Version: 0.2.2-4
+Homepage: https://sourceforge.net/projects/ebook-tools/
+Depends: convertlit, libxml2, libzip
+Description: Tools for accessing and converting various ebook file formats
+Filename: ./ebook-tools_0.2.2-4_aarch64.deb
+Size: 21632
+MD5sum: acaad17aae0f20dd3b0544e3e4cad554
+SHA1: 66e5327744d16e2693b0574eecbfc68fea6ac177
+SHA256: cf9b32a3568142b600d07877ff724acc4d6847088090eac1be7e79fb66d762e1
+
+Package: ecj
+Architecture: all
+Installed-Size: 8188
+Maintainer: @termux
+Version: 1:4.12-6
+Homepage: https://www.eclipse.org/jdt/core/
+Conflicts: ecj4.6
+Description: Eclipse Compiler for Java
+Filename: ./ecj_1:4.12-6_all.deb
+Size: 6775480
+MD5sum: 459810f0bb554f34cd01dfb300e1193b
+SHA1: e510a000e4645b02efdac698d13f1cc89b5e900c
+SHA256: 75ae570106822aa379e91eddda4fa8fef1fa70230bf515a7b566d0d3c0b4ed1a
+
+Package: ecl
+Architecture: aarch64
+Installed-Size: 13012
+Maintainer: @termux
+Version: 26.5.5-1
+Homepage: https://common-lisp.net/project/ecl/
+Depends: libandroid-support, libgmp, libgc, libffi
+Description: ECL (Embeddable Common Lisp) is an interpreter of the Common Lisp language
+Filename: ./ecl_26.5.5-1_aarch64.deb
+Size: 2206196
+MD5sum: ecb11175ed26cbe03152508165467e02
+SHA1: c490a5f1a75a7c253803c533df2848fb9684a933
+SHA256: c757055557345ebbc73ecf25dc50b104b8f51eeccc8edfc544146fb0b17c71a2
+
+Package: edbrowse
+Architecture: aarch64
+Installed-Size: 2676
+Maintainer: @termux
+Version: 3.8.19-1
+Homepage: https://edbrowse.org/
+Depends: libandroid-glob, libcurl, openssl, pcre2, quickjs-ng, readline, unixodbc
+Description: Line based editor, browser, and mail client
+Filename: ./edbrowse_3.8.19-1_aarch64.deb
+Size: 684580
+MD5sum: 4c2f14f73cdd9408606bd1f7d6750a75
+SHA1: e2585a5059b73f256edc0c72905962405e1bef28
+SHA256: 54da40c8aafa416a79f941386be60e2057e98067cd6e5250ecc6ed17a9ee2f80
 
 Package: editorconfig-core-c-static
 Architecture: aarch64
@@ -2550,6 +3366,78 @@ MD5sum: 74b28ba452a014d3432f15df23f2b436
 SHA1: ffc0a80be85934a1ea3e6bc8fcb620e97a3067e9
 SHA256: 3dcaf68b621f6004c50d369b67554eec89c17b57dab5368ad1cc7def97d98a60
 
+Package: git-gitk
+Architecture: aarch64
+Installed-Size: 988
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 2.56.0-1
+Homepage: https://git-scm.com/
+Depends: tk, git (= 2.56.0-1)
+Description: Git repository browser
+Filename: ./git-gitk_2.56.0-1_aarch64.deb
+Size: 145516
+MD5sum: 491c8a485aad5b682b240566c5d33bf8
+SHA1: 4eeb373905280982ef5d5434db32e09466eaeb62
+SHA256: 3df1b5e9f3e537f81c727dc6fd0d4d19eea321d1b9f841f89fc4d9973bb90ca4
+
+Package: git-gui
+Architecture: aarch64
+Installed-Size: 1564
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 2.56.0-1
+Homepage: https://git-scm.com/
+Depends: tk, git (= 2.56.0-1)
+Description: A graphical interface to Git
+Filename: ./git-gui_2.56.0-1_aarch64.deb
+Size: 215572
+MD5sum: 00a536574725f96cad977cb1cbb414c8
+SHA1: a2df2a72fdcc7f9e455bc59ff767eedca8dc3924
+SHA256: f585a0ba36fae037626da6155f8fbc8d4bb5726c1615e02f6e8aedc43109d610
+
+Package: git-svn
+Architecture: all
+Installed-Size: 320
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 2.56.0-1
+Homepage: https://git-scm.com/
+Depends: subversion-perl, git (= 2.56.0-1)
+Description: Convert between Git and Subversion repositories
+Filename: ./git-svn_2.56.0-1_all.deb
+Size: 75560
+MD5sum: 44b10240aeff7f5be2900321931a39a9
+SHA1: f0a387cd198605eea8ac14a477d19e5d6247b60d
+SHA256: 5b2256f5c14792966390efe8632d4bb534cd226a83d19158422699f13c782c7d
+
+Package: graphicsmagick-static
+Architecture: aarch64
+Installed-Size: 5276
+Maintainer: @termux
+Version: 1.3.49-1
+Homepage: http://www.graphicsmagick.org/
+Depends: graphicsmagick (= 1.3.49-1)
+Description: Static libraries for graphicsmagick
+Filename: ./graphicsmagick-static_1.3.49-1_aarch64.deb
+Size: 1074388
+MD5sum: 7dc4be548aa66e7412937bd33ab0654d
+SHA1: f1c37cf03d3a5b5952f69d40de2b8c28b394a0bc
+SHA256: 72e29db9edfb0ebcf7ebe59f63b672788fedfb47f284f0a74c414bbb2c9c36fb
+
+Package: graphicsmagick
+Architecture: aarch64
+Installed-Size: 13188
+Maintainer: @termux
+Version: 1.3.49-1
+Homepage: http://www.graphicsmagick.org/
+Breaks: graphicsmagick-dev
+Depends: freetype, libbz2, libc++, libde265, libheif, libjasper, libjpeg-turbo, libjxl, liblzma, libpng, libtiff, libwebp, libxml2, littlecms, zlib, zstd
+Replaces: graphicsmagick++, graphicsmagick-dev
+Description: Collection of image processing tools
+Filename: ./graphicsmagick_1.3.49-1_aarch64.deb
+Size: 2221020
+MD5sum: 0c14a8c81844357b28033be4def01d8c
+SHA1: b36ccae83b81c4cdf3401d1d13ba2dde3b91f20b
+SHA256: 7f4050cd843400899bee179f32c5925ccadbe9a5f5f17cf24724052807c80c1e
+
 Package: graphviz-static
 Architecture: aarch64
 Installed-Size: 4172
@@ -2907,6 +3795,34 @@ Size: 146516
 MD5sum: c0d5fefe54c15e665a66edf933fd04c9
 SHA1: 1c745374375e2b0247a20fa7d9749ce25efa0818
 SHA256: ab8bf5e689b283e1125d2e9536408e381cc91c83c264a1bf0814e2a593720b78
+
+Package: libcoinor-cgl-static
+Architecture: aarch64
+Installed-Size: 2760
+Maintainer: @termux
+Version: 0.60.10-1
+Homepage: https://github.com/coin-or/Cgl
+Depends: libcoinor-cgl (= 0.60.10-1)
+Description: Static libraries for libcoinor-cgl
+Filename: ./libcoinor-cgl-static_0.60.10-1_aarch64.deb
+Size: 420864
+MD5sum: 6f3640a4b85eb283304fc29272a275b9
+SHA1: 1f007dc412f23388aa8281216082758c08070204
+SHA256: 7d8b26858f0581d1d3d774efbbfff6a7d2382ab43ca151f4f23064b2e7dabfb2
+
+Package: libcoinor-cgl
+Architecture: aarch64
+Installed-Size: 1292
+Maintainer: @termux
+Version: 0.60.10-1
+Homepage: https://github.com/coin-or/Cgl
+Depends: coinor-clp, libc++, libcoinor-osi, libcoinor-utils
+Description: An open-source cut generation library for COIN-OR projects
+Filename: ./libcoinor-cgl_0.60.10-1_aarch64.deb
+Size: 357412
+MD5sum: 12ac74af64527cc8af147d145c9b6d4b
+SHA1: 941890d289961d1a25e556274ddc3e1e96a5a371
+SHA256: 899fb955e2c7fbd7e88e576bfc27321073aa31d73e9d2a07f22e7abbb7baf254
 
 Package: libcoinor-osi-static
 Architecture: aarch64
@@ -3928,6 +4844,34 @@ MD5sum: 6b39dedf4f1ff57c176ba7993de27445
 SHA1: 9d412467b3bb2cbffcd95e9550aafc6995b95e5b
 SHA256: 49c3ca9e6a3b08e42bc91fae273587b2e7bedd21218c050d63cc67b075f2ff06
 
+Package: libwavpack-static
+Architecture: aarch64
+Installed-Size: 244
+Maintainer: @termux
+Version: 5.9.0-1
+Homepage: https://www.wavpack.com/
+Depends: libwavpack (= 5.9.0-1)
+Description: Static libraries for libwavpack
+Filename: ./libwavpack-static_5.9.0-1_aarch64.deb
+Size: 68536
+MD5sum: 0dcacd31f406df5db00491358b9bec85
+SHA1: fe559bf333563924dc385631284454bdf93ae5ef
+SHA256: a8e56e2233337b8f15aab687f15ad067872fe274b89778cb534db486b964196d
+
+Package: libwavpack
+Architecture: aarch64
+Installed-Size: 648
+Maintainer: @termux
+Version: 5.9.0-1
+Homepage: https://www.wavpack.com/
+Depends: libandroid-glob
+Description: A completely open audio compression format providing lossless, high-quality lossy, and a unique hybrid compression mode
+Filename: ./libwavpack_5.9.0-1_aarch64.deb
+Size: 391956
+MD5sum: bdd22a190add912acb410d894515ca88
+SHA1: 716872487d573cc8136319e34764ddc0e1bcf2b5
+SHA256: de30543a58ca6301117680ff94fcffe41a38a7a37a90931973d09258b9b087f4
+
 Package: libxft-static
 Architecture: aarch64
 Installed-Size: 164
@@ -4045,6 +4989,49 @@ MD5sum: cdc3a5435964c5b5b0e6d58422c4a2c8
 SHA1: 26965723cce307249e9cf9892404415a980a26e2
 SHA256: c452fd5eb217e983a95a5f5438f0cc4eef7a86bd937ef6763b30db9b40148b8a
 
+Package: netstandard-targeting-pack-2.1-8.0
+Architecture: aarch64
+Installed-Size: 18480
+Maintainer: @truboxl
+Version: 8.0.32-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: NETStandard.Library 2.1 Targeting Pack (.NET 8.0)
+Filename: ./netstandard-targeting-pack-2.1-8.0_8.0.32-1_aarch64.deb
+Size: 1318476
+MD5sum: e6b635eb737098ecc79cb43b331b9b35
+SHA1: 3741bde78a7a401b7436c06a1800240fc2a06ebc
+SHA256: 8e4ae69adf26247567ff7d6b616e1b203577bdf5cc42470830ff9ebc967ca333
+
+Package: netstandard-targeting-pack-2.1-9.0
+Architecture: aarch64
+Installed-Size: 18480
+Maintainer: @truboxl
+Version: 9.0.21-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Conflicts: netstandard-targeting-pack-2.1-8.0
+Description: NETStandard.Library 2.1 Targeting Pack (.NET 9.0)
+Filename: ./netstandard-targeting-pack-2.1-9.0_9.0.21-1_aarch64.deb
+Size: 1318248
+MD5sum: d871476c5c7fea3df856cce8afae992e
+SHA1: 3f1dc2943ab5bd7a5b8f9765efa30d5328544ad0
+SHA256: 981c1efa872700d97fd81d24369c9bc997c50f28c4a92b8c2567acb83b5fae42
+
+Package: netstandard-targeting-pack-2.1
+Architecture: aarch64
+Installed-Size: 4
+Maintainer: @truboxl
+Version: 9.0-4
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: netstandard-targeting-pack-2.1-9.0 | netstandard-targeting-pack-2.1-8.0
+Description: A metapackage for NETStandard.Library 2.1 Targeting Pack
+Filename: ./netstandard-targeting-pack-2.1_9.0-4_aarch64.deb
+Size: 752
+MD5sum: 17bd6f04b82ffc6537d202ab59e90f0b
+SHA1: 42bdab23ff76b8e8e844ee4a24ec26105011256c
+SHA256: 46d60b610efa5fe1780f1af07d81ddfb376a5991ccc35905d655658231e06752
+
 Package: nss-utils
 Architecture: aarch64
 Installed-Size: 7796
@@ -4103,6 +5090,36 @@ Size: 150888
 MD5sum: c6286dcd4f2b989d61ce106b49975485
 SHA1: be6cc2e2e313a76e1865c7862b3df700c38f68ee
 SHA256: 3f58ff8fcc6a369609034536dcdc281ba5e1c22b72043ad25b677b2ef08e7bb6
+
+Package: opusfile-static
+Architecture: aarch64
+Installed-Size: 100
+Maintainer: @termux
+Version: 0.12-5
+Homepage: https://www.opus-codec.org/
+Depends: opusfile (= 0.12-5)
+Description: Static libraries for opusfile
+Filename: ./opusfile-static_0.12-5_aarch64.deb
+Size: 21400
+MD5sum: d306d3ee8792d4dafce59afde0058105
+SHA1: 621194321022e6b398f9cec88fca794b6cb1d725
+SHA256: 83e7ebd3731a37d6820e695876df3967a184bb42a4e87232b332778a6b4cf27f
+
+Package: opusfile
+Architecture: aarch64
+Installed-Size: 244
+Maintainer: @termux
+Version: 0.12-5
+Homepage: https://www.opus-codec.org/
+Breaks: opusfile-dev
+Depends: libopus, libogg
+Replaces: opusfile-dev
+Description: A high-level API for decoding and seeking within .opus files
+Filename: ./opusfile_0.12-5_aarch64.deb
+Size: 42924
+MD5sum: 9f1544a4e22a97395ccfc88286c4bb37
+SHA1: 469a4d3fff69c5f186c21ee03cee8a155d270355
+SHA256: 595e9ab2df9d0f7600fb31270d91a26ba44485c04b5f7c05b628f2611b508d1d
 
 Package: pango
 Architecture: aarch64
@@ -4220,6 +5237,22 @@ MD5sum: 190c01842d09bc4f84b6bda620f0e39f
 SHA1: 1c58d9a3c581d06c80fb23e4453adb1933d3de87
 SHA256: 775da934c599dc170bfc06a20d6105f546862b7b9f6609c9bbfd05f1adf7d7d3
 
+Package: quickjs-ng
+Architecture: aarch64
+Installed-Size: 1544
+Maintainer: @termux
+Version: 0.17.0-1
+Homepage: https://quickjs-ng.github.io/quickjs/
+Conflicts: quickjs
+Replaces: quickjs
+Provides: quickjs
+Description: Embeddable JavaScript engine in C (NG fork)
+Filename: ./quickjs-ng_0.17.0-1_aarch64.deb
+Size: 460928
+MD5sum: 0b0f099dc6f8677c527454ca8833fd28
+SHA1: 9b7c932183feac93df7c2bc25ed35319f50b1348
+SHA256: d11e7afcad77f09295db311dd74015ee047afa570a33e1fd597abd9b9e5809c9
+
 Package: rdiff
 Architecture: aarch64
 Installed-Size: 56
@@ -4265,6 +5298,36 @@ MD5sum: 3a41ddac91e74e48466ea5fe74f74bf7
 SHA1: 20a0ccc32a7e5bf7f24877fa0d18021c3d9934a1
 SHA256: 357a9e8aabcee269f97a74d9fc06f5ccdec5fb1377be29662d740a77b495e2b7
 
+Package: serf-static
+Architecture: aarch64
+Installed-Size: 216
+Maintainer: @termux
+Version: 1.3.10-3
+Homepage: https://serf.apache.org/
+Depends: serf (= 1.3.10-3)
+Description: Static libraries for serf
+Filename: ./serf-static_1.3.10-3_aarch64.deb
+Size: 39296
+MD5sum: a0b509e9c24619f6cb72f2a86c53ac63
+SHA1: 22eefe72b4e8260da05f7324c976a62940a08153
+SHA256: 5b9fe89dcbf41c1d3666dbeae625928269396918766fa93e59cb9d99eeaf540a
+
+Package: serf
+Architecture: aarch64
+Installed-Size: 232
+Maintainer: @termux
+Version: 1.3.10-3
+Homepage: https://serf.apache.org/
+Breaks: serf-dev
+Depends: apr, apr-util, openssl, zlib
+Replaces: serf-dev
+Description: High performance C-based HTTP client library
+Filename: ./serf_1.3.10-3_aarch64.deb
+Size: 47852
+MD5sum: f285ffcdf1f134a81cf96e31fae7a2db
+SHA1: 8fb53632b0812d2ac403fcfbdd9a188ce1adf1eb
+SHA256: dede9ec0663bdbe9e63a951a435fe3eb99bda0209af9cb68a3554bbda3dd0571
+
 Package: stemwords
 Architecture: aarch64
 Installed-Size: 1196
@@ -4277,6 +5340,64 @@ Size: 110808
 MD5sum: fd2bbeed0da1f5223977bf6a0af1b630
 SHA1: f0c0ed37f5f7b748d31a1d50db89a83153031e29
 SHA256: 3fe989b368702099427e22a41ab93fc60adb86baae0ba93097f313615d6845da
+
+Package: subversion-perl-static
+Architecture: aarch64
+Installed-Size: 92
+Maintainer: @termux
+Version: 1.15.0-2
+Homepage: https://subversion.apache.org
+Depends: subversion-perl, subversion (= 1.15.0-2)
+Description: Static libraries for subversion-perl
+Filename: ./subversion-perl-static_1.15.0-2_aarch64.deb
+Size: 15932
+MD5sum: 43b42b9a0f0fe8b9b925782418b3e6c9
+SHA1: fe56676d65377d88a70c58a01e2460486b2cb93d
+SHA256: cd6b42e560ebb104a5210ce8fe3616a0a149bef5353ab44fb9ecd2db26d9632f
+
+Package: subversion-perl
+Architecture: aarch64
+Installed-Size: 3748
+Maintainer: @termux
+Version: 1.15.0-2
+Homepage: https://subversion.apache.org
+Depends: perl, subversion (= 1.15.0-2)
+Description: Perl interface to Subversion
+Filename: ./subversion-perl_1.15.0-2_aarch64.deb
+Size: 792140
+MD5sum: 1cdea345e8e42581b4a5528193c847c9
+SHA1: a361b486a34bffdb892b2fecdf6a4e93ca299490
+SHA256: e9a2d0f4945a50fd70b83e533181f8fc7551ce81dc694541000f5af192620c65
+
+Package: subversion-static
+Architecture: aarch64
+Installed-Size: 5764
+Maintainer: @termux
+Version: 1.15.0-2
+Homepage: https://subversion.apache.org
+Depends: subversion (= 1.15.0-2)
+Description: Static libraries for subversion
+Filename: ./subversion-static_1.15.0-2_aarch64.deb
+Size: 1146816
+MD5sum: 27d5b883523a0c3e58a79b4cfca37277
+SHA1: 58bbbfa041cfb86a9548c78e08b59b246b8f73bb
+SHA256: 12e364b0386c0a762dcc00e27892348e239b64c90ae4769c64fcdd3d1d80115f
+
+Package: subversion
+Architecture: aarch64
+Installed-Size: 6212
+Maintainer: @termux
+Version: 1.15.0-2
+Homepage: https://subversion.apache.org
+Breaks: subversion-dev
+Depends: apr, apr-util, serf, libexpat, libsqlite, liblz4, utf8proc, zlib, libmagic
+Replaces: subversion-dev
+Description: Centralized version control system characterized by its simplicity
+Filename: ./subversion_1.15.0-2_aarch64.deb
+Size: 1400504
+MD5sum: 90b5242012fc4bc1579afdaff36768a9
+SHA1: 9a24eaccabf20c89bddbf389d28dfbf603250d45
+SHA256: 05194f1ba1513c99e5e7a277c9e8a97f03db28c6fcc17f9d6b16e0fae1a7d680
 
 Package: tcl
 Architecture: aarch64
@@ -4323,6 +5444,35 @@ MD5sum: b027b1075533ebdc36b9bd9b6e116cf6
 SHA1: 53066f5d738293c51c879c27f607731d04aa8eb0
 SHA256: 742d96e3c60eefdb10110f9c8742b3f5ca404ce442b29e448e1be9285a406a2f
 
+Package: unixodbc-static
+Architecture: aarch64
+Installed-Size: 1484
+Maintainer: @termux
+Version: 2.3.14-2
+Homepage: https://www.unixodbc.org/
+Depends: unixodbc (= 2.3.14-2)
+Description: Static libraries for unixodbc
+Filename: ./unixodbc-static_2.3.14-2_aarch64.deb
+Size: 168144
+MD5sum: 7b72232a6d6cb346d4c12cf1f4e5f585
+SHA1: ed9c96f920879230e0a6d4e1c41132d3a0c60010
+SHA256: 342d2b57b7d1bbd7ec925dabbb4d566377db3bea04772f4b62b617f2ab949cd7
+
+Package: unixodbc
+Architecture: aarch64
+Installed-Size: 912
+Maintainer: @termux
+Version: 2.3.14-2
+Homepage: https://www.unixodbc.org/
+Depends: libiconv, libltdl, readline
+Conflicts: libiodbc
+Description: An Open Source ODBC sub-system and an ODBC SDK for Linux, Mac OSX, and UNIX
+Filename: ./unixodbc_2.3.14-2_aarch64.deb
+Size: 193404
+MD5sum: 4a8a7e2b158c953472f04edbe5fb5cbf
+SHA1: b3474b20059bd2d232eea988e3e5cb9cf3be0190
+SHA256: 7896eff98771b83e992b57087742ae107ca9228b1141317cc55eb31c8f2fce30
+
 Package: update-info-dir
 Architecture: all
 Installed-Size: 48
@@ -4350,3 +5500,17 @@ Size: 744
 MD5sum: 52a8bbf8175f02fd8e49250092f210c1
 SHA1: 9c1bcd112231c71667f23bbcc4cfa131e6693617
 SHA256: d0ae8be4ebef5bccc0532453e3707717da297480e7c700b1614983cb1a260d58
+
+Package: wavpack
+Architecture: aarch64
+Installed-Size: 284
+Maintainer: @termux
+Version: 5.9.0-1
+Homepage: https://www.wavpack.com/
+Depends: libiconv, libwavpack (= 5.9.0-1)
+Description: WavPack command-line programs
+Filename: ./wavpack_5.9.0-1_aarch64.deb
+Size: 85792
+MD5sum: feed8160c6968771b5c3314e53f518dd
+SHA1: 724fc7e13e0c33f0ad028344204e2c859ca0fcb7
+SHA256: c9efaef2b8da9e51796aa8b918ba7f2623ce98e51f8cfee8987000dfd3d96785

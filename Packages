@@ -1903,6 +1903,131 @@ MD5sum: 4e974139fd6b981cd01a51aa1bfe84c0
 SHA1: f41c4c1259dd12c7fb16ea295baccd48c55735a9
 SHA256: fafc828135a14728baeca319421b334fe2d89a3eb16c0bf155425ec55670396e
 
+Package: editorconfig-core-c-static
+Architecture: aarch64
+Installed-Size: 56
+Maintainer: @termux
+Version: 0.12.11-1
+Homepage: https://editorconfig.org/
+Depends: editorconfig-core-c (= 0.12.11-1)
+Description: Static libraries for editorconfig-core-c
+Filename: ./editorconfig-core-c-static_0.12.11-1_aarch64.deb
+Size: 7908
+MD5sum: ff5817dc84674e8e6c3e0fa0ec782739
+SHA1: d2f65ba7994ee6b67b3d593a8ca21698637f9fb8
+SHA256: b4bbeb03ee34dc459141137bf2aadb7229c5356f322f7f6ad339552a323d11a5
+
+Package: editorconfig-core-c
+Architecture: aarch64
+Installed-Size: 148
+Maintainer: @termux
+Version: 0.12.11-1
+Homepage: https://editorconfig.org/
+Depends: pcre2
+Description: EditorConfig core code written in C (for use by plugins supporting EditorConfig parsing)
+Filename: ./editorconfig-core-c_0.12.11-1_aarch64.deb
+Size: 17876
+MD5sum: f8aa8f58c8511ea770f88572e0397c9a
+SHA1: 15738184f74a37376b0a58e67389f070ef44c4a4
+SHA256: 429a1aeb1882117b0248e52e6303962dd05804952105e8c8998025055252d8f0
+
+Package: eigen-static
+Architecture: aarch64
+Installed-Size: 5852
+Maintainer: @termux
+Version: 5.0.1-1
+Homepage: http://eigen.tuxfamily.org
+Depends: eigen (= 5.0.1-1)
+Description: Static libraries for eigen
+Filename: ./eigen-static_5.0.1-1_aarch64.deb
+Size: 675408
+MD5sum: 9dea8885e2690191851af856ad77bff7
+SHA1: 30745b1aabfb5e84343c68bcbace311e5581f872
+SHA256: b57bd4ae81f331e491a3c733227bdc8f2025766d8ef52444a34f2bf0efb5cb08
+
+Package: eigen3
+Architecture: aarch64
+Installed-Size: 10092
+Maintainer: @termux
+Version: 3.4.1-1
+Homepage: http://eigen.tuxfamily.org
+Description: Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms (Version 3)
+Filename: ./eigen3_3.4.1-1_aarch64.deb
+Size: 1028568
+MD5sum: 38c1bce8e5833e62536035044b910644
+SHA1: 305c942d8659260991b5ea6e78a0d5f20e185922
+SHA256: 3b87f0cfb5791243325433e5b59b4de656cf6dd7557dbc1d70c48b986e1ac2de
+
+Package: eigen
+Architecture: aarch64
+Installed-Size: 14576
+Maintainer: @termux
+Version: 5.0.1-1
+Homepage: http://eigen.tuxfamily.org
+Breaks: eigen-dev
+Replaces: eigen-dev
+Description: Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms
+Filename: ./eigen_5.0.1-1_aarch64.deb
+Size: 1742136
+MD5sum: d491d60181af2d7c0aea61b3e2a47cce
+SHA1: 28189b1da722090092f63e39d8f1e0dd1bae9ddf
+SHA256: 4f5d08c25c5f56df1f049c1628ebd41be43e9dd6205f5c6e918735930eb1a10f
+
+Package: eja
+Architecture: aarch64
+Installed-Size: 476
+Maintainer: @termux
+Version: 18.4.19-2
+Homepage: https://github.com/eja/eja
+Description: eja micro web server
+Filename: ./eja_18.4.19-2_aarch64.deb
+Size: 116404
+MD5sum: 9322dd12dd6d78ba06ed4a6054577c41
+SHA1: f585e34cbd97645238729fb72691f999a862ff57
+SHA256: de71bd94a6a20979510a5b96ed30a4fe507527f08a37921cfd51ad4a43f66fdf
+
+Package: electric-fence-static
+Architecture: aarch64
+Installed-Size: 84
+Maintainer: @termux
+Version: 2.2.7-2
+Homepage: https://elinux.org/Electric_Fence
+Depends: electric-fence (= 2.2.7-2)
+Description: Static libraries for electric-fence
+Filename: ./electric-fence-static_2.2.7-2_aarch64.deb
+Size: 14328
+MD5sum: e632b492e7f12c38490b4017535734c1
+SHA1: f8938e400c54e0f6c91b17705c3e6eacb599b44c
+SHA256: 624d9452694bc4746edc0e022ee2a76878c442ef75a1056443a9b6a02d1da976
+
+Package: electric-fence
+Architecture: aarch64
+Installed-Size: 80
+Maintainer: @termux
+Version: 2.2.7-2
+Homepage: https://elinux.org/Electric_Fence
+Description: Electric Fence (eFence) malloc memory debugger
+Filename: ./electric-fence_2.2.7-2_aarch64.deb
+Size: 12184
+MD5sum: cb9f8b3d8c32b6c629a063ad02b584be
+SHA1: fde65630e8f3b863cb766e0758cad91119f0eb0f
+SHA256: 094435cd677e30d282563bade06b3241902a590540e50c68562414648c4e915a
+
+Package: electrum
+Architecture: all
+Installed-Size: 20972
+Maintainer: @termux
+Version: 4.8.2-1
+Homepage: https://electrum.org
+Depends: python, libsecp256k1, python-pip, python-cryptography
+Conflicts: asciinema (<< 1.4.0-1)
+Description: Electrum is a lightweight Bitcoin wallet
+Filename: ./electrum_4.8.2-1_all.deb
+Size: 5285116
+MD5sum: ab8cb2a26f6196ba4942f2f34dbcc3da
+SHA1: f531e311f63e1eeff74d96568e5718562892c347
+SHA256: cc12843f2315ec163a7ba863bb7ada130fcc3b2712aa078b6b507785c71f9e9d
+
 Package: elfutils
 Architecture: aarch64
 Installed-Size: 3448
@@ -1916,6 +2041,35 @@ Size: 522144
 MD5sum: 12af4d1cb82bbd29ab7663f67052a7a7
 SHA1: ee472e23421911ee9b0d79072d655abcb86baadb
 SHA256: d5e06da66b2055f2f276c838f34961df903cecbbc94305072a7a2ddc3f704689
+
+Package: elinks
+Architecture: aarch64
+Installed-Size: 1396
+Maintainer: @termux
+Version: 0.20.0-1
+Homepage: https://github.com/rkd77/elinks
+Depends: libandroid-execinfo, libexpat, libiconv, libidn, openssl, libbz2, zlib
+Description: Full-Featured Text WWW Browser
+Filename: ./elinks_0.20.0-1_aarch64.deb
+Size: 418088
+MD5sum: 4a027cc545f66a155b2d7f2e342c746c
+SHA1: 184f3450960dedd3d53c20cd008d5ae647444047
+SHA256: c4dc336b332ff10008e8b92511f8f105a2301e7927096db08d95babc87570936
+
+Package: elixir
+Architecture: all
+Installed-Size: 17000
+Maintainer: @termux
+Version: 1.20.4-1
+Homepage: https://elixir-lang.org/
+Depends: dash, erlang
+Suggests: clang, make
+Description: Elixir is a dynamic, functional language designed for building scalable and maintainable applications
+Filename: ./elixir_1.20.4-1_all.deb
+Size: 6821820
+MD5sum: f0fad5e040b4e78e1fbe296f38cf6285
+SHA1: 3d07003cd6c1a1b85e0dadbc51f5d7f5cbdc278a
+SHA256: 134e796fcd38765bed12c73460bc70425f2098c925377967b0d73b32ace33c7a
 
 Package: eltclsh
 Architecture: aarch64
@@ -2209,6 +2363,146 @@ Size: 66896
 MD5sum: 889cf4e89772318ea86ef6dce56fe2ae
 SHA1: c2f9655e1367d185542982cadc4dddfb5a5e3ad8
 SHA256: c10ec34f4a9afbe5cf8ca86bf95ffb2aa6370e6a07726912874b6bc2bdeeb761
+
+Package: fx
+Architecture: aarch64
+Installed-Size: 15844
+Maintainer: @flosnvjx
+Version: 40.0.0-2
+Homepage: https://github.com/antonmedv/fx
+Description: Interactive JSON viewer on your terminal
+Filename: ./fx_40.0.0-2_aarch64.deb
+Size: 3831480
+MD5sum: edad679f7c446e6a8ad131e3eb6e3f76
+SHA1: 573626eb09fbd3d928e9733ff0fc65a682182984
+SHA256: 32b7d029227ff9088b8d4b6370a7936c8b40ac2cf784023182d954a4b1922831
+
+Package: fzy
+Architecture: aarch64
+Installed-Size: 92
+Maintainer: Krishna Kanhaiya @kcubeterm
+Version: 1.1-2
+Homepage: https://github.com/jhawthorn/fzy
+Description: A simple, fast fuzzy finder for the terminal
+Filename: ./fzy_1.1-2_aarch64.deb
+Size: 12828
+MD5sum: 2b2ace78a4d18bf96737585f198bbe8e
+SHA1: bd6b5baa14f7b26ed805a436bbc514d46b9976c9
+SHA256: db74be95998cdb1b10fdd3958aa4e4f1f9b75f0404144780a593eed80bda0f3b
+
+Package: gap
+Architecture: aarch64
+Installed-Size: 92920
+Maintainer: @termux
+Version: 4.16.1-1
+Homepage: https://www.gap-system.org/
+Breaks: gap-dev
+Depends: readline, libgmp, zlib, gap-packages
+Replaces: gap-dev
+Description: GAP is a system for computational discrete algebra, with particular emphasis on Computational Group Theory
+Filename: ./gap_4.16.1-1_aarch64.deb
+Size: 21348224
+MD5sum: 984b25f93fdb5198a1d4341f7e237458
+SHA1: 2a3ba9d1a5a8371caf8065535fd6870aea082f60
+SHA256: a81a4260c2bffcb69170e99979971cd68f8702b3fda763ef0f336ad34c10fcd2
+
+Package: garage
+Architecture: aarch64
+Installed-Size: 37180
+Maintainer: @termux
+Version: 2.4.1-1
+Homepage: https://garagehq.deuxfleurs.fr/
+Depends: openssl-tool
+Description: S3-compatible object store for small self-hosted geo-distributed deployments
+Filename: ./garage_2.4.1-1_aarch64.deb
+Size: 8006060
+MD5sum: 30d9653c2411b79fcf8107f55fef4a20
+SHA1: 87d49bfae6d9faabe5f5de4e8d06b5bafe0101a8
+SHA256: d820202a95f02952b178e07f6a80a391e124329714c971fd85f27f4d73dc0058
+
+Package: gatling
+Architecture: aarch64
+Installed-Size: 436
+Maintainer: @termux
+Version: 0.16-4
+Homepage: https://www.fefe.de/gatling/
+Depends: libcrypt, libiconv, openssl, zlib
+Description: A high performance http, ftp and smb server
+Filename: ./gatling_0.16-4_aarch64.deb
+Size: 109656
+MD5sum: d4ca118b9aa9ee60a6ed14d55c605a64
+SHA1: deaadc1d979956c159c98e169828788ba5448101
+SHA256: cb4a5ece0f2e842d88e00af8537f4231454af4bb62c3ed3b2946367492c14750
+
+Package: gauche-static
+Architecture: aarch64
+Installed-Size: 59600
+Maintainer: @termux
+Version: 0.9.15-4
+Homepage: https://practical-scheme.net/gauche/
+Depends: gauche (= 0.9.15-4)
+Description: Static libraries for gauche
+Filename: ./gauche-static_0.9.15-4_aarch64.deb
+Size: 9431620
+MD5sum: d4403cb0205a519c2c584b632dfb2460
+SHA1: f65105133dbe086085195bea13fef8d287aee58a
+SHA256: d284ccc5dc7475091adca1869259988abb85fb1211cb138ecc200281fe6f7cd8
+
+Package: gauche
+Architecture: aarch64
+Installed-Size: 42072
+Maintainer: @termux
+Version: 0.9.15-4
+Homepage: https://practical-scheme.net/gauche/
+Depends: gdbm, libcrypt, libiconv, mbedtls, zlib
+Recommends: llvm, ca-certificates
+Description: An R7RS Scheme implementation developed to be a handy script interpreter
+Filename: ./gauche_0.9.15-4_aarch64.deb
+Size: 8674796
+MD5sum: 28d7e282af98b98f79804cf3d3c35cba
+SHA1: 64b7bc2ab2fa1f94f055e131ada4939097a64372
+SHA256: 98cda2b73b7816f7a70207d5298b84e5664474b7e666736b097f2c86686219e5
+
+Package: gbt
+Architecture: aarch64
+Installed-Size: 3056
+Maintainer: @termux
+Version: 2.0.0-8
+Homepage: https://github.com/jtyr/gbt
+Description: Highly configurable prompt builder for Bash and ZSH written in Go
+Filename: ./gbt_2.0.0-8_aarch64.deb
+Size: 786560
+MD5sum: de278f45c91c0865f13d4fed0b6e9258
+SHA1: 8b1fda4afbabb61368b04781487ffd4764a276c5
+SHA256: e98635297dce3dd3935bf28e43e1a4f14b830b73e6a185042d4c712f40faf20e
+
+Package: gcab
+Architecture: aarch64
+Installed-Size: 272
+Maintainer: @termux
+Version: 1.6-2
+Homepage: https://gitlab.gnome.org/GNOME/gcab
+Depends: glib, zlib
+Description: GObject library to create cabinet files
+Filename: ./gcab_1.6-2_aarch64.deb
+Size: 36536
+MD5sum: ec0ab67cce7ea3a1e67f3cd4ac3559d2
+SHA1: f421ff404d916d495d38ec8d155a48b5a3baebae
+SHA256: 72d7c9a463828eea02e25b482344ff380d637bcda8998b024e5af9913413b777
+
+Package: gcal
+Architecture: aarch64
+Installed-Size: 2828
+Maintainer: @termux
+Version: 4.2.0-1
+Homepage: https://www.gnu.org/software/gcal/
+Depends: ncurses
+Description: Program for calculating and printing calendars
+Filename: ./gcal_4.2.0-1_aarch64.deb
+Size: 552500
+MD5sum: 13319d728b3eaad2290647146f9c0342
+SHA1: 4766aa86ca6cc662f089098d47820d0133b70032
+SHA256: 9372542f57aea5682ba4dd6d1bf4dab37dea41e53c697a73363d00cb2e792bca
 
 Package: gdb
 Architecture: aarch64
@@ -3455,6 +3749,33 @@ MD5sum: 6b4f48f60f311288e5bda8c0a16ede9a
 SHA1: 41ffb8f084aaa86ede48f059e8baba2a51505f03
 SHA256: 4df6f4885e8dcfe580eeef9b802fcaf7969081a914fe00e5e05f7608d8a5ce9b
 
+Package: libsecp256k1-static
+Architecture: aarch64
+Installed-Size: 1288
+Maintainer: @termux
+Version: 1:0.8.0-1
+Homepage: https://github.com/bitcoin-core/secp256k1
+Depends: libsecp256k1 (= 1:0.8.0-1)
+Description: Static libraries for libsecp256k1
+Filename: ./libsecp256k1-static_1:0.8.0-1_aarch64.deb
+Size: 1186400
+MD5sum: 9dee35c5591a67af57803d8ed0e87db8
+SHA1: 2872747dd7e74f43d257813c8d548446d93512af
+SHA256: fd2159febf109994f0efd3bdd49d3cdedf925e99befaf88ad59661e7b746090b
+
+Package: libsecp256k1
+Architecture: aarch64
+Installed-Size: 1412
+Maintainer: @termux
+Version: 1:0.8.0-1
+Homepage: https://github.com/bitcoin-core/secp256k1
+Description: Optimized c library for ECDSA signatures and seret/public key operations on curve secp256k1
+Filename: ./libsecp256k1_1:0.8.0-1_aarch64.deb
+Size: 1206744
+MD5sum: 067de1ece1d5c8f3d8a5a27b49277d3a
+SHA1: 7e9be6b3c9f39b5674df6c13d0ad3929a964ab9d
+SHA256: aa2d0e409fde646fce9ce304c5d74238ab66673802c7284426def30be6a604e9
+
 Package: libstemmer-static
 Architecture: aarch64
 Installed-Size: 1952
@@ -3681,6 +4002,35 @@ MD5sum: 5379fcc264917dd1c17ae56267976dc8
 SHA1: 1b44bc5396f840ec10b09868694b37c0f1e00bb8
 SHA256: 3c361ea069213292d2ebce8f5ed1886034b03a928077d161dd9eb05af22e9824
 
+Package: mbedtls-static
+Architecture: aarch64
+Installed-Size: 36
+Maintainer: @termux
+Version: 3.6.7-1
+Homepage: https://www.trustedfirmware.org/projects/mbed-tls/
+Depends: mbedtls (= 3.6.7-1)
+Description: Static libraries for mbedtls
+Filename: ./mbedtls-static_3.6.7-1_aarch64.deb
+Size: 1324
+MD5sum: 21a63d242b1b29932aaf8b16dbe0301e
+SHA1: ce0f7c04181202fab8d47193bd4c3138dbfeeb2e
+SHA256: e687c511033f4d6d6dda1fa20de06f3c601b603aa4cf0bba5e3880b6f39da020
+
+Package: mbedtls
+Architecture: aarch64
+Installed-Size: 3600
+Maintainer: @termux
+Version: 3.6.7-1
+Homepage: https://www.trustedfirmware.org/projects/mbed-tls/
+Breaks: mbedtls-dev
+Replaces: mbedtls-dev
+Description: Light-weight cryptographic and SSL/TLS library
+Filename: ./mbedtls_3.6.7-1_aarch64.deb
+Size: 641592
+MD5sum: 5ddff754d507e364d15a7092088a758e
+SHA1: 0f823be90b5a3d006186fc440f4e0d492fee9583
+SHA256: 2cfb97d4fb73db169ee980bfd525338879c8bda518cd3df5196494979ab8731b
+
 Package: mlir
 Architecture: aarch64
 Installed-Size: 269192
@@ -3813,6 +4163,20 @@ Size: 24816
 MD5sum: f8ee80aaf7e15ffd23c7b5d9fcf2458b
 SHA1: 66cf65603e2fbea77991cc7c9116f922d02fafe8
 SHA256: 9220ecbfeb261415ca2c06f2e30c365670a17ca014d63775bcc617e066103379
+
+Package: python-cryptography
+Architecture: aarch64
+Installed-Size: 5396
+Maintainer: @termux
+Version: 50.0.2-1
+Homepage: https://github.com/pyca/cryptography
+Depends: openssl, python, python-pip
+Description: Provides cryptographic recipes and primitives to Python developers
+Filename: ./python-cryptography_50.0.2-1_aarch64.deb
+Size: 1129248
+MD5sum: d8b5c7f5d36aa078b52511489f0e906e
+SHA1: 150e48822d7cfaa393665be7b48ba3fc9d2e5184
+SHA256: 13897f89d97919631d093b33755a906d8350506bc82ee71cef389b1f6d4160fd
 
 Package: python-ctranslate2
 Architecture: aarch64

@@ -602,6 +602,145 @@ MD5sum: 4e974139fd6b981cd01a51aa1bfe84c0
 SHA1: f41c4c1259dd12c7fb16ea295baccd48c55735a9
 SHA256: fafc828135a14728baeca319421b334fe2d89a3eb16c0bf155425ec55670396e
 
+Package: fcgi-static
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: @termux
+Version: 2.4.7-1
+Homepage: https://fastcgi-archives.github.io/
+Depends: fcgi (= 2.4.7-1)
+Description: Static libraries for fcgi
+Filename: ./fcgi-static_2.4.7-1_aarch64.deb
+Size: 19920
+MD5sum: 36e8181f45a1a37e9595464cd6137a93
+SHA1: d894fc8f87e4a8e2a884df00e749e794db568c4d
+SHA256: 868d058c1f02faba17ad9b67a4dbbd150d8f6d642074b85a55ff3b5d6e4b027b
+
+Package: fcgi
+Architecture: aarch64
+Installed-Size: 248
+Maintainer: @termux
+Version: 2.4.7-1
+Homepage: https://fastcgi-archives.github.io/
+Breaks: fcgi-dev
+Replaces: fcgi-dev
+Description: A language independent, high performant extension to CGI
+Filename: ./fcgi_2.4.7-1_aarch64.deb
+Size: 49708
+MD5sum: 6d24776286332ffe31d37f59739af1f0
+SHA1: 033819d6a9cc8493c9778e2f8057a26589deaf01
+SHA256: 1d3e6afc2ebef393a42d2100e505986180ea42502734d0ee0325685a5da6d544
+
+Package: fcgiwrap
+Architecture: aarch64
+Installed-Size: 76
+Maintainer: @termux
+Version: 1.1.0+g99c942c-1
+Homepage: https://github.com/gnosek/fcgiwrap
+Depends: fcgi
+Description: A simple server for running CGI applications over FastCGI
+Filename: ./fcgiwrap_1.1.0+g99c942c-1_aarch64.deb
+Size: 9552
+MD5sum: de3b8d91a4cb95978017243733ef465e
+SHA1: 9f178e73dd02a556a67cfd203943242074e6d533
+SHA256: 7e36b2cecbc728e954bdbf16d337713e9fadcac8725e0f0ae29de4c65b4425bb
+
+Package: fclones
+Architecture: aarch64
+Installed-Size: 3956
+Maintainer: @termux
+Version: 0.35.0-2
+Homepage: https://github.com/pkolaczk/fclones
+Description: Efficient Duplicate File Finder
+Filename: ./fclones_0.35.0-2_aarch64.deb
+Size: 1239184
+MD5sum: 31cdbe36b86da7da056fcd0d4466d6cd
+SHA1: b1b2e16851207e4b9f759240ad4c166939a5ad20
+SHA256: 7fe464cf376987b6c992043ad88f66b000b3161eb7dc7c3cd226813b7df240b5
+
+Package: fcp
+Architecture: aarch64
+Installed-Size: 540
+Maintainer: @termux
+Version: 0.2.2-1
+Homepage: https://github.com/Svetlitski/fcp
+Description: A significantly faster alternative to the classic Unix cp(1) command
+Filename: ./fcp_0.2.2-1_aarch64.deb
+Size: 185856
+MD5sum: 843806cab07aae93c692b08ed142f76d
+SHA1: 08ca5cb56012ba03185ed1329ee3b34e3ca80914
+SHA256: d718aa7ca335402e05cb17646733cf12110451445fd72802829bb90f6748cf9c
+
+Package: fdkaac
+Architecture: aarch64
+Installed-Size: 132
+Maintainer: @termux
+Version: 1.0.9-1
+Homepage: https://github.com/nu774/fdkaac
+Depends: libfdk-aac
+Description: command line encoder frontend for libfdk-aac
+Filename: ./fdkaac_1.0.9-1_aarch64.deb
+Size: 32932
+MD5sum: e1a5d539f5e843b91f6c6c529936c80a
+SHA1: 6a6ab582b2520ce00810b49a13c4fac2eef7acb6
+SHA256: 29e2de553898740a4e4638020531cd7cd03adaa38cfbbd997afa312907237453
+
+Package: fdm
+Architecture: aarch64
+Installed-Size: 328
+Maintainer: @termux
+Version: 2.2-3
+Homepage: https://github.com/nicm/fdm
+Depends: libandroid-glob, libtdb, openssl, pcre2, zlib
+Description: A program designed to fetch mail from POP3 or IMAP servers, or receive local mail from stdin, and deliver it in various ways
+Filename: ./fdm_2.2-3_aarch64.deb
+Size: 96556
+MD5sum: cc487dab1e3270a44d3d9cecf1a02ed0
+SHA1: 245ff0c5a086757d9c3de17911cf59ead1f222b3
+SHA256: cfb0b70fd667b22409eb1411d51d85882842c8a616c441aef3c978dcbc7dafcb
+
+Package: fdroidcl
+Architecture: aarch64
+Installed-Size: 8652
+Maintainer: @termux
+Version: 0.8.1-3
+Homepage: https://github.com/mvdan/fdroidcl
+Depends: android-tools
+Description: F-Droid client
+Filename: ./fdroidcl_0.8.1-3_aarch64.deb
+Size: 2412384
+MD5sum: 2d9811d0340b1110ce08b532d2a62f56
+SHA1: 87f12d71e2a8ec00b8d598f5b94451ac08542d14
+SHA256: 8546d2b092f65ddc1d65b0ea85cafb94b9057e924a605c0aad7b94856317a4b3
+
+Package: fdupes
+Architecture: aarch64
+Installed-Size: 148
+Maintainer: @termux
+Version: 2.4.0-2
+Homepage: https://github.com/adrianlopezroche/fdupes
+Depends: libsqlite, ncurses, pcre2
+Description: Duplicates file detector
+Filename: ./fdupes_2.4.0-2_aarch64.deb
+Size: 36580
+MD5sum: dfe036aca5629ad0ec830e2e9a7bc97f
+SHA1: b02cf0eda192bc6e802951e008a89a2d038dd9ae
+SHA256: a0d22c2e523c78c3db6e62d8327a2ae0efc8c8ea81de1d8090d0b8527dd3cf04
+
+Package: fennel
+Architecture: all
+Installed-Size: 748
+Maintainer: @termux
+Version: 1.6.1-1
+Homepage: https://fennel-lang.org
+Depends: lua54
+Description: A Lisp that compiles to Lua
+Filename: ./fennel_1.6.1-1_all.deb
+Size: 112116
+MD5sum: f89141daed477f691ce62121c71f7a2a
+SHA1: 066dc062994d88495e1ee66a807df64a93a8669d
+SHA256: 4896b737d97e6e91012c1c42f81316af31164e21e26bc04b7fe51710cf9e20a2
+
 Package: libapt-pkg-perl
 Architecture: aarch64
 Installed-Size: 308
@@ -615,6 +754,63 @@ Size: 66016
 MD5sum: dab02f0083cce89a5f8e9b23224c06ff
 SHA1: 82b3213d7f8aa055b585703ca49bb00bf04a51f8
 SHA256: 5da543ce22594f5d57719fefb9d44ceeffc4ee991af9413692897674b1b08a53
+
+Package: libbsd-static
+Architecture: aarch64
+Installed-Size: 172
+Maintainer: @termux
+Version: 0.12.2-1
+Homepage: https://libbsd.freedesktop.org
+Depends: libbsd (= 0.12.2-1)
+Description: Static libraries for libbsd
+Filename: ./libbsd-static_0.12.2-1_aarch64.deb
+Size: 32092
+MD5sum: 013f552f3fda21fe8ef220451cdebdeb
+SHA1: b5d62c34d0b9e63c44b7e562bcfedd384e787588
+SHA256: 250a6ef453e10d15e3171baaa7b8a162a2528a86407f1821641587e3796b17f0
+
+Package: libbsd
+Architecture: aarch64
+Installed-Size: 1312
+Maintainer: @termux
+Version: 0.12.2-1
+Homepage: https://libbsd.freedesktop.org
+Breaks: libbsd-dev
+Depends: libmd
+Replaces: libbsd-dev
+Description: utility functions from BSD systems
+Filename: ./libbsd_0.12.2-1_aarch64.deb
+Size: 146516
+MD5sum: c0d5fefe54c15e665a66edf933fd04c9
+SHA1: 1c745374375e2b0247a20fa7d9749ce25efa0818
+SHA256: ab8bf5e689b283e1125d2e9536408e381cc91c83c264a1bf0814e2a593720b78
+
+Package: libfdk-aac-static
+Architecture: aarch64
+Installed-Size: 3796
+Maintainer: @termux
+Version: 3.0.0-1
+Homepage: https://github.com/mstorsjo/fdk-aac
+Depends: libfdk-aac (= 3.0.0-1)
+Description: Static libraries for libfdk-aac
+Filename: ./libfdk-aac-static_3.0.0-1_aarch64.deb
+Size: 1116792
+MD5sum: bf95f8b3ed0ad379794cd29aa078e8af
+SHA1: 5160a00170b54ae38bab2d4b18b06dfb143906d0
+SHA256: 6a770d4ab46d4834d74d2b383bc13febff9c9a7c0c496ee6b1c530d181c23ccd
+
+Package: libfdk-aac
+Architecture: aarch64
+Installed-Size: 2444
+Maintainer: @termux
+Version: 3.0.0-1
+Homepage: https://github.com/mstorsjo/fdk-aac
+Description: Fraunhofer FDK AAC Codec Library
+Filename: ./libfdk-aac_3.0.0-1_aarch64.deb
+Size: 971420
+MD5sum: 0240bcc8cc323668bc5e681292b08079
+SHA1: 6d59018d8af696f9eda5c3604dd3e0341e62819f
+SHA256: ab51106d2fc0eeb9ecfec6dba5f286d70927948ee0cfa8ac770fad50ee070ebc
 
 Package: libfyaml-static
 Architecture: aarch64
@@ -697,6 +893,20 @@ Size: 109280
 MD5sum: b2a9c4e24918e5d791a98d824c166113
 SHA1: e7ac2fdb7d446ce4877ccfb10ca89c8eefc1f7f4
 SHA256: 0de1a916a20b71be24c3c4944063b4bc598d568f0d3b911cdfe66321166dd033
+
+Package: libtdb
+Architecture: aarch64
+Installed-Size: 168
+Maintainer: @termux
+Version: 1.4.15-2
+Homepage: https://tdb.samba.org/
+Depends: libbsd
+Description: A trivial database system
+Filename: ./libtdb_1.4.15-2_aarch64.deb
+Size: 38864
+MD5sum: 676c515aae957fa80d4dc64c5427a1c3
+SHA1: 756fa016b67bcff96b438c2ea87e09804111d952
+SHA256: 23bbd021ac836cb73ddb2c9daab851a3e4053e1f4da2a749fa01f82de380f49c
 
 Package: libvpx-static
 Architecture: aarch64
@@ -829,3 +1039,33 @@ Size: 110808
 MD5sum: fd2bbeed0da1f5223977bf6a0af1b630
 SHA1: f0c0ed37f5f7b748d31a1d50db89a83153031e29
 SHA256: 3fe989b368702099427e22a41ab93fc60adb86baae0ba93097f313615d6845da
+
+Package: tcl
+Architecture: aarch64
+Installed-Size: 7740
+Maintainer: @termux
+Version: 8.6.16-1
+Homepage: https://www.tcl.tk/
+Breaks: tcl-dev, tcl-static
+Depends: zlib
+Replaces: tcl-dev, tcl-static
+Description: Powerful but easy to learn dynamic programming language
+Filename: ./tcl_8.6.16-1_aarch64.deb
+Size: 2262460
+MD5sum: f94e1f0f5c7bd26d6878089ddf4d9c04
+SHA1: a1315d8bdf9d3811e266c17fb3b64ee420cdecb0
+SHA256: 6797087fc5c4d47bcd6a246b92e89979d7a986e61bb1e4703e47e9fb5d29abbb
+
+Package: tdb-tools
+Architecture: aarch64
+Installed-Size: 104
+Maintainer: @termux
+Version: 1.4.15-2
+Homepage: https://tdb.samba.org/
+Depends: libtdb (= 1.4.15-2)
+Description: Tools for TDB
+Filename: ./tdb-tools_1.4.15-2_aarch64.deb
+Size: 17788
+MD5sum: c1b494227284632cab5129435340efb3
+SHA1: d9f559587b651d7d8a0dbd274ceb1f1f866a1a69
+SHA256: d9bc191492dace8dc78a7cb1ea1479c878bb4c0d45ffa892f30f2e5d83ba4d3a

@@ -2044,6 +2044,74 @@ MD5sum: 1331a6933071175695e5d7b7a7d4c040
 SHA1: 3d12cd81d94cb92860d46ab0f5de8b8b99e56368
 SHA256: e30727f19a633a0ef19d208aed51ab87c0e3ee5eefe2566d8bda574ec7a603da
 
+Package: datamash
+Architecture: aarch64
+Installed-Size: 2404
+Maintainer: @termux
+Version: 1.9-2
+Homepage: https://www.gnu.org/software/datamash/
+Description: Program performing numeric, textual and statistical operations
+Filename: ./datamash_1.9-2_aarch64.deb
+Size: 286432
+MD5sum: e450709fed8587aea1aa1ed22f77bbaf
+SHA1: c3ef6095c5769dd45b3776b46bb37eab8a0063ba
+SHA256: 8136abd3e9a66076a445b2633dbeb4ff22a56e1d7723d0c0d038a9abdd483d20
+
+Package: dateutils
+Architecture: aarch64
+Installed-Size: 1516
+Maintainer: @termux
+Version: 0.4.12-1
+Homepage: https://www.fresse.org/dateutils/
+Description: Command line date and time utilities
+Filename: ./dateutils_0.4.12-1_aarch64.deb
+Size: 191728
+MD5sum: f2312009356128488145bf9d89a09fa0
+SHA1: a2fcbf4f9c03b8ab5d2b72c85162f21837855197
+SHA256: 4f9470d738ea41398c74e0eac004eba2ce2acc2ee745c73c02f191b80df8a4a3
+
+Package: dbus-python
+Architecture: aarch64
+Installed-Size: 456
+Maintainer: @termux
+Version: 1.5.0-1
+Homepage: https://dbus.freedesktop.org/doc/dbus-python/
+Depends: dbus, glib, python
+Description: Python bindings for D-Bus
+Filename: ./dbus-python_1.5.0-1_aarch64.deb
+Size: 69020
+MD5sum: 7ca19ce6380a9a2d52b4f445848a59b1
+SHA1: d905e52cba15709893803263b8245b8b0e0d1f41
+SHA256: 7fbd940218e51c43f898b935b121e4f3b7426543f62bb556ebefd34315e4d5d1
+
+Package: deutex
+Architecture: aarch64
+Installed-Size: 212
+Maintainer: @termux
+Version: 5.2.3-2
+Homepage: https://github.com/Doom-Utils/deutex/
+Depends: libpng, zlib
+Description: WAD composer for Doom, Heretic, Hexen, and Strife
+Filename: ./deutex_5.2.3-2_aarch64.deb
+Size: 64692
+MD5sum: 488434a19524609c6aff75977c20aa04
+SHA1: 3299f212d0470683ac3c6736d10dde2af4e4a63e
+SHA256: 65f56f4b5ad4826f73b081767bd18e03d12311471dc11edb65884e598014c5e9
+
+Package: dictd
+Architecture: aarch64
+Installed-Size: 452
+Maintainer: @termux
+Version: 1.13.3-3
+Homepage: https://sourceforge.net/projects/dict/
+Depends: libmaa, zlib
+Description: Online dictionary client and server
+Filename: ./dictd_1.13.3-3_aarch64.deb
+Size: 120236
+MD5sum: 37dc03b4b1e03dcf82109a6d0b4df37d
+SHA1: 661cd3832d3d5bab5953ec95b56c6b93fae25165
+SHA256: 5ff67f1f88ebf3db67498d95fb3d3e88d34f9d02093588188347b4ef22fdbb41
+
 Package: direvent
 Architecture: aarch64
 Installed-Size: 332
@@ -4954,6 +5022,19 @@ Size: 23688
 MD5sum: 86b69c166a2e6d11a49e1afe6ca6e027
 SHA1: 7b4cbd97a7889eaff72efacb0b3fd32c97ff27a2
 SHA256: 0d888694507cf2c997c8fa3c44edd43f6fffa55094599b8b1bca97856e5e35a6
+
+Package: libmaa
+Architecture: aarch64
+Installed-Size: 144
+Maintainer: @termux
+Version: 1.5.1-1
+Homepage: https://sourceforge.net/projects/dict/
+Description: Provides many low-level data structures which are helpful for writing compilers
+Filename: ./libmaa_1.5.1-1_aarch64.deb
+Size: 30104
+MD5sum: 58c8859d5d3f97cdf55a0047552951a7
+SHA1: 5e5e8fed16eae3b27f37a458ea116b4af32d59a8
+SHA256: d090b048383ccb9134c9c347c975b4fdbaff9e83a08e602a065a44f095f9a854
 
 Package: libmad-static
 Architecture: aarch64

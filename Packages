@@ -2982,6 +2982,60 @@ MD5sum: d0fe31915b515401eea16cf968728b27
 SHA1: d2a6b397b6cc8595baec2ee7930b9c090135f72a
 SHA256: 785f7f6f5ddbbd29e9c563a06eb26ba5501e1e5256983cf3dd6728b2e715f3cc
 
+Package: duc
+Architecture: aarch64
+Installed-Size: 156
+Maintainer: @termux
+Version: 1.4.6-1
+Homepage: http://duc.zevv.nl/
+Depends: leveldb, ncurses
+Description: High-performance disk usage analyzer
+Filename: ./duc_1.4.6-1_aarch64.deb
+Size: 44316
+MD5sum: 08a64241971e237b9d1af6aa10088c40
+SHA1: 55a7a92bd0f6a804fe0f94db4831eea4043a6ae0
+SHA256: 8a788aa66f877015efcc275e106a099fb6e509021560d3c19c8163efa3274e2d
+
+Package: duf
+Architecture: aarch64
+Installed-Size: 4260
+Maintainer: Krishna kanhaiya @kcubeterm
+Version: 0.9.1-2
+Homepage: https://github.com/muesli/duf
+Description: Disk usage/free utility
+Filename: ./duf_0.9.1-2_aarch64.deb
+Size: 1154324
+MD5sum: fae62659954cd85bce63b7eede825391
+SHA1: 83173dbb82ffe74c59dd2ae370e42fd4b5e4f7fc
+SHA256: 253a7622e362c63fc510e767fefbaacddb6e70f3ef726f150ef8d8dc59148143
+
+Package: dufs
+Architecture: aarch64
+Installed-Size: 3612
+Maintainer: @termux
+Version: 0.47.0-1
+Homepage: https://github.com/sigoden/dufs
+Description: A file server that supports static serving, uploading, searching, accessing control, webdav...
+Filename: ./dufs_0.47.0-1_aarch64.deb
+Size: 1438172
+MD5sum: cfa900021df5175367b520c9ad1ba795
+SHA1: 343abd11ec5473de99820fa4bf59a74386365da0
+SHA256: 41dbda1bf025d47fe1fd2bb9bb33c44b9700873b28d89cfaaea1dd8edac9453e
+
+Package: dumbpipe
+Architecture: aarch64
+Installed-Size: 7128
+Maintainer: @termux
+Version: 0.40.1-1
+Homepage: https://www.dumbpipe.dev/
+Depends: resolv-conf
+Description: A CLI tool to pipe data over the network, with NAT hole punching
+Filename: ./dumbpipe_0.40.1-1_aarch64.deb
+Size: 2455616
+MD5sum: e5fe2f8b6d454cf592079c645b9d301d
+SHA1: 707af3786101461eaa63abfa6108722f8b778611
+SHA256: 508963f399a82dd4439531451d0648586389626ad747441d1b368802dc61f00c
+
 Package: dwarves
 Architecture: aarch64
 Installed-Size: 1100
@@ -4181,6 +4235,22 @@ MD5sum: 028a9c97d236d30f43a4b829192bc4ea
 SHA1: 7d239b706f5f5d79beb1b301da6f75be3bf4025d
 SHA256: ac6e0a33ebcee6076bf666de485a8567065569f6921a90c3c83190e6d4bc397e
 
+Package: leveldb
+Architecture: aarch64
+Installed-Size: 420
+Maintainer: @termux
+Version: 1.23-5
+Homepage: https://github.com/google/leveldb
+Breaks: leveldb-dev
+Depends: libc++, libsnappy
+Replaces: leveldb-dev
+Description: Fast key-value storage library
+Filename: ./leveldb_1.23-5_aarch64.deb
+Size: 109892
+MD5sum: 8f0abb2c6a3e8e047c77c30c6d19039e
+SHA1: 8719688bc3b7a3ae122030201196c1efddbde92b
+SHA256: b77cd95bbafa09fcf65ee2d9f5a36d74115e7fa8ce90917ff1dff00b20f8e014
+
 Package: libapt-pkg-perl
 Architecture: aarch64
 Installed-Size: 308
@@ -5273,6 +5343,20 @@ Size: 1206744
 MD5sum: 067de1ece1d5c8f3d8a5a27b49277d3a
 SHA1: 7e9be6b3c9f39b5674df6c13d0ad3929a964ab9d
 SHA256: aa2d0e409fde646fce9ce304c5d74238ab66673802c7284426def30be6a604e9
+
+Package: libsnappy
+Architecture: aarch64
+Installed-Size: 156
+Maintainer: @termux
+Version: 1.3.1-1
+Homepage: https://github.com/google/snappy
+Depends: libc++
+Description: A compression/decompression library
+Filename: ./libsnappy_1.3.1-1_aarch64.deb
+Size: 27352
+MD5sum: de57891d02564375f3f1438076f36e2d
+SHA1: 9cba8f382fa60c68cf082adc7918cf0a61e515d7
+SHA256: 5d1c3978e787b2b1ca958b134bcc59594ae1e5742775c0b25b100d85c4d5ff53
 
 Package: libstemmer-static
 Architecture: aarch64

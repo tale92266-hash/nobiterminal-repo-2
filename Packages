@@ -1292,6 +1292,49 @@ MD5sum: 37a633a0e8509422ea34169b8c5dc9f1
 SHA1: 96d4f26cbd849e7ffe28220ebe22f9bf3747b315
 SHA256: d978e247f8c87c228fad46e0754add5db4fe0bc71f7edb62ba07c8ad2ed28a71
 
+Package: clpeak
+Architecture: aarch64
+Installed-Size: 1608
+Maintainer: @termux
+Version: 3.0.4-1
+Homepage: https://github.com/krrishnarraj/clpeak
+Depends: libc++, ocl-icd
+Description: A tool which profiles OpenCL devices to find their peak capacities
+Filename: ./clpeak_3.0.4-1_aarch64.deb
+Size: 456956
+MD5sum: b36c53085fca74f111311bffc4a7e80b
+SHA1: 8e5316648ea4b7bb055ac123014e813475069640
+SHA256: 39064d1cf2ef255b6d5ceec56893372fc8071ac23c1a4e12df4d7d18ca3e9d39
+
+Package: clucene
+Architecture: aarch64
+Installed-Size: 4604
+Maintainer: @termux
+Version: 2.3.3.4-9
+Homepage: http://clucene.sourceforge.net/
+Depends: boost, zlib
+Description: C++ port of the high-performance text search engine Lucene
+Filename: ./clucene_2.3.3.4-9_aarch64.deb
+Size: 716396
+MD5sum: 3f3fa00bc46d184a41e92859505d7645
+SHA1: c1457d7817a922036a2c2b9a84711ce649a76267
+SHA256: 168ff998d6802c39a2d2197622fba047e157e51b107cfaa4cd81522f3a71ed03
+
+Package: clvk
+Architecture: aarch64
+Installed-Size: 90648
+Maintainer: @termux
+Version: 0.0.20261009.192816-1
+Homepage: https://github.com/kpet/clvk
+Depends: libc++, vulkan-loader
+Recommends: ocl-icd
+Description: Experimental implementation of OpenCL on Vulkan
+Filename: ./clvk_0.0.20261009.192816-1_aarch64.deb
+Size: 21394900
+MD5sum: 60a41fa1c0864fcdc791183d24845d54
+SHA1: 0a00ae1e08220db07aaa2b2154c47866823b653f
+SHA256: d8cdc942757952595e13864b239be364821d21b0830a63acf91900f847e0c424
+
 Package: cmocka
 Architecture: aarch64
 Installed-Size: 392
@@ -2000,6 +2043,73 @@ Size: 14749336
 MD5sum: 1331a6933071175695e5d7b7a7d4c040
 SHA1: 3d12cd81d94cb92860d46ab0f5de8b8b99e56368
 SHA256: e30727f19a633a0ef19d208aed51ab87c0e3ee5eefe2566d8bda574ec7a603da
+
+Package: direvent
+Architecture: aarch64
+Installed-Size: 332
+Maintainer: @termux
+Version: 5.5-1
+Homepage: https://www.gnu.org.ua/software/direvent/
+Depends: libandroid-glob
+Description: Monitor of events in file system directories
+Filename: ./direvent_5.5-1_aarch64.deb
+Size: 101668
+MD5sum: cce340a41317e4fede3d915b4532a015
+SHA1: cfdafae3c0a633267b3109eb4f8f0e3a146aea55
+SHA256: d6b5d310fdbf76af1aa54a17456fdf5be14214b44efb9fdea4d20dfb62bf0246
+
+Package: discordo
+Architecture: aarch64
+Installed-Size: 24536
+Maintainer: @termux
+Version: 2026.10.17+gb860df0a-2
+Homepage: https://github.com/ayn2op/discordo
+Description: A lightweight, secure, and feature-rich Discord terminal client
+Filename: ./discordo_2026.10.17+gb860df0a-2_aarch64.deb
+Size: 6045712
+MD5sum: 5f0e74c337cd6a85f1bf91a6b6571a36
+SHA1: f12ce9006c4417e31cd3c16b00dc2d3f19b98f09
+SHA256: c1f66675086bb26e35fc649efd8a1f81b1fea41915a41cca9cb8b55ae35c2b97
+
+Package: discount
+Architecture: aarch64
+Installed-Size: 204
+Maintainer: @termux
+Version: 3.0.2.0-1
+Homepage: https://www.pell.portland.or.us/~orc/Code/discount/
+Description: Markdown implementation written in C
+Filename: ./discount_3.0.2.0-1_aarch64.deb
+Size: 44032
+MD5sum: 402ae19ed7a652ab29e30bb3a8006667
+SHA1: a872291115d9d0aa03dc5ad4d6a54bd92d75bc5f
+SHA256: 96e17c5771cdae7001f730ad257be029ae52c671ab3365af7453c6d7494c49e1
+
+Package: diskus
+Architecture: aarch64
+Installed-Size: 768
+Maintainer: @termux
+Version: 0.9.0-1
+Homepage: https://github.com/sharkdp/diskus
+Description: A minimal, fast alternative to 'du -sh'
+Filename: ./diskus_0.9.0-1_aarch64.deb
+Size: 286100
+MD5sum: e0668a23b8fe0b2df9a2efde0f1af3aa
+SHA1: 4bba13f339244c0017d79a1d671c65a1c71562c9
+SHA256: 472d94149ab9ef76e754375e7645ffaaaff33b24d4bb10b2f261158bf81f9b0b
+
+Package: distant
+Architecture: aarch64
+Installed-Size: 7472
+Maintainer: @termux
+Version: 1:0.20.0-4
+Homepage: https://github.com/chipsenkbeil/distant
+Depends: libssh2, openssl, zlib
+Description: Library and tooling that supports remote filesystem and process
+Filename: ./distant_1:0.20.0-4_aarch64.deb
+Size: 2636860
+MD5sum: 7ce7213870eb332798d52cc2e9875210
+SHA1: b23420645777724d67c5674eab629adbe49f5263
+SHA256: 20e5a7df74e55c9e180eb3c8921cf651c7a6c5c5c626b4db07488a6d85223495
 
 Package: djvulibre-static
 Architecture: aarch64

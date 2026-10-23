@@ -795,6 +795,76 @@ MD5sum: e99da0e2c5581d4c34c09264dc711dfb
 SHA1: fb389484169215236eaa78b3c9c1704894b7fbe9
 SHA256: 6cafd6dbbbaacafca82bb0650a4b1ce118cfdcbd27d409f42ce7ee2121e47d7a
 
+Package: cavif
+Architecture: aarch64
+Installed-Size: 3480
+Maintainer: @termux
+Version: 1.8.0-1
+Homepage: https://lib.rs/cavif
+Breaks: cavif-rs
+Replaces: cavif-rs
+Description: AVIF image creator in pure Rust
+Filename: ./cavif_1.8.0-1_aarch64.deb
+Size: 1300248
+MD5sum: b892b39af1dc1465fdef8172b764de47
+SHA1: 06c918b24c81b553cd2e867d3f4f4125f637eb22
+SHA256: 97a5aab7488a1a3937de1f67fb80bab9aa47b014d69e5370e9af5fd10ffa1d7c
+
+Package: cboard
+Architecture: aarch64
+Installed-Size: 236
+Maintainer: @termux
+Version: 0.7.5-6
+Homepage: https://benkibbey.wordpress.com/cboard/
+Depends: libandroid-support,libandroid-glob,gnuchess, ncurses, ncurses-ui-libs
+Description: PGN browser, editor and chess engine frontend
+Filename: ./cboard_0.7.5-6_aarch64.deb
+Size: 72620
+MD5sum: 3be41bd15091af2698dfa6d1e39ab388
+SHA1: fa3e4eb0183104098f40d3e2ad756b0cc452ea28
+SHA256: 2f62088f103d508d2691510d7d8570e7f46d6bdda5638cc31357df05af48ec8f
+
+Package: cbonsai
+Architecture: aarch64
+Installed-Size: 92
+Maintainer: @termux
+Version: 1.4.2-2
+Homepage: https://gitlab.com/jallbrit/cbonsai
+Depends: ncurses, ncurses-ui-libs
+Description: Grow bonsai trees in your terminal
+Filename: ./cbonsai_1.4.2-2_aarch64.deb
+Size: 11332
+MD5sum: 5f59e7a297c5cd895a50ceaa4ba2f0f0
+SHA1: 783251cae3dc9d98b66a01867b9516ad978f9e5e
+SHA256: a6b941a4464dbcf9c920b53969cda05f2843d4d5eafc91bb6e5833b0568a8441
+
+Package: cc65
+Architecture: aarch64
+Installed-Size: 33192
+Maintainer: @termux
+Version: 2.19-2
+Homepage: https://cc65.github.io/
+Description: A free compiler for 6502 based system
+Filename: ./cc65_2.19-2_aarch64.deb
+Size: 2112700
+MD5sum: 3290b083078a530258c5dba25c8badca
+SHA1: a5d647256fbfac3aee8b3accc1e93c756403c836
+SHA256: 5815ab9e892ebe74524b4ba90a719c2d5f56bdd22a700dd79492352226c7da15
+
+Package: ccache
+Architecture: aarch64
+Installed-Size: 2252
+Maintainer: @termux
+Version: 4.14.2-2
+Homepage: https://ccache.samba.org
+Depends: fmt, libandroid-spawn, libc++, libhiredis, xxhash, zlib, zstd
+Description: Compiler cache for fast recompilation of C/C++ code
+Filename: ./ccache_4.14.2-2_aarch64.deb
+Size: 562076
+MD5sum: b85e0490dcda4158423b6c7954d80bb8
+SHA1: 8df91ee9a3734b008afa8ff8eb5554d888548d4a
+SHA256: 91d2edf28fde3cc8d4d61ed9eae4bfb9fcc87659c357986f133bdef5e5fe9fd0
+
 Package: ccrypt
 Architecture: aarch64
 Installed-Size: 144
@@ -3408,6 +3478,20 @@ MD5sum: 44b10240aeff7f5be2900321931a39a9
 SHA1: f0a387cd198605eea8ac14a477d19e5d6247b60d
 SHA256: 5b2256f5c14792966390efe8632d4bb534cd226a83d19158422699f13c782c7d
 
+Package: gnuchess
+Architecture: aarch64
+Installed-Size: 480
+Maintainer: @termux
+Version: 6.3.0-1
+Homepage: https://www.gnu.org/software/chess/
+Depends: readline
+Description: Chess-playing program
+Filename: ./gnuchess_6.3.0-1_aarch64.deb
+Size: 150104
+MD5sum: 8891d19158f36f0cf76f2acb6e2dea02
+SHA1: 65bedbf772e9ea2269df57dc21aaca5586493698
+SHA256: d1d0614cd4aad8d92c23e82f4bcdda0495163f8e84972e0a369d7d3d3cb53924
+
 Package: graphicsmagick-static
 Architecture: aarch64
 Installed-Size: 5276
@@ -4163,6 +4247,19 @@ Size: 1811068
 MD5sum: 2fa8716007478d05994020581704e0a2
 SHA1: b2d0e38fb6e149133959678f778bc51d3272049c
 SHA256: 2d280c3fe98fdc4204f7fd6ebdbde5c7288e7480c8c4ee457aed35817f03da66
+
+Package: libhiredis
+Architecture: aarch64
+Installed-Size: 360
+Maintainer: @termux
+Version: 1.5.0-1
+Homepage: https://redis.com/lp/hiredis
+Description: Hiredis is a minimalistic C client library for the Redis database
+Filename: ./libhiredis_1.5.0-1_aarch64.deb
+Size: 70300
+MD5sum: 5c17e86948dd02c452f13155d564170e
+SHA1: 691f904cb858f41343ef5fa8436b3258d1420a91
+SHA256: cd6b283116a024d0a37c2bc656c362dd111a4d37baaba5e7c0ededc5452cccff
 
 Package: libiniparser-static
 Architecture: aarch64

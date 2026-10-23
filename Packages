@@ -1139,6 +1139,118 @@ MD5sum: 84e2dee1eb291d904a69c99bf0223fd8
 SHA1: ff46d155d92c61ba52d6d28674003e78bc7b6a46
 SHA256: 5ab2b5a5c2e6b31fb82b1738e23dc47ce107efce0bc9081597dd89b6765c43ca
 
+Package: clamav-static
+Architecture: aarch64
+Installed-Size: 54932
+Maintainer: @termux
+Version: 1.5.4-1
+Homepage: https://www.clamav.net/
+Depends: clamav (= 1.5.4-1)
+Description: Static libraries for clamav
+Filename: ./clamav-static_1.5.4-1_aarch64.deb
+Size: 8591040
+MD5sum: aeb4adf4669851542fb7302652047b07
+SHA1: 0acb2f6251fc75d741b5c166370582af91f1434c
+SHA256: 90f07857780d8f68af8354c5afab3f1ffa563f95941b416e549892e086d1514b
+
+Package: clamav
+Architecture: aarch64
+Installed-Size: 27904
+Maintainer: @termux
+Version: 1.5.4-1
+Homepage: https://www.clamav.net/
+Breaks: clamav-dev
+Depends: json-c, libandroid-support, libbz2, libc++, libcurl, libiconv, libxml2, ncurses, openssl, pcre2, zlib
+Replaces: clamav-dev
+Description: Anti-virus toolkit for Unix
+Filename: ./clamav_1.5.4-1_aarch64.deb
+Size: 7337908
+MD5sum: 025b875a4c5d6904b27b018256f16a15
+SHA1: b1ca96ebd329c137b262b3a1a72e35af124aec51
+SHA256: 9fef63d1f9b39089737d1133966174af131608846f393e1854204c039f051dee
+
+Package: clblast
+Architecture: aarch64
+Installed-Size: 12616
+Maintainer: @termux
+Version: 1.7.0-1
+Homepage: https://github.com/CNugteren/CLBlast
+Depends: libc++, ocl-icd
+Description: Tuned OpenCL BLAS
+Filename: ./clblast_1.7.0-1_aarch64.deb
+Size: 1092960
+MD5sum: 32e445b19a253029c3ac6931859e62e9
+SHA1: d0efbd3737d8a89cd56d24c0bc7063332dbb6172
+SHA256: 8e5b1005cea85abe8f8e8667cc77b1d34fc48b439e954109bbacd1722316dea5
+
+Package: cli11
+Architecture: aarch64
+Installed-Size: 644
+Maintainer: @termux
+Version: 2.7.2-1
+Homepage: https://github.com/CLIUtils/CLI11
+Depends: libc++
+Description: Command line parser for C++11
+Filename: ./cli11_2.7.2-1_aarch64.deb
+Size: 86176
+MD5sum: f4044174c1d47ee753f787bc82da5fc3
+SHA1: 2c5587dd914a8849a6463af1ca37bed1681e95dc
+SHA256: 6a7c2b14526b6be002cee669e801832d136292c40ddc1ca4f4b8400d31c710f1
+
+Package: clifm
+Architecture: aarch64
+Installed-Size: 2136
+Maintainer: @termux
+Version: 1.29-1
+Homepage: https://github.com/leo-arch/clifm
+Depends: libcap, libacl, readline, libandroid-glob, libandroid-support, libmagic
+Description: The shell-like, command line terminal file manager: simple, fast, extensible, and lightweight as hell
+Filename: ./clifm_1.29-1_aarch64.deb
+Size: 576496
+MD5sum: 49e6a1599708bce904c0d9d4a2ebdb84
+SHA1: 7f6713a2655cf4791030ba136bf40fe7106cd669
+SHA256: 6c3a7b8107272cb1063fe9d1baa716cbe863bdb662f5e44ed90989b23b339840
+
+Package: clinfo
+Architecture: aarch64
+Installed-Size: 204
+Maintainer: @termux
+Version: 3.1.26.09.26-1
+Homepage: https://github.com/Oblomov/clinfo
+Depends: ocl-icd
+Description: Print all known information about all available OpenCL platforms and devices in the system
+Filename: ./clinfo_3.1.26.09.26-1_aarch64.deb
+Size: 47452
+MD5sum: a8b20dbc523bc0cf9a5c03343036fee3
+SHA1: 4c922f3aa402367441e787cd6373ea6704ce8095
+SHA256: 425971456efe1e752d873acfe0e858aea47c3e5d4f3eefd88e0aae615ca4a0e9
+
+Package: clipp
+Architecture: all
+Installed-Size: 256
+Maintainer: @termux
+Version: 1.2.3-2
+Homepage: https://github.com/muellan/clipp
+Description: Command line interfaces for modern C++
+Filename: ./clipp_1.2.3-2_all.deb
+Size: 30808
+MD5sum: 238d39a1ac9e5fec4caa379a73797786
+SHA1: d677860baabe86fff1cf6869b9c33e5603d5e00e
+SHA256: 6a36960e723666d427b40ad93674fb47c0aad098b527520afb4a44dbead18e57
+
+Package: cloudflared
+Architecture: aarch64
+Installed-Size: 28580
+Maintainer: @termux
+Version: 2026.10.3-1
+Homepage: https://github.com/cloudflare/cloudflared
+Description: A tunneling daemon that proxies traffic from the Cloudflare network to your origins
+Filename: ./cloudflared_2026.10.3-1_aarch64.deb
+Size: 6734156
+MD5sum: 37a633a0e8509422ea34169b8c5dc9f1
+SHA1: 96d4f26cbd849e7ffe28220ebe22f9bf3747b315
+SHA256: d978e247f8c87c228fad46e0754add5db4fe0bc71f7edb62ba07c8ad2ed28a71
+
 Package: cmocka
 Architecture: aarch64
 Installed-Size: 392
@@ -5501,6 +5613,19 @@ Size: 1348464
 MD5sum: 3c68d209baaa194bbb5834c5d0a2db9d
 SHA1: 0794c18d26cdaa572e2bed15ea292364aecb9898
 SHA256: 4eb4b8346b42ae4a96580adf3d7f8bb1fcbc7d01e497c0a8fb7b1785b70fdac3
+
+Package: ocl-icd
+Architecture: aarch64
+Installed-Size: 880
+Maintainer: @termux
+Version: 2.3.5-1
+Homepage: https://github.com/OCL-dev/ocl-icd
+Description: OpenCL ICD Loader
+Filename: ./ocl-icd_2.3.5-1_aarch64.deb
+Size: 104312
+MD5sum: f6850c9cf08fb7d9297c0a7807c6df90
+SHA1: 0d7d622381dcda35b84effcce2c41955231d09af
+SHA256: f206476bb94ac31ea391c17f1bd9aecc35304d245cf2fb766da04159dce01ede
 
 Package: openexr
 Architecture: aarch64

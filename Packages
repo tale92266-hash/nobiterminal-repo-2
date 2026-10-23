@@ -3519,6 +3519,33 @@ MD5sum: cde8fed4d863f0af49ffdede2e7f9435
 SHA1: 187d34bb44f8b03cb80516e46c4c5488c969f70b
 SHA256: 3564a6d40b6dc6382a39849ed658a35bdcb887ff25a216ebf418443d9f4d039c
 
+Package: enscript
+Architecture: aarch64
+Installed-Size: 1972
+Maintainer: @termux
+Version: 1.6.6-14
+Homepage: https://www.gnu.org/software/enscript/
+Depends: cups, perl
+Description: Enscript converts ASCII text files to PostScript, HTML, RTF, ANSI and overstrikes
+Filename: ./enscript_1.6.6-14_aarch64.deb
+Size: 271664
+MD5sum: eb9fa4b76ac91b566b24b5365381115e
+SHA1: d2b5d54a57782eb96e73d89bc69d0d7b5db47b84
+SHA256: 2d366630b0c6d6fe298eeda64f22c25a75114bc2869a87a5187b84db513b7f68
+
+Package: entr
+Architecture: aarch64
+Installed-Size: 80
+Maintainer: @termux
+Version: 5.9-1
+Homepage: https://eradman.com/entrproject/
+Description: Event Notify Test Runner - run arbitrary commands when files change
+Filename: ./entr_5.9-1_aarch64.deb
+Size: 11908
+MD5sum: 0a7e6d8e580612083e0b592666cb9b25
+SHA1: c4fe98e7b528fb63f470ffc6775c431fbe27bde6
+SHA256: acb0c252c0aeb2ca18cbe6223eb6d123f0ab38a7becf3f401e325da2672d7dd4
+
 Package: erlang-doc
 Architecture: all
 Installed-Size: 121652
@@ -3532,6 +3559,77 @@ Size: 19407384
 MD5sum: 7d6ecf4d7945716802fc47dd91af54f2
 SHA1: e0ffb19c3b32ecb4f5c7bb950ae94e9728501922
 SHA256: a3377559b7caa29a148da6b35c3c662654b5f38a127a989cbfffb1081bfdd960
+
+Package: esbuild
+Architecture: aarch64
+Installed-Size: 11448
+Maintainer: @termux
+Version: 0.28.2-2
+Homepage: https://esbuild.github.io/
+Description: An extremely fast JavaScript bundler
+Filename: ./esbuild_0.28.2-2_aarch64.deb
+Size: 3269452
+MD5sum: 7dbe6224cda5b98abfd8b63d2f50330c
+SHA1: 18c38a683d73fda465e907e6d06e66fb61d0a70a
+SHA256: 8d42db8c0e87a532031c60c3734a1284e0b9755731e05ee824dd1698494dfa44
+
+Package: espeak-static
+Architecture: aarch64
+Installed-Size: 896
+Maintainer: @termux
+Version: 1.52.0-2
+Homepage: https://github.com/espeak-ng/espeak-ng
+Depends: espeak (= 1.52.0-2)
+Description: Static libraries for espeak
+Filename: ./espeak-static_1.52.0-2_aarch64.deb
+Size: 203372
+MD5sum: f8e0309d63ff2809e623fe79265b394e
+SHA1: 36beb7b65d311f769aa00e334928df4413a8cec4
+SHA256: 67f0a70171410e40e1fe7d1818e32de33a678a73e65bcfd66bfb0ce8ba38a54b
+
+Package: espeak
+Architecture: aarch64
+Installed-Size: 26520
+Maintainer: @termux
+Version: 1.52.0-2
+Homepage: https://github.com/espeak-ng/espeak-ng
+Breaks: espeak-dev
+Depends: libc++, pcaudiolib
+Replaces: espeak-dev
+Description: Compact software speech synthesizer
+Filename: ./espeak_1.52.0-2_aarch64.deb
+Size: 8847988
+MD5sum: a3d0cb49c4802799c96c32ec94ad8474
+SHA1: 862538a524ef6f027b28c3639a40ab8f8be76a68
+SHA256: 68311a59bd561afb437ab2dcd508fc316014ae867b5a2542565b86004817c34d
+
+Package: execline-static
+Architecture: aarch64
+Installed-Size: 96
+Maintainer: Jules Amonith <examosa@fastmail.com>
+Version: 2.10.0.0-1
+Homepage: https://skarnet.org/software/execline/
+Depends: execline (= 2.10.0.0-1)
+Description: Static libraries for execline
+Filename: ./execline-static_2.10.0.0-1_aarch64.deb
+Size: 13340
+MD5sum: 2fee562a15d20cf745368208ddf1b82f
+SHA1: aee7dae730b78fe27e1c2291b61205541f14f480
+SHA256: ec482fbade7d6066ac1a6fc4b784854cee14597128f113c62d15ee821b8a09da
+
+Package: execline
+Architecture: aarch64
+Installed-Size: 196
+Maintainer: Jules Amonith <examosa@fastmail.com>
+Version: 2.10.0.0-1
+Homepage: https://skarnet.org/software/execline/
+Depends: libandroid-glob, skalibs
+Description: A small scripting language, to be used with an exec chain
+Filename: ./execline_2.10.0.0-1_aarch64.deb
+Size: 47296
+MD5sum: 4657b3e72175332fdac7adc595583852
+SHA1: 745c0730f33ba30668e52baa8add568708025734
+SHA256: 8e5dad1ce252852a05e61a9b3ca455d2fdf7812c7c888b102de4dab5c623089c
 
 Package: exercism
 Architecture: aarch64
@@ -6158,6 +6256,34 @@ Size: 364924
 MD5sum: 349876eedb3f3fd8e0e0ea65fc51fc85
 SHA1: f59754a8c434f831a6169061b0872196f434c283
 SHA256: 32037954fa3bba31857c61e22deba48613615ae1afd514371dbbe31d5d562492
+
+Package: pcaudiolib-static
+Architecture: aarch64
+Installed-Size: 44
+Maintainer: @termux
+Version: 1.3-2
+Homepage: https://github.com/espeak-ng/pcaudiolib
+Depends: pcaudiolib (= 1.3-2)
+Description: Static libraries for pcaudiolib
+Filename: ./pcaudiolib-static_1.3-2_aarch64.deb
+Size: 3528
+MD5sum: e590f31915d7f28e989420cc3b7dde85
+SHA1: 5af7e85bd25000dc8a7d6ccaefe4be63d51f62f8
+SHA256: 7c7e4ca9e856d71cd47e2c027ea1c0ad28d9ee8199cf6beabb28491c1f2db7c3
+
+Package: pcaudiolib
+Architecture: aarch64
+Installed-Size: 64
+Maintainer: @termux
+Version: 1.3-2
+Homepage: https://github.com/espeak-ng/pcaudiolib
+Depends: pulseaudio
+Description: Portable C Audio Library
+Filename: ./pcaudiolib_1.3-2_aarch64.deb
+Size: 4420
+MD5sum: 0818d85ac08063159d7f796116aef599
+SHA1: 109916d58dd6b0e2e94756be6de9fbe73605af0f
+SHA256: a6e4c23a39532f55edcb8c65c1c109eec8a842cd2c146179d588434396c47b0b
 
 Package: pcre-static
 Architecture: aarch64

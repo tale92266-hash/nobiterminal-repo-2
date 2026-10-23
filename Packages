@@ -1112,6 +1112,33 @@ MD5sum: 00d135052537b2b6f36b1978b4fea87e
 SHA1: 5e5371dcf95875375adb910a5cc49881e1e85146
 SHA256: c5ccb5d6f3cda640fab687d3dfb7b73d56f7cd0e472c4753652b5330a25d6a78
 
+Package: ciso
+Architecture: aarch64
+Installed-Size: 52
+Maintainer: @termux
+Version: 1.0.2-3
+Homepage: https://github.com/jamie/ciso
+Depends: zlib
+Description: PSP ISO compression tool
+Filename: ./ciso_1.0.2-3_aarch64.deb
+Size: 4732
+MD5sum: 47e7c3bfd04e18d10ff3d9a93a85a966
+SHA1: 1c1aea6e8b8c1f03e0b99f7106c9ae231079ea78
+SHA256: 392a64cf244ce31108d411558f44b84ea750ebffb75b21991c83570dd4c82770
+
+Package: cjson
+Architecture: aarch64
+Installed-Size: 180
+Maintainer: @termux
+Version: 1.7.19-1
+Homepage: https://github.com/DaveGamble/cJSON
+Description: Ultralightweight JSON parser in ANSI C
+Filename: ./cjson_1.7.19-1_aarch64.deb
+Size: 25452
+MD5sum: 84e2dee1eb291d904a69c99bf0223fd8
+SHA1: ff46d155d92c61ba52d6d28674003e78bc7b6a46
+SHA256: 5ab2b5a5c2e6b31fb82b1738e23dc47ce107efce0bc9081597dd89b6765c43ca
+
 Package: cmocka
 Architecture: aarch64
 Installed-Size: 392

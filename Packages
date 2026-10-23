@@ -977,6 +977,47 @@ MD5sum: e9e98abc33dd6d1e36782f611f71df9f
 SHA1: 324c378a0d3340bc36e00cbb8ca64843bb240c67
 SHA256: 08f0d0a92d2bed3e5deca2d6b65db33c2d4c08e2c63e06143e060d1af499c7fa
 
+Package: cgif
+Architecture: aarch64
+Installed-Size: 76
+Maintainer: @termux
+Version: 0.5.4-1
+Homepage: https://github.com/dloebl/cgif
+Description: A fast and lightweight GIF encoding library
+Filename: ./cgif_0.5.4-1_aarch64.deb
+Size: 8920
+MD5sum: cea8ef126489721feca3e03e3f332a37
+SHA1: 2f9779cb9d96ed77c04c7ac629d391d21faadedd
+SHA256: f7a2e65e72c2f16b73192a476008755a2f5d1cf1cc6e1df1e6af4e670a4f1b16
+
+Package: chafa-static
+Architecture: aarch64
+Installed-Size: 536
+Maintainer: @termux
+Version: 1.18.3-1
+Homepage: https://hpjansson.org/chafa/
+Depends: chafa (= 1.18.3-1)
+Description: Static libraries for chafa
+Filename: ./chafa-static_1.18.3-1_aarch64.deb
+Size: 104404
+MD5sum: 8dcb9be6316a9a3817909f4164b8a855
+SHA1: 3cdab137fb407cc941c8b588e338b2b65604900d
+SHA256: c1ba127ccebd6223ff3f7d65384068609195c2875048052d5e80ffb7be6679e1
+
+Package: chafa
+Architecture: aarch64
+Installed-Size: 796
+Maintainer: @termux
+Version: 1.18.3-1
+Homepage: https://hpjansson.org/chafa/
+Depends: freetype, glib, libavif, libcairo, libheif, libjpeg-turbo, libjxl, librsvg, libtiff, libwebp
+Description: Image-to-text converter supporting a wide range of symbols, etc.
+Filename: ./chafa_1.18.3-1_aarch64.deb
+Size: 178144
+MD5sum: a83ee53e541ad57816efe0eb989cccb7
+SHA1: c7363fb88cbac344b687ab4c1011532f92019714
+SHA256: bd4be7e806b94c8565fdb7f99dd3e5e440310bd4f83b3cffb92feb0b6cd7d14f
+
 Package: check-static
 Architecture: aarch64
 Installed-Size: 124

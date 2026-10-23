@@ -2098,6 +2098,20 @@ MD5sum: 488434a19524609c6aff75977c20aa04
 SHA1: 3299f212d0470683ac3c6736d10dde2af4e4a63e
 SHA256: 65f56f4b5ad4826f73b081767bd18e03d12311471dc11edb65884e598014c5e9
 
+Package: dex2jar
+Architecture: all
+Installed-Size: 20324
+Maintainer: @termux
+Version: 2.4-2
+Homepage: https://github.com/pxb1988/dex2jar
+Depends: openjdk-21
+Description: Tools to work with android .dex and java .class files
+Filename: ./dex2jar_2.4-2_all.deb
+Size: 18736828
+MD5sum: 744206130fc92697b7a86c66710dde74
+SHA1: b113bda66e044fbabd60603f20c72512f3818ad9
+SHA256: d0005631208c0dbce16f1b0c601e7dc85ab72ff192994fb2e682dc4ae8930b27
+
 Package: dictd
 Architecture: aarch64
 Installed-Size: 452
@@ -3519,6 +3533,77 @@ MD5sum: 7d6ecf4d7945716802fc47dd91af54f2
 SHA1: e0ffb19c3b32ecb4f5c7bb950ae94e9728501922
 SHA256: a3377559b7caa29a148da6b35c3c662654b5f38a127a989cbfffb1081bfdd960
 
+Package: exercism
+Architecture: aarch64
+Installed-Size: 12144
+Maintainer: @termux
+Version: 3.5.9-2
+Homepage: https://github.com/exercism/cli/
+Description: A Go based command line tool for exercism.io
+Filename: ./exercism_3.5.9-2_aarch64.deb
+Size: 3394444
+MD5sum: dcab86d4e3c0bda8cd452886d886175b
+SHA1: 5d66c8070010cf40c01a04688569771d376985ad
+SHA256: 78eddc11c0e9b9c5b85cf6b227f8413fac5dfbbe8ac83ccb0a5ec1c2d12c8a23
+
+Package: exfatprogs
+Architecture: aarch64
+Installed-Size: 540
+Maintainer: @termux
+Version: 1.4.3-1
+Homepage: https://github.com/exfatprogs/exfatprogs
+Depends: libblkid
+Description: exFAT filesystem userspace utilities
+Filename: ./exfatprogs_1.4.3-1_aarch64.deb
+Size: 89704
+MD5sum: 70501abadcf02d7dcedec0b7e3699f36
+SHA1: 5a6f2c577639c236488e68fe18ec81980157d419
+SHA256: 7907b866c6661aaf90bd28fe41435beefaf0523278de0c81bc1ad2c3f5dcb035
+
+Package: exhale
+Architecture: aarch64
+Installed-Size: 340
+Maintainer: @termux
+Version: 1.2.2RC+really1.2.2-1
+Homepage: https://gitlab.com/ecodis/exhale
+Depends: libc++
+Description: Open source xHE-AAC encoder
+Filename: ./exhale_1.2.2RC+really1.2.2-1_aarch64.deb
+Size: 123924
+MD5sum: 851d93640f5a7aabd9d484397d37e80c
+SHA1: 737946d0fbcb3bcbed442a7a3eba08aaef9f3bc5
+SHA256: dea1f24332744f807c64b4f408f640f9b9f28375506855e714060fc10cae1a05
+
+Package: exiftool
+Architecture: all
+Installed-Size: 18432
+Maintainer: @termux
+Version: 13.59-3
+Homepage: https://exiftool.org/
+Depends: perl
+Description: Utility for reading, writing and editing meta information in a wide variety of files.
+Filename: ./exiftool_13.59-3_all.deb
+Size: 3896452
+MD5sum: 6f8bf5eec837a31be7d7a0e0de96d70d
+SHA1: 03e06d021e9225726c3c1d90bccc7234bd69bc13
+SHA256: 9301581c321a60f85d3b3485b1fa54341bf12863846f0c41d4b2b0d16221017a
+
+Package: exiv2
+Architecture: aarch64
+Installed-Size: 5112
+Maintainer: @termux
+Version: 2:0.28.9-1
+Homepage: https://exiv2.org/
+Breaks: exiv2-dev
+Depends: brotli, libandroid-support, libc++, libexpat, libiconv, libinih, zlib
+Replaces: exiv2-dev
+Description: Exif, Iptc and XMP metadata manipulation library and tools
+Filename: ./exiv2_2:0.28.9-1_aarch64.deb
+Size: 987556
+MD5sum: fc214e6c67ea8a4ab7342df94681cd7b
+SHA1: 4d39fc438c15063259a4a561eb2d5d19c5e181eb
+SHA256: 7d9af4cbdc7fc6ce7d0a3eb25e0ef4a45c9565c397ed3f798ad9e3f0f0258f12
+
 Package: eza
 Architecture: aarch64
 Installed-Size: 1784
@@ -4852,6 +4937,20 @@ Size: 70300
 MD5sum: 5c17e86948dd02c452f13155d564170e
 SHA1: 691f904cb858f41343ef5fa8436b3258d1420a91
 SHA256: cd6b283116a024d0a37c2bc656c362dd111a4d37baaba5e7c0ededc5452cccff
+
+Package: libinih
+Architecture: aarch64
+Installed-Size: 136
+Maintainer: @termux
+Version: 62-1
+Homepage: https://github.com/benhoyt/inih
+Depends: libc++
+Description: A simple .INI file parser written in C
+Filename: ./libinih_62-1_aarch64.deb
+Size: 23900
+MD5sum: 16ea09629fcf2991f5179efb14efc45d
+SHA1: f9cd10af519e669df1b73fcff7387b769f50e503
+SHA256: 49294bb4264a3bbc8f42c70c31c9eb108b64242405ac764628bbb2bc135ee73f
 
 Package: libiniparser-static
 Architecture: aarch64
@@ -6250,6 +6349,33 @@ Size: 47852
 MD5sum: f285ffcdf1f134a81cf96e31fae7a2db
 SHA1: 8fb53632b0812d2ac403fcfbdd9a188ce1adf1eb
 SHA256: dede9ec0663bdbe9e63a951a435fe3eb99bda0209af9cb68a3554bbda3dd0571
+
+Package: skalibs-static
+Architecture: aarch64
+Installed-Size: 1252
+Maintainer: Jules Amonith <examosa@fastmail.com>
+Version: 2.16.0.0-1
+Homepage: https://skarnet.org/software/skalibs/
+Depends: skalibs (= 2.16.0.0-1)
+Description: Static libraries for skalibs
+Filename: ./skalibs-static_2.16.0.0-1_aarch64.deb
+Size: 111492
+MD5sum: 27be0125d42ea6ffc1bf95504803ac1b
+SHA1: 65c822e53c2fe1115e9bd72cd052c8ba712fb48f
+SHA256: d7203552049ee08a7ede733be8a16afc128cd59c4285d18408dc7cb60f86526f
+
+Package: skalibs
+Architecture: aarch64
+Installed-Size: 788
+Maintainer: Jules Amonith <examosa@fastmail.com>
+Version: 2.16.0.0-1
+Homepage: https://skarnet.org/software/skalibs/
+Description: A set of general-purpose C programming libraries
+Filename: ./skalibs_2.16.0.0-1_aarch64.deb
+Size: 101148
+MD5sum: f9f1a514f6a82bbc32feb5716d2ff9e4
+SHA1: adf08f50dfd7efe109283d464d365c4a73bf2df0
+SHA256: 0e695bd7b45dd614094f6cca8b6c3e9c17c9f8da9cb8f1537f33caba5668fe88
 
 Package: stemwords
 Architecture: aarch64

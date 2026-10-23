@@ -5016,6 +5016,39 @@ MD5sum: 27d31d3db58466963732260e830020c9
 SHA1: 23d116b6b64d551707b90a7307e7ee81410ac3ad
 SHA256: b8ac3cb50c07939cce2fb3f4f07fd6014a86b1c26fbb21d087396e9a0ccfacf1
 
+Package: libglvnd-dev
+Architecture: all
+Installed-Size: 2316
+Maintainer: @termux
+Version: 1.7.0-2
+Homepage: https://gitlab.freedesktop.org/glvnd/libglvnd
+Breaks: mesa (<< 22.3.3-2), mesa-dev (<< 22.3.3-2), ndk-sysroot (<< 25b-3)
+Replaces: mesa (<< 22.3.3-2), mesa-dev (<< 22.3.3-2), ndk-sysroot (<< 25b-3)
+Description: GLVND's OpenGL headers
+Filename: ./libglvnd-dev_1.7.0-2_all.deb
+Size: 150196
+MD5sum: 45e6191e8bcccf19ddf531a4448b21c1
+SHA1: 25fca8dce5f0cf45295354b78bd0e0e8f7feca44
+SHA256: aae6982c20aa9ee8b941ab0f575c6e9fdb0ff592130e4d86174751f6fe74be1d
+
+Package: libglvnd
+Architecture: aarch64
+Installed-Size: 3244
+Maintainer: @termux
+Version: 1.7.0-2
+Homepage: https://gitlab.freedesktop.org/glvnd/libglvnd
+Breaks: mesa (<< 22.3.3-2)
+Depends: libc++, libx11, libxext
+Conflicts: libmesa, mesa (<< 22.3.3-2), ndk-sysroot (<= 25b)
+Recommends: mesa
+Replaces: libmesa, mesa (<< 22.3.3-2)
+Description: The GL Vendor-Neutral Dispatch library
+Filename: ./libglvnd_1.7.0-2_aarch64.deb
+Size: 174764
+MD5sum: d435334b3ce749f8cdde4fd6089b728f
+SHA1: cb6681444478a05228694e1fd349cf836ffe2ec5
+SHA256: a000f7fbc8df6080a4347581e58df0695d30bd414548d8e6c5ce5144d3281cfb
+
 Package: libgraphite
 Architecture: aarch64
 Installed-Size: 296
@@ -6074,6 +6107,34 @@ MD5sum: 30af013d3cd01cfe2cb396a504292300
 SHA1: 8b6065bf41705f5e4509fe7d667648037ba28b1d
 SHA256: 6174b167fd6847fee52ea9c5f4927cbd94fd4cdc620e8176f724d18797d1bbaf
 
+Package: libxfixes-static
+Architecture: aarch64
+Installed-Size: 64
+Maintainer: @termux
+Version: 6.0.2-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libxfixes (= 6.0.2-1)
+Description: Static libraries for libxfixes
+Filename: ./libxfixes-static_6.0.2-1_aarch64.deb
+Size: 7960
+MD5sum: 0d53950ce06f34234b03ba3db52ede67
+SHA1: 4d89faea6bc0f1fcf78a228557b0768343b34901
+SHA256: a1af83665fb2f2dc6bcf29113c41524b9b6d8f5b11579bb500d329ed276f7e80
+
+Package: libxfixes
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: @termux
+Version: 6.0.2-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11
+Description: X11 miscellaneous 'fixes' extension library
+Filename: ./libxfixes_6.0.2-1_aarch64.deb
+Size: 11640
+MD5sum: 3c54284c7215eb73cf7dd01b36550a30
+SHA1: da84f961de1a8800f45e24f48b723f70fbc91cc0
+SHA256: f3b9dc44663d717bd22e22a52849b179ae7945c9e8621ebbf94fd5df1ab3670c
+
 Package: libxft-static
 Architecture: aarch64
 Installed-Size: 164
@@ -6128,6 +6189,20 @@ Size: 4636
 MD5sum: a02f6f929d02204a6a4c95f32e792c73
 SHA1: 3835f8dabe13a0c855f63d4a74ebef9c6424065f
 SHA256: bdb9854d19f97127a55e44a1bfc4a5e2c420446e1b8e29907d7b63660a6d7695
+
+Package: libxxf86vm
+Architecture: aarch64
+Installed-Size: 192
+Maintainer: @termux
+Version: 1.1.7-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxext
+Description: X11 XFree86 video mode extension library
+Filename: ./libxxf86vm_1.1.7-1_aarch64.deb
+Size: 13388
+MD5sum: bb7587de684ae39b20c04fc89890c33f
+SHA1: 12b75c00276e9a2c9b30ec609b44b8309e763980
+SHA256: b92a8da78e69476cbcdc8f214f30e2d99c0ff4d888817dce6b2d7a6c3fce672d
 
 Package: lldb
 Architecture: aarch64

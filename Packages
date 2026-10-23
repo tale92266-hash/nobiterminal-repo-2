@@ -3785,6 +3785,60 @@ MD5sum: 1b945b34ad7c6ae29f2fc23cf4779c20
 SHA1: ae88f2a8930a2fbf96a3c381b9357853af2ff5a0
 SHA256: 35024a47bb9ed032915da84bfb50a68a4756ebc76212accd5ff580a4c9594746
 
+Package: fastfetch
+Architecture: aarch64
+Installed-Size: 3648
+Maintainer: @termux
+Version: 2.70.0-1
+Homepage: https://github.com/fastfetch-cli/fastfetch
+Description: A maintained, feature-rich and performance oriented, neofetch like system information tool
+Filename: ./fastfetch_2.70.0-1_aarch64.deb
+Size: 640548
+MD5sum: 1973f8c98d68887cb54710a300fdbc3c
+SHA1: 750a2a491f5ca4db15efd0637c7829ca492ffb54
+SHA256: 066da42e19ae045a30a998daa227b3078ecb6216b2fb733086c69b0bc88d77bc
+
+Package: fastmod
+Architecture: aarch64
+Installed-Size: 3184
+Maintainer: @termux
+Version: 0.4.4-2
+Homepage: https://github.com/facebookincubator/fastmod
+Description: Regex-based code refactoring utility
+Filename: ./fastmod_0.4.4-2_aarch64.deb
+Size: 934652
+MD5sum: 79c10e2d38d41cb01023f4df5ea20101
+SHA1: cc84a5655efa44f90f604de6855bc8bea537d1c7
+SHA256: e5bff4a979f7e35cff54a2fd67482c17a3276c2b46cafb3e2b1b0478e67dfa35
+
+Package: fatsort
+Architecture: aarch64
+Installed-Size: 116
+Maintainer: @termux
+Version: 1.7.679-1
+Homepage: https://fatsort.sourceforge.io/
+Depends: libiconv
+Description: A C utility that sorts FAT12, FAT16, FAT32 and exFAT partitions
+Filename: ./fatsort_1.7.679-1_aarch64.deb
+Size: 26044
+MD5sum: eea69a7c171e17e1496e5b91c6bf231c
+SHA1: 95b6f3c48d95d458aed2df6c131e45d5cf82a4d5
+SHA256: 2c1469157ec2cb1b9e06215bcea2dd5ee3f989851bfdfed66d8549515c4e6268
+
+Package: faustlibraries
+Architecture: all
+Installed-Size: 2488
+Maintainer: @termux
+Version: 2.88.0-1
+Homepage: https://github.com/grame-cncm/faust
+Depends: faust
+Description: Faust DSP libraries
+Filename: ./faustlibraries_2.88.0-1_all.deb
+Size: 428992
+MD5sum: 4c660d94e9d4957aeda65f0499cd7d1e
+SHA1: deb522aa38598016c659de5f076107f2b8c23f80
+SHA256: 7b998f37149a4d4a295c05a055c6ed5a492c593efcfb2679bc5c7344aa739a71
+
 Package: fcgi-static
 Architecture: aarch64
 Installed-Size: 120
@@ -4724,6 +4778,19 @@ Size: 41988
 MD5sum: 1b9ab9ae85b20197a935ace3342ae670
 SHA1: 3270289316c8e882b74b9b9ac19bc95bc9a92a2b
 SHA256: 98c5a89b2c8b5c252136d990d9e19783acd5aeb1956f1c048892eb71cf07d5fd
+
+Package: libdrm
+Architecture: aarch64
+Installed-Size: 900
+Maintainer: @termux
+Version: 2.4.134-1
+Homepage: https://dri.freedesktop.org/wiki/
+Description: Userspace interface to kernel DRM services
+Filename: ./libdrm_2.4.134-1_aarch64.deb
+Size: 180676
+MD5sum: e5241b077bc6d5199e23329893e38e2f
+SHA1: 80b09efd89c7f00d56a5b4477712adc491e54f39
+SHA256: de4f82c8e6a9f603a894550270ad8b0916913c416f562f70885a45a4d9fb29f5
 
 Package: libdvdnav-static
 Architecture: aarch64
@@ -5979,6 +6046,34 @@ MD5sum: bdd22a190add912acb410d894515ca88
 SHA1: 716872487d573cc8136319e34764ddc0e1bcf2b5
 SHA256: de30543a58ca6301117680ff94fcffe41a38a7a37a90931973d09258b9b087f4
 
+Package: libwayland-cross-scanner
+Architecture: all
+Installed-Size: 400
+Maintainer: @termux
+Version: 1.26.0-1
+Homepage: https://wayland.freedesktop.org/
+Depends: libwayland (= 1.26.0-1)
+Description: wayland-scanner for host (NOT for Termux)
+Filename: ./libwayland-cross-scanner_1.26.0-1_all.deb
+Size: 86824
+MD5sum: d68cd227785e17f0b2359630c8f5c22e
+SHA1: 524382e892536818ad3765ac85e202e568b2613d
+SHA256: b469345f3eea131c554c4db4067a37b043e9cf5472f0d15899a34812a5ae0d1c
+
+Package: libwayland
+Architecture: aarch64
+Installed-Size: 988
+Maintainer: @termux
+Version: 1.26.0-1
+Homepage: https://wayland.freedesktop.org/
+Depends: libandroid-support, libexpat, libffi, libxml2
+Description: Wayland protocol library
+Filename: ./libwayland_1.26.0-1_aarch64.deb
+Size: 129280
+MD5sum: 30af013d3cd01cfe2cb396a504292300
+SHA1: 8b6065bf41705f5e4509fe7d667648037ba28b1d
+SHA256: 6174b167fd6847fee52ea9c5f4927cbd94fd4cdc620e8176f724d18797d1bbaf
+
 Package: libxft-static
 Architecture: aarch64
 Installed-Size: 164
@@ -6020,6 +6115,19 @@ Size: 90184
 MD5sum: eddc561ad1e9814279e25063d92f588b
 SHA1: 38f85441925bf3ad9dbbdd1b077f82728b6c6259
 SHA256: 4b86a60229b1427bea535b07216bf4dd097b88abacd2f9855dad2a97a3f740ae
+
+Package: libxshmfence
+Architecture: aarch64
+Installed-Size: 76
+Maintainer: @termux
+Version: 1.3.3-2
+Homepage: https://xorg.freedesktop.org/
+Description: A library that exposes a event API on top of Linux futexes
+Filename: ./libxshmfence_1.3.3-2_aarch64.deb
+Size: 4636
+MD5sum: a02f6f929d02204a6a4c95f32e792c73
+SHA1: 3835f8dabe13a0c855f63d4a74ebef9c6424065f
+SHA256: bdb9854d19f97127a55e44a1bfc4a5e2c420446e1b8e29907d7b63660a6d7695
 
 Package: lldb
 Architecture: aarch64
@@ -6081,6 +6189,99 @@ Size: 641592
 MD5sum: 5ddff754d507e364d15a7092088a758e
 SHA1: 0f823be90b5a3d006186fc440f4e0d492fee9583
 SHA256: 2cfb97d4fb73db169ee980bfd525338879c8bda518cd3df5196494979ab8731b
+
+Package: mesa-dev
+Architecture: all
+Installed-Size: 168
+Maintainer: @termux
+Version: 26.2.5-1
+Homepage: https://www.mesa3d.org
+Depends: libglvnd-dev
+Breaks: mesa (<< 22.3.3-2), ndk-sysroot (<< 25b-3)
+Replaces: mesa (<< 22.3.3-2), ndk-sysroot (<< 25b-3)
+Description: Mesa's OpenGL headers
+Filename: ./mesa-dev_26.2.5-1_all.deb
+Size: 25348
+MD5sum: 656d1ef5c93231e9cf339b5b94a199ea
+SHA1: 130da7f8f8a721ace6f9282b6185068c08e2b741
+SHA256: 54c92ee6d6626395ed17bc00e131ff9ca8fcdea57acf1f4a798983c866051654
+
+Package: mesa-opencl-icd-rusticl
+Architecture: aarch64
+Installed-Size: 19024
+Maintainer: @termux
+Version: 26.2.5-1
+Homepage: https://www.mesa3d.org
+Depends: clang (<< 22), libandroid-shmem, libc++, libclc, libdrm, libllvm (<< 22), zlib, zstd
+Description: Mesa's Rusticl OpenCL ICD
+Filename: ./mesa-opencl-icd-rusticl_26.2.5-1_aarch64.deb
+Size: 3004312
+MD5sum: 1b4f21d885a312de722ecf73c78537e3
+SHA1: 87473278b53a0a6aa99dbb2373081e0693ac7107
+SHA256: d6491faac7d1c7fbe49ae319330150a7bf6cbce189caaf9e5c251f43cbcc4a5c
+
+Package: mesa-vulkan-icd-freedreno
+Architecture: aarch64
+Installed-Size: 13616
+Maintainer: @termux
+Version: 26.2.5-1
+Homepage: https://www.mesa3d.org
+Depends: libandroid-shmem, libc++, libdrm, libx11, libxcb, libxshmfence, libwayland, vulkan-loader-generic, zlib, zstd
+Breaks: mesa-vulkan-icd-freedreno-dri3
+Replaces: mesa-vulkan-icd-freedreno-dri3
+Provides: mesa-vulkan-icd-freedreno-dri3
+Description: Mesa's Freedreno Vulkan ICD
+Filename: ./mesa-vulkan-icd-freedreno_26.2.5-1_aarch64.deb
+Size: 1599540
+MD5sum: c62b827c5d43c610a39641e86a4955be
+SHA1: 8b581d5acedb941f3f5c72e443e4621e0b1409e1
+SHA256: 3021a7558125ffed6be5d49f36b9cac14ee66e1694a33079ad0858ccb22f67e1
+
+Package: mesa-vulkan-icd-swrast
+Architecture: aarch64
+Installed-Size: 12976
+Maintainer: @termux
+Version: 26.2.5-1
+Homepage: https://www.mesa3d.org
+Depends: libandroid-shmem, libc++, libdrm, libllvm (<< 22), libx11, libxcb, libxshmfence, libwayland, ncurses, vulkan-loader-generic, zlib, zstd
+Description: Mesa's Swrast Vulkan ICD
+Filename: ./mesa-vulkan-icd-swrast_26.2.5-1_aarch64.deb
+Size: 1630080
+MD5sum: 27cd9b458a697413cb8f9b2c06e1c65b
+SHA1: 2574e4146f6c9d9c99f23b7d9d5ab6fa4aca19d2
+SHA256: 2e41b63a6bdce9a36f8436e701cd02f322994c460306bff53bb4053226278127
+
+Package: mesa-vulkan-icd-virtio
+Architecture: aarch64
+Installed-Size: 1364
+Maintainer: @termux
+Version: 26.2.5-1
+Homepage: https://www.mesa3d.org
+Depends: libandroid-shmem, zlib, zstd, libdrm, libxcb, libx11, libxshmfence, libwayland
+Description: Mesa's VirtIO Vulkan ICD
+Filename: ./mesa-vulkan-icd-virtio_26.2.5-1_aarch64.deb
+Size: 367288
+MD5sum: 20a11aaea87bcce38637488ea7502792
+SHA1: 9ac7b179eddb2f59960b2719b4b53449b666ce7f
+SHA256: 8f6ed439d600dd66955fb313958142bc65ea6f124e8dc1ce849640c4718ab956
+
+Package: mesa
+Architecture: aarch64
+Installed-Size: 18256
+Maintainer: @termux
+Version: 26.2.5-1
+Homepage: https://www.mesa3d.org
+Breaks: osmesa, osmesa-demos
+Depends: libandroid-shmem, libc++, libdrm, libglvnd, libllvm (<< 22), libwayland, libx11, libxext, libxfixes, libxshmfence, libxxf86vm, ncurses, vulkan-loader, zlib, zstd
+Conflicts: libmesa, ndk-sysroot (<= 25b), osmesa
+Replaces: libmesa, osmesa
+Suggests: mesa-dev
+Description: An open-source implementation of the OpenGL specification
+Filename: ./mesa_26.2.5-1_aarch64.deb
+Size: 3148240
+MD5sum: 5b99580606e4b13de566dbbc05643308
+SHA1: bd6409e24047b27efabd1bc84ae1510d9cc9b301
+SHA256: 2316200721c453ed6543e777e7a06482a0e1a49efc5f81da6b2a73dfab94b2fe
 
 Package: mlir
 Architecture: aarch64
@@ -6689,6 +6890,36 @@ Size: 744
 MD5sum: 52a8bbf8175f02fd8e49250092f210c1
 SHA1: 9c1bcd112231c71667f23bbcc4cfa131e6693617
 SHA256: d0ae8be4ebef5bccc0532453e3707717da297480e7c700b1614983cb1a260d58
+
+Package: vulkan-loader-generic
+Architecture: aarch64
+Installed-Size: 732
+Maintainer: @termux
+Version: 1.4.365-1
+Homepage: https://github.com/KhronosGroup/Vulkan-Loader
+Conflicts: vulkan-loader-android
+Recommends: vulkan-icd
+Provides: vulkan-loader-android
+Description: Vulkan Loader
+Filename: ./vulkan-loader-generic_1.4.365-1_aarch64.deb
+Size: 152884
+MD5sum: ff5b45472ced46fa69304cf5a112dd38
+SHA1: ad9e1bdc69b0f253fa167dcd0239e60df985041a
+SHA256: 85e43690eb14ceee637e6f096be753cf51244531de38f23008371ad0a5f5168b
+
+Package: vulkan-loader
+Architecture: all
+Installed-Size: 4
+Maintainer: @termux
+Version: 0.0.3-1
+Homepage: https://github.com/termux/termux-packages
+Depends: vulkan-loader-generic | vulkan-loader-android
+Description: A metapackage that provides vulkan loader library
+Filename: ./vulkan-loader_0.0.3-1_all.deb
+Size: 728
+MD5sum: 51542b2ba51e90b0846700fd791ae9ed
+SHA1: f3d5667b62bed52c55dff1a926d990023b529b7c
+SHA256: acb62d60db17c21b6de71c5355d418eeed84b3a0f1572c45fafa67855576c436
 
 Package: wavpack
 Architecture: aarch64

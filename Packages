@@ -2982,6 +2982,19 @@ MD5sum: d0fe31915b515401eea16cf968728b27
 SHA1: d2a6b397b6cc8595baec2ee7930b9c090135f72a
 SHA256: 785f7f6f5ddbbd29e9c563a06eb26ba5501e1e5256983cf3dd6728b2e715f3cc
 
+Package: dua
+Architecture: aarch64
+Installed-Size: 4568
+Maintainer: @termux
+Version: 2.46.0-1
+Homepage: https://github.com/Byron/dua-cli
+Description: View disk space usage and delete unwanted data, fast
+Filename: ./dua_2.46.0-1_aarch64.deb
+Size: 1470192
+MD5sum: ace5daaadcae3e8795af40c080d859ad
+SHA1: 0a644656128700c21d68b70742fbdde85f247126
+SHA256: 64e173c511b5b1a49e49cbc6afc26212eaeb8a71f27dcb1a92a49831af3ff41e
+
 Package: duc
 Architecture: aarch64
 Installed-Size: 156
@@ -3035,6 +3048,19 @@ Size: 2455616
 MD5sum: e5fe2f8b6d454cf592079c645b9d301d
 SHA1: 707af3786101461eaa63abfa6108722f8b778611
 SHA256: 508963f399a82dd4439531451d0648586389626ad747441d1b368802dc61f00c
+
+Package: dust
+Architecture: aarch64
+Installed-Size: 2596
+Maintainer: @termux
+Version: 1.2.6-1
+Homepage: https://github.com/bootandy/dust
+Description: A more intuitive version of du in rust
+Filename: ./dust_1.2.6-1_aarch64.deb
+Size: 773368
+MD5sum: a2073c5fd21c05675c48ac0774d32c7f
+SHA1: 9b3304502a91dcb108768901aa0b0ceaea8b1429
+SHA256: 86d6c7e6fe98bd39448ebe929f5211f6fb81150fb1a8019c90b3324c452d12b2
 
 Package: dwarves
 Architecture: aarch64
